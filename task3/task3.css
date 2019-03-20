@@ -1,0 +1,35 @@
+body{
+    background-color: #4aedff;
+}
+
+
+.aba{
+    text-align: center;
+    color:  white;
+    font-size:60px;
+    margin:auto;
+    padding-top: 20%;
+}
+.abb {
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.abc{
+    float: left;width:20%;
+    padding-top:20%;
+    margin-top:10%;
+    margin-left: 18%
+;background-color: #FF9900;
+}
+.abd{
+    float: right;
+    width:20%;
+    padding-top:20%;
+    margin-top:10%;
+    margin-right: 18%;
+    background-color: yellow;
+}
