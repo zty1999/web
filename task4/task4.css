@@ -30,45 +30,44 @@ body{
 
 .loo{display:flex;
     margin-top:20px;
-    background-color: white;
-    height:70px;
+    background-color: white;  align-items: center;
+
+    height:50px;
 }
-.image {width:10%;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        border-right: 1px;
-        border-right-color: darkgray;
+.image {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .space {
     border:0;
     outline:none;
-    width:90%;
-    float:right;
-    line-height:50px;
-    align-items: center;
-}
+    -webkit-appearance:none;
+    border-left: 1px solid #bababa;
+    height:25px;
+    padding-left:30px;}
 
 .lol{display:flex;
     margin-top:20px;
     background-color: white;
-    height:70px;
+    height:50px;
+    align-items:center;
 }
 .image2{
-    width:10%;
+    width:60px;
     display:flex;
     justify-content: center;
-    align-items: center;
-}
-.space2{
-    border-width:0;
-    outline:none;
-    width:90%;
-    float:right;
-  align-items:center;
-    line-height:50px;
-}
+    align-items: center; }
 
+.space2 {
+    border: 0;
+    outline: none;
+    -webkit-appearance: none;
+    border-left: 1px solid #bababa;
+    height:25px;
+    padding-left:30px;
+}
 .what{
 
     background-color: #68cdd5;
