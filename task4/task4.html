@@ -8,30 +8,31 @@
 </head>
 <body>
 
-<div class="head">
+<div class="header">
     <div class="box1" >关闭</div>
     <div class="box2" >登录</div>
     <div class="box3">注册</div>
 </div>
 
-<div class="loo" >
-    <div class="image"><img src="img/iphone.png" style="height: 25px;"/></div>
-<input class="space" type="text" maxlength="11 " placeholder="请输入手机号"/>
+<div class="main1" >
+    <div class="image1"><img src="img/iphone.png" style="height:35px;"/></div>
+<input class="space1" type="text"onkeyup="this.value=this.value.replace(/[\u4e00-\u9fa5]/g,'')"
+    maxlength="11 " placeholder="请输入手机号"/>
 </div>
 
 
-<div class="lol" >
-    <div class="image2"><img src="img/locked 2.png" style="height: 25px;"/></div>
+<div class="main2" >
+    <div class="image2"><img src="img/locked 2.png" style="height: 35px;"/></div>
     <input  class="space2" type="password" maxlength="20"  placeholder="请输入密码"/>
 </div>
 
 
-<div class="what">
-    <button class="N" type="submit">登录</button>
+<div class="main3">
+    <pre ><button class="press" type="submit">登   录</button></pre>
 </div>
 
 
-<span class="W">忘记密码？</span>
+<span class="foot">忘记密码？</span>
 
 
 </body>
