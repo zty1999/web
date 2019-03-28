@@ -7,24 +7,17 @@ body {
 
 .header{
     position:fixed; left:0;right:0;top:0;
-    width:100%;height:80px;
+    display:flex;
+    width:100%;height:70px;
     background-color: #68cdd5;
+    justify-content: center;
+    align-items:center;
 }
-
-
-
-
-.image1{float:left;
+.image1{
+    position:absolute;left:10px;top:20px;
     padding-left:15px;
-    width:20px;height:20px;
  }
-
-
-
 .title{
-text-align:center;
-    padding-top:25px;
-    height:50px;
     font-size:25px;color: azure;
 }
 
@@ -34,8 +27,8 @@ text-align:center;
     display:flex;
     justify-content: flex-start;
     align-items:center;
-    margin-top: 80px;
-    width:100%;height:260px;
+    margin-top: 70px;
+    width:100%;height:240px;
     background-image: url("img/what.png");
     background-repeat:no-repeat;
     background-size:cover;
@@ -50,16 +43,17 @@ text-align:center;
 
 
 
-.line1{
+.line1{display:flex;
     width: 100%;
-    height:90px;
+    height:70px;
+    align-items:center;
     border-bottom: 2px solid #bababa;
 }
 .what1 {
-    float:left;
+
     font-size:25px;
-    height:40px;line-height:40px;
-    margin:25px;padding-left:30px;
+    height:30px;line-height:30px;
+    margin: 20px 30px;padding-left:30px;
     border-left:4px solid powderblue;
 
 }
@@ -73,7 +67,7 @@ margin-left:5%; font-size:25px;
 
 
 .line2{ display:flex;
-    width:100%;height:90px;
+    width:100%;height:70px;
     background-color: white;
     border-bottom: 2px solid #bababa;
     justify-content: flex-start;
@@ -91,7 +85,7 @@ margin-left:5%; font-size:25px;
 
 .line3{
     display:flex;
-    width:100%;height:90px;
+    width:100%;height:70px;
     border-bottom: 2px solid #bababa;
     justify-content: flex-start;
     align-items:center;
@@ -106,7 +100,7 @@ margin-left:5%; font-size:25px;
 
 .line4{
     display:flex;
-    width:100%;height:90px;
+    width:100%;height:70px;
     background-color: white;
     border-bottom: 2px solid #bababa;
     justify-content: flex-start;
@@ -122,7 +116,7 @@ margin-left:5%; font-size:25px;
 
 .line5{
     display:flex;
-    width:100%;height:90px;
+    width:100%;height:70px;
     background-color: white;
     border-bottom: 2px solid #bababa;
     justify-content: flex-start;
@@ -141,16 +135,16 @@ margin-left:5%; font-size:25px;
 
 .line6{
     display:flex;
-    width:100%;height:90px;
+    width:100%;height:70px;
     background-color: white;
     border-bottom: 2px solid #bababa;
-    margin-bottom:120px;
+    margin-bottom:80px;
     justify-content: flex-start;
     align-items:center;
 }
 .bot1{
     padding-right:50px;
-    margin-left:75px;
+    margin-left:50px;
     font-size:25px;
     color: #bababa;
     white-space:nowrap;
@@ -160,20 +154,20 @@ margin-left:5%; font-size:25px;
 
 .footer{
     position:fixed;bottom:0;left:0;right:0;
-    width:100%;height:120px;
+    width:100%;height:80px;
 }
 .footer1{
-    float:left;width:45%;height:80px;
+    float:left;width:45%;height:60px;
     background-color: white;
     border: 1px solid #68cdd5;border-radius:10px;
-    margin-top:20px;margin-left:3%;
+    margin-top:10px;margin-left:3%;
     font-size:25px;
 
 }
 .footer2{
-    float:right;width:45%;height:80px;
+    float:right;width:45%;height:60px;
     background-color: #68cdd5;
     border: 1px solid #68cdd5;border-radius:10px;
-    margin-top:20px;margin-right:3%;
+    margin-top:10px;margin-right:3%;
     font-size:25px;
 }
