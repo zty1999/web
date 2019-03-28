@@ -1,0 +1,66 @@
+.header{
+    position: fixed; left: 0; top: 0;
+    width: 100%; height: 80px;
+    background-color: #68cdd5;
+}
+.header1{
+    outline:none;
+    text-align:center;
+    width:50px;height:60px;
+    background-color: cadetblue;
+
+}
+.header2{
+
+}
+.header3{
+
+}
+
+
+
+.main{
+
+}
+.main1{
+
+}
+.main2{
+
+}
+.main3{
+
+}
+
+
+
+.list1{
+
+}
+.lost1{
+
+}
+.lost2{
+
+}
+.lost3{
+
+}
+
+
+
+.footer{
+    position: fixed; left: 0; top: 0;
+    width: 100%; height: 80px;
+
+
+}
+.footer1{
+
+}
+.footer2{
+
+}
+.footer3{
+
+}
