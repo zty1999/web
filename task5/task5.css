@@ -1,13 +1,11 @@
 
-body {margin:0;border:none;
-background-color: azure;
+body {
+    margin:0;border:none;
 }
 .header{
     position:fixed; left:0;right:0;top:0;
     width:100%;height:80px;
     background-color: #68cdd5;
-
-
 }
 
 .image1{float:left;
@@ -18,7 +16,7 @@ background-color: azure;
 text-align:center;
     padding-top:25px;
     height:50px;
-    font-size:25px;
+    font-size:25px;color: azure;
 }
 .main {
     margin-top: 80px;
@@ -34,52 +32,73 @@ text-align:center;
  }
 .list2 {
     flex:1;
-    background-color: blanchedalmond;
     height:120px;
-    font-size:20px;
-    padding-top:70px;padding-bottom:70px;
+    font-size:20px;color: azure;
+    padding-top:60px;padding-bottom:80px;
 }
+.list3{
+    font-size:25px;
+}
+.image2{
+padding-right:10px;
+
+}
+
+
 
 .line1{
     width: 100%;
    height:90px;
     background-color: white;
-    border-bottom: 2px solid dimgray;
+    border-bottom: 2px solid #bababa;
+}
+.what1 {
+    float:left;font-size:25px;
+  height:30px;line-height:30px;
+margin:30px;padding-left:30px;
+    border-left:4px solid powderblue;
 }
 
 
-.what1 {float:right;width:95%;
-background-color: darkgray;line-height:40px;
-margin-top:25px;
-    border-left:2px solid powderblue;
 
+.lines{
+margin-left:5%; font-size:25px;
 }
+
+
 
 .line2{
     width:100%;height:90px;
     background-color: white;
-    border-bottom: 2px solid dimgray;
+    border-bottom: 2px solid #bababa;
 }
 .box1{
-    float:left;width:20%;line-height:60px;
-    margin:15px;
-
+    float:left;width:10%;height:30px;line-height:30px;
+    margin:30px 15px;
+}
+.dd {
+    display: inline;
+    padding-left: 10px;
 }
 .box2{
-    float:left;width:30%;line-height:60px;
-    margin:15px;
+    float:left;width:30%;height:30px;line-height:30px;
+    margin-top:30px;margin-left:20px;
+}
+.dd2{
+    display:inline;
+    padding-left:10px;
 }
 
 
 .line3{
     width:100%;height:90px;
     background-color: white;
-    border-bottom: 2px solid dimgray;
+    border-bottom: 2px solid #bababa;
 }
 .boot1{
-    float:left;width:20%;line-height:60px;
-    margin:15px;
-
+    float:left;width:15%;height:60px;line-height:60px;
+    margin:15px;color: #bababa;
+background-color: #FF9900;
 }
 .boot2{
     float:left;width:30%;line-height:60px;
@@ -87,15 +106,15 @@ margin-top:25px;
 }
 
 
+
 .line4{
     width:100%;height:90px;
     background-color: white;
-    border-bottom: 2px solid dimgray;
+    border-bottom: 2px solid #bababa;
 }
 .beat1{
-    float:left;width:20%;line-height:60px;
-    margin:15px;
-
+    float:left;width:15%;line-height:60px;
+    margin:15px;color: #bababa;
 }
 .beat2{
     float:left;width:30%;line-height:60px;
@@ -107,56 +126,47 @@ margin-top:25px;
 .line5{
     width:100%;height:90px;
     background-color: white;
-    border-bottom: 2px solid dimgray;
+    border-bottom: 2px solid #bababa;
 }
 .bat1{
-    float:left;width:20%;line-height:60px;
-    margin:15px;
-
+    float:left;width:15%;line-height:60px;
+    margin:15px;color: #bababa;
 }
 .bat2{
     float:left;width:30%;line-height:60px;
-    margin:15px;
+    margin:15px;color:red;
 }
 
 
-.line6{
+
+.line6{float:left;
     width:100%;height:90px;
     background-color: white;
     border-bottom: 2px solid dimgray;
-    padding-bottom:160px;
+    padding-bottom:120px;
+
 }
 .bot1{
-    float:left;width:20%;line-height:60px;
-    margin:15px;
+    float:left;padding-left:5%;width:15%;line-height:60px;
+    margin:15px;font-size:25px;color: #bababa;
 
 }
 .bot2{
-    float:left;width:30%;line-height:60px;
-    margin:15px;
+    float:left;width:80%;
+    margin:15px;white-space:normal;
 }
-
-
-
-
-
-
-
-
 
 
 
 .footer{
-background-color: #bababa;
-    position:fixed;bottom:0;left:0;
-    width:100%;height:160px;
-
+    position:fixed;bottom:0;left:0;right:0;
+    width:100%;height:120px;
 }
 .footer1{
     float:left;width:45%;height:80px;
     background-color: white;
     border: 1px solid #68cdd5;border-radius:10px;
-    margin-top:60px;margin-left:3%;
+    margin-top:20px;margin-left:3%;
     font-size:25px;
 
 }
@@ -164,6 +174,6 @@ background-color: #bababa;
     float:right;width:45%;height:80px;
     background-color: #68cdd5;
     border: 1px solid #68cdd5;border-radius:10px;
-    margin-top:60px;margin-right:3%;
+    margin-top:20px;margin-right:3%;
     font-size:25px;
 }
