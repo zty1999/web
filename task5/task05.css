@@ -1,17 +1,24 @@
 .header{
     position: fixed; left: 0; top: 0;
+    display:flex;
     width: 100%; height: 80px;
+    justify-content:center;
+    align-items:center;
     background-color: #68cdd5;
 }
 .header1{
+
     outline:none;
-    text-align:center;
-    width:50px;height:60px;
+
+
+    width:100px;height:60px;
     background-color: cadetblue;
 
 }
 .header2{
-
+    outline:none;
+    align-items:center;
+    width:100px;height:60px;
 }
 .header3{
 
@@ -19,10 +26,20 @@
 
 
 
-.main{
+.drop{
+    margin-top:80px;
+
 
 }
-.main1{
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    align-items:center;
+    justify-content: center;
+    border:1px solid #bababa;
+
+
+
 
 }
 .main2{
@@ -34,19 +51,36 @@
 
 
 
-.list1{
+.list1 {
+    flex: 1;
 
 }
-.lost1{
 
+
+
+.lost{
+    width:70%;
+    display:inline;
 }
 .lost2{
-
 }
 .lost3{
-
+}
+.lost4{
 }
 
+
+.line{
+    flex:2;
+    color: red;
+    font-size:18px;
+}
+.line2{
+
+}
+.line3{
+
+}
 
 
 .footer{
