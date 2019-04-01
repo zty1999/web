@@ -19,7 +19,6 @@ body {
 
     color: azure;
 }
-
 .image1{
     position:absolute;left:2em;top:0.5em;
     width:1.5em; height:2em;
@@ -115,7 +114,9 @@ font-size:14px;
     padding-right:5em;
     color: #bababa;
 }
+.boot2{
 
+}
 
 
 
