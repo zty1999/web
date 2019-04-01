@@ -86,17 +86,20 @@ font-size:14px;
     margin-left: 4%;
 }
 .image3{
-    padding-left:1em;
+    padding-left:1em;width:16px;
 }
 .dd {
-    padding-left:1em;
-    padding-right:3em;
+    padding-left:0.5em;
+    padding-right:0.5em;
 }
 .image4{
+    width:16px;
+    padding-left:0.5em;
+    border-left: 0.05em solid #bababa;
 
 }
 .dd2{
-    padding-left:1em;
+    padding-left:0.5em;
 }
 
 
@@ -111,11 +114,12 @@ font-size:14px;
 }
 .boot1 {
     padding-left:1em;
-    padding-right:5em;
+    padding-right:1.5em;
     color: #bababa;
 }
 .boot2{
-
+    padding-left:1.5em;
+    border-left: 0.05em solid #bababa;
 }
 
 
@@ -131,10 +135,13 @@ font-size:14px;
 }
 .beat1{
     padding-left:1em;
-    padding-right:5em;
+    padding-right:1.5em;
     color: #bababa;
 }
-
+.beat2{
+    padding-left:1.5em;
+    border-left: 0.05em solid #bababa;
+}
 
 
 
@@ -149,11 +156,13 @@ font-size:14px;
 }
 .bat1{
     padding-left:1em;
-    padding-right:5em;
+    padding-right:1.5em;
     color: #bababa;
 }
 .bat2{
     color:red;
+    padding-left:1.5em;
+    border-left: 0.05em solid #bababa;
 }
 
 
@@ -169,12 +178,16 @@ font-size:14px;
 }
 .bot1{
     padding-left:1em;
-    padding-right:5em;
+    padding-right:1.5em;
     margin-left:4%;
     color: #bababa;
     white-space:nowrap;
 }
-
+.bot2{
+    padding-left:1.5em;
+    border-left: 0.05em solid #bababa;
+    font-size:12px;
+}
 
 
 .footer{
