@@ -1,18 +1,16 @@
 html{
-    font-size:10px;
+    font-size:62.5%;
 }
 body {
     margin:0;border:none;font-size:2rem;
     width: 100%;
 
 }
-.about{
-
-}
 
 
 .header{
     position:fixed; left:0;right:0;top:0;
+    display: -webkit-flex;
     display:flex;
     width:100%;height:5rem;
     background-color: #68cdd5;
@@ -41,9 +39,10 @@ body {
     font-size:2.5rem;
 }
 .image2 {
-    padding-left:3rem;
-    padding-right:3rem;
-    height: 13rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    height: 10rem;
+
  }
 .list2 {
 }
@@ -87,7 +86,7 @@ body {
     border-bottom: 1px solid #bababa;
     justify-content: flex-start;
     align-items:center;
-    margin-left: 5rem;
+    margin-left: 1rem;
 }
 .dd {
     padding-left:1rem;
@@ -109,7 +108,7 @@ body {
     border-bottom: 1px solid #bababa;
     justify-content: flex-start;
     align-items:center;
-    margin-left: 5rem;
+    margin-left: 1rem;
 }
 .boot1 {
     padding-right:2.5rem;
@@ -129,7 +128,7 @@ body {
     border-bottom: 1px solid #bababa;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 5rem;
+    margin-left: 1rem;
 }
 .beat1{
     padding-right:2.5rem;
@@ -150,7 +149,7 @@ body {
     border-bottom: 1px solid #bababa;
     justify-content: flex-start;
     align-items:center;
-    margin-left: 5rem;
+    margin-left: 1rem;
 }
 .bat1{
     padding-right:2.5rem;
@@ -174,7 +173,7 @@ body {
     align-items:center;
 }
 .bot1{
-    margin-left: 5rem;
+    margin-left: 1rem;
 
     padding-right:2.5rem;
     border-right:1px solid #bababa;
