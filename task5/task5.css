@@ -2,25 +2,27 @@ html {
     font-size: 62.5%;
 }
 body {
+    width: 100%;
     margin: 0;
     border: none;
     font-size: 2rem;
-    width: 100%;
+
 
 }
 
 
 .header {
     position: fixed;
-    left: 0;
-    top: 0;
     display: -webkit-flex;
     display: flex;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 5rem;
     background-color: #68cdd5;
-    justify-content: center;
-    align-items: center;
+    font-weight: 700;
 }
 .title {
     color: azure;
@@ -31,6 +33,7 @@ body {
     left: 3rem;
     top: 1.5rem;
     height: 2rem;
+    width: 2rem;
 }
 
 
@@ -40,7 +43,7 @@ body {
     align-items: center;
     margin-top: 5rem;
     height: 24rem;
-    background-image: url("img/what.png");
+    background-image: url(img/what.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: azure;
@@ -72,8 +75,8 @@ body {
 
 .line1 {
     display: flex;
-    height: 5rem;
     align-items: center;
+    height: 5rem;
     border-bottom: 1px solid #bababa;
 }
 .what1 {
@@ -89,12 +92,12 @@ body {
 
 .line2 {
     display: flex;
-    height: 5rem;
-    background-color: white;
-    border-bottom: 1px solid #bababa;
     justify-content: flex-start;
     align-items: center;
+    height: 5rem;
+    border-bottom: 1px solid #bababa;
     margin-left: 1rem;
+    background-color: white;
 }
 .dd {
     padding-left: 1rem;
@@ -112,10 +115,10 @@ body {
 
 .line3 {
     display: flex;
-    height: 5rem;
-    border-bottom: 1px solid #bababa;
     justify-content: flex-start;
     align-items: center;
+    height: 5rem;
+    border-bottom: 1px solid #bababa;
     margin-left: 1rem;
 }
 .boot1 {
@@ -131,12 +134,12 @@ body {
 
 .line4 {
     display: flex;
-    height: 5rem;
-    background-color: white;
-    border-bottom: 1px solid #bababa;
     justify-content: flex-start;
     align-items: center;
+    height: 5rem;
+    border-bottom: 1px solid #bababa;
     margin-left: 1rem;
+    background-color: white;
 }
 .beat1 {
     padding-right: 2.5rem;
@@ -152,12 +155,12 @@ body {
 
 .line5 {
     display: flex;
-    height: 5rem;
-    background-color: white;
-    border-bottom: 1px solid #bababa;
     justify-content: flex-start;
     align-items: center;
+    height: 5rem;
+    border-bottom: 1px solid #bababa;
     margin-left: 1rem;
+    background-color: white;
 }
 .bat1 {
     padding-right: 2.5rem;
@@ -173,16 +176,15 @@ body {
 
 .line6 {
     display: flex;
-    min-height: 5rem;
-    background-color: white;
-    border-bottom: 1px solid #bababa;
-    margin-bottom: 7rem;
     justify-content: flex-start;
     align-items: center;
+    min-height: 5rem;
+    border-bottom: 1px solid #bababa;
+    margin-bottom: 7rem;
+    background-color: white;
 }
 .bot1 {
     margin-left: 1rem;
-
     padding-right: 2.5rem;
     border-right: 1px solid #bababa;
     color: #bababa;
@@ -207,20 +209,20 @@ body {
     float: left;
     width: 45%;
     height: 5rem;
-    background-color: white;
     border: 1px solid #68cdd5;
     border-radius: 1em;
     margin-top: 1rem;
     margin-left: 3%;
+    background-color: white;
 
 }
 .footer2 {
     float: right;
     width: 45%;
     height: 5rem;
-    background-color: #68cdd5;
     border: 1px solid #68cdd5;
     border-radius: 10px;
     margin-top: 1rem;
     margin-right: 3%;
+    background-color: #68cdd5;
 }
