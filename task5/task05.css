@@ -1,18 +1,16 @@
 .header{
-    position: fixed; left: 0; top: 0;
+    position: fixed;
+    left: 0; top: 0;
     display: flex;
     width: 100%; height: 80px;
     justify-content:center;
     align-items: center;
-
     background-color: #68cdd5;
 }
 .header1{
-
     outline:none;
     display: flex;
     flex-direction: row;
-
     background-color: cadetblue;
 }
 .header1-1{
@@ -57,22 +55,26 @@
 
 }
 .drop1{
-    flex-grow:1;
+    width: 33%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .drop2{
 
-
+    width: 33%;
 }
 .drop3{
-    flex-grow:1;
+    width: 33%;
 }
 
 .drop1-1{
-    flex-grow:1;
-outline:none;
 
-    height:40px;
-    line-height:30px;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+
 
     border-right: 1px solid #bababa;
 }
@@ -103,37 +105,47 @@ outline:none;
 
 
 .lost{
-    flex:2;
-    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow: column wrap;
+    justify-content: center;
 
+    width: 70%;
+    height: 90px;
+
+    background-color: #68cdd5;
 }
 .lost1{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 30px;
+    background-image: url(img/calendar2.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 5px 5px;
+    background-color: #bababa;
+}
 
-}
-.image2{
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-}
-.lost-1-2{
 
-}
 .lost2{
-    align-items: center;
-    justify-content: center;
-
+    height: 30px;
+    line-height: 30px;
+    padding-left: 30px;
+    background-color: cadetblue;
 }
 .lost3{
-}
-.image3{
-}
-.lost-3-2{
-    align-items: center;
-    justify-content: center;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 30px;
+    background-image: url("img/Shape 4.png");
+    background-repeat: no-repeat;
+    background-size: 21px 21px;
+    background-position: 5px 75px;
 }
 
+
+
 .line{
-    flex:1;
+
     color: red;
     font-size:18px;
 }
@@ -161,6 +173,9 @@ outline:none;
     text-align: center;
 }
 .footer2{
+    width:30px;
+    height:30px;
+    background-image: url(img/买卖牛人.png);
 
 }
 .footer3{

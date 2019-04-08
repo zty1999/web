@@ -1,15 +1,13 @@
 html {
     font-size: 62.5%;
 }
+
 body {
-    width: 100%;
     margin: 0;
     border: none;
     font-size: 2rem;
 
-
 }
-
 
 .header {
     position: fixed;
@@ -22,10 +20,11 @@ body {
     width: 100%;
     height: 5rem;
     background-color: #68cdd5;
-    font-weight: 700;
+
 }
 .title {
     color: azure;
+    font-weight: 700;
 }
 
 .image1{
@@ -53,13 +52,8 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
     height: 10rem;
-
  }
-.list2 {
-}
-.list2-1 {
-}
-.list2-2 {
+.main-1-2 {
     font-size: 1.6rem;
 }
 .image3 {
@@ -79,7 +73,7 @@ body {
     height: 5rem;
     border-bottom: 1px solid #bababa;
 }
-.what1 {
+.line1-1 {
     margin-left: 2rem;
     padding-left: 1rem;
     border-left: 4px solid powderblue;
@@ -92,14 +86,13 @@ body {
 
 .line2 {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     height: 5rem;
     border-bottom: 1px solid #bababa;
     margin-left: 1rem;
     background-color: white;
 }
-.dd {
+.line2-1 {
     padding-left: 1rem;
     padding-right: 1.5rem;
     border-right: 1px solid #bababa;
@@ -107,7 +100,7 @@ body {
 .image5 {
     padding-left: 1.5rem;
 }
-.dd2 {
+.line2-2 {
     padding-left: 1rem;
 }
 
@@ -115,18 +108,17 @@ body {
 
 .line3 {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     height: 5rem;
-    border-bottom: 1px solid #bababa;
     margin-left: 1rem;
+    border-bottom: 1px solid #bababa;
 }
-.boot1 {
+.line3-1 {
     padding-right: 2.5rem;
     border-right: 1px solid #bababa;
     color: #bababa;
 }
-.boot2 {
+.line3-2 {
     padding-left: 2.5rem;
 }
 
@@ -134,19 +126,18 @@ body {
 
 .line4 {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     height: 5rem;
     border-bottom: 1px solid #bababa;
     margin-left: 1rem;
     background-color: white;
 }
-.beat1 {
+.line4-1 {
     padding-right: 2.5rem;
     border-right: 1px solid #bababa;
     color: #bababa;
 }
-.beat2 {
+.line4-2 {
     padding-left: 2.5rem;
 }
 
@@ -155,19 +146,18 @@ body {
 
 .line5 {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     height: 5rem;
     border-bottom: 1px solid #bababa;
     margin-left: 1rem;
     background-color: white;
 }
-.bat1 {
+.line5-1 {
     padding-right: 2.5rem;
     border-right: 1px solid #bababa;
     color: #bababa;
 }
-.bat2 {
+.line5-2 {
     padding-left: 2.5rem;
     color: red;
 }
@@ -176,21 +166,20 @@ body {
 
 .line6 {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     min-height: 5rem;
     border-bottom: 1px solid #bababa;
     margin-bottom: 7rem;
     background-color: white;
 }
-.bot1 {
+.line6-1 {
     margin-left: 1rem;
     padding-right: 2.5rem;
     border-right: 1px solid #bababa;
     color: #bababa;
     white-space: nowrap;
 }
-.bot2 {
+.line6-1 {
     padding-left: 2rem;
     font-size: 1.6rem;
 }
@@ -198,7 +187,6 @@ body {
 
 .footer {
     position: fixed;
-    justify-content: center;
     bottom: 0;
     left: 0;
     right: 0;
