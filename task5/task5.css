@@ -1,11 +1,9 @@
-html {
-    font-size: 62.5%;
-}
 
 body {
     margin: 0;
-    border: none;
-    font-size: 2rem;
+
+
+
 
 }
 
@@ -18,7 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 5rem;
+    height: 2rem;
     background-color: #68cdd5;
 
 }
@@ -30,9 +28,9 @@ body {
 .image1{
     position: absolute;
     left: 3rem;
-    top: 1.5rem;
-    height: 2rem;
-    width: 2rem;
+    top: 0.5rem;
+    height: 1rem;
+    width: 1rem;
 }
 
 
@@ -40,24 +38,25 @@ body {
     display: flex;
     flex-flow: row;
     align-items: center;
-    margin-top: 5rem;
-    height: 24rem;
+    margin-top: 2rem;
+    height: 12rem;
     background-image: url(img/what.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: azure;
-    font-size: 2.5rem;
+    font-size: 1rem;
 }
 .image2 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    height: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 5rem;
  }
 .main-1-2 {
-    font-size: 1.6rem;
+    font-size: 0.6rem;
 }
 .image3 {
-    padding-right: 1rem;
+    padding-right: 0.5rem;
+    height: 1rem;
 }
 
 
@@ -70,13 +69,13 @@ body {
 .line1 {
     display: flex;
     align-items: center;
-    height: 5rem;
+    height: 3rem;
     border-bottom: 1px solid #bababa;
 }
 .line1-1 {
-    margin-left: 2rem;
+    margin-left: 1rem;
     padding-left: 1rem;
-    border-left: 4px solid powderblue;
+    border-left: 3px solid powderblue;
 }
 
 
@@ -87,21 +86,25 @@ body {
 .line2 {
     display: flex;
     align-items: center;
-    height: 5rem;
+    height: 3rem;
     border-bottom: 1px solid #bababa;
     margin-left: 1rem;
     background-color: white;
 }
+.image4{
+    height: 0.8rem;
+}
 .line2-1 {
-    padding-left: 1rem;
-    padding-right: 1.5rem;
-    border-right: 1px solid #bababa;
+    padding-left: 0.3rem;
+    padding-right: 0.7rem;
 }
 .image5 {
-    padding-left: 1.5rem;
+    padding-left: 0.7rem;
+    height: 0.8rem;
+    border-left: 1px solid #bababa;
 }
 .line2-2 {
-    padding-left: 1rem;
+    padding-left: 0.3rem;
 }
 
 
@@ -109,17 +112,17 @@ body {
 .line3 {
     display: flex;
     align-items: center;
-    height: 5rem;
+    height: 3rem;
     margin-left: 1rem;
     border-bottom: 1px solid #bababa;
 }
 .line3-1 {
-    padding-right: 2.5rem;
+    padding-right: 1rem;
     border-right: 1px solid #bababa;
     color: #bababa;
 }
 .line3-2 {
-    padding-left: 2.5rem;
+    padding-left: 1rem;
 }
 
 
@@ -127,18 +130,18 @@ body {
 .line4 {
     display: flex;
     align-items: center;
-    height: 5rem;
+    height: 3rem;
     border-bottom: 1px solid #bababa;
     margin-left: 1rem;
     background-color: white;
 }
 .line4-1 {
-    padding-right: 2.5rem;
+    padding-right: 1rem;
     border-right: 1px solid #bababa;
     color: #bababa;
 }
 .line4-2 {
-    padding-left: 2.5rem;
+    padding-left: 1rem;
 }
 
 
@@ -147,18 +150,18 @@ body {
 .line5 {
     display: flex;
     align-items: center;
-    height: 5rem;
+    height: 3rem;
     border-bottom: 1px solid #bababa;
     margin-left: 1rem;
     background-color: white;
 }
 .line5-1 {
-    padding-right: 2.5rem;
+    padding-right: 1rem;
     border-right: 1px solid #bababa;
     color: #bababa;
 }
 .line5-2 {
-    padding-left: 2.5rem;
+    padding-left: 1rem;
     color: red;
 }
 
@@ -173,16 +176,15 @@ body {
     background-color: white;
 }
 .line6-1 {
-    min-height: 5rem;
+    min-width: 6rem;
     margin-left: 1rem;
-    padding-right: 2.5rem;
+    margin-right: 4.5rem;
     border-right: 1px solid #bababa;
     color: #bababa;
     white-space: nowrap;
 }
 .line6-2 {
-    padding-left: 2rem;
-    font-size: 1.4rem;
+    font-size: 0.6rem;
 }
 
 
@@ -192,12 +194,12 @@ body {
     left: 0;
     right: 0;
     width: 100%;
-    height: 7rem;
+    height: 5rem;
 }
 .footer1 {
     float: left;
     width: 45%;
-    height: 5rem;
+    height: 3rem;
     border: 1px solid #68cdd5;
     border-radius: 1em;
     margin-top: 1rem;
@@ -208,7 +210,7 @@ body {
 .footer2 {
     float: right;
     width: 45%;
-    height: 5rem;
+    height: 3rem;
     border: 1px solid #68cdd5;
     border-radius: 10px;
     margin-top: 1rem;
