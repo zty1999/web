@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     position: fixed;
     left: 0; top: 0;
@@ -33,68 +38,61 @@
     background-color: #ffffff;
 
 }
-.header2 {
+.header-image {
     position: absolute;
-    top: 15px;
+    top: 17px;
     right: 20px;
     outline: none;
     align-items: center;
     width: 20px;
-    height: 30px;
-
-
+    height: 26px;
 }
 
 
 
 
-.drop{
+.box {
     display: flex;
-    flex-flow: row;
     align-items: center;
-    justify-content: center;
-    margin-top: 60px;
+    margin-top: 40px;
     width: 100%;
     height: 40px;
-
-
+    border-bottom: 1px solid #bababa;
 }
+
+
 .dropdown {
+    position: relative;
+    height: 25px;
     width: 33%;
-    height: 40px;
-
+    border-right:1px solid #bababa;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    background: url("img/形状 1 拷贝.png") no-repeat 98% center ;
 
 }
-.box1 {
-
-
-
+.box-1 {
+    display: block;
+    text-align: center;
 }
 .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    border-bottom:1px solid  whitesmoke ;
+    list-style: none;
+    background-color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 
 }
 
 
 
 
-
-.drop2{
-    justify-content: center;
-    align-items: center;
-    width: 33%;
-    height: 40px;
-    text-align: center;
-    background-color: #2aabd2;
-
-}
-.drop3{
-    justify-content: center;
-    align-items: center;
-    width: 33%;
-    height: 40px;
-    text-align: center;
-    background-color: #68cdd5;
-}
 
 
 
@@ -106,8 +104,8 @@
     display: flex;
     flex-flow: row wrap;
     align-items:center;
-
-    border:1px solid #bababa;
+    width: 100%;
+    border-bottom: 1px solid #bababa;
 
 
 
@@ -129,60 +127,66 @@
     display: -webkit-flex;
     -webkit-flex-flow: column wrap;
     justify-content: center;
-
-    width: 70%;
+    width: 200px;
     height: 90px;
-
-
+    font-size: 14px;
 }
 .lost1 {
     height: 30px;
     line-height: 30px;
     padding-left: 30px;
-    background-image: url(img/calendar2.png);
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-    background-position: 5px 5px;
+    background: url("img/calendar2.png") no-repeat 5px 5px;
+    background-size: 15px 15px;
 }
-
-
 .lost2{
     height: 30px;
     line-height: 30px;
     padding-left: 30px;
-    background-color: cadetblue;
 }
 .lost3{
     height: 30px;
     line-height: 30px;
     padding-left: 30px;
-    background-image: url("../task5/img/Shape 4.png");
-    background-repeat: no-repeat;
-    background-size: 21px 21px;
-    background-position: 5px 75px;
+    background: url("img/Shape 4 拷贝.png") no-repeat  5px 5px;
+    background-size: 15px 15px;
 }
 
-
+.box-2{
+    flex: 1;
+}
 
 .line{
-
+    width: 100px;
     color: red;
-    font-size:18px;
+
 }
 .line2{
 
 }
-.line3{
 
+.image-space{
+    width: 15px;
+    height: 20px;
 }
 
+.main-2{
+    display: flex;
+    flex-flow: row wrap;
+    align-items:center;
+    width: 100%;
+    margin-bottom: 80px;
+    border-bottom: 1px solid #bababa;
+
+}
 
 .footer{
     position: fixed; left: 0; bottom: 0;
     display:flex;
     justify-content:space-around;
-    width: 100%; height: 80px;
-
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background: white;
 
 
 
@@ -191,16 +195,41 @@
     display:flex;
     flex-direction:column;
     text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+}
+.footer1-image {
+    width: 30px;
+    height: 30px;
 }
 .footer2{
     width:30px;
     height:30px;
-    background-image: url(img/买卖牛人.png);
-
-}
-.footer3{
-    display:flex;
-    flex-direction:column;
+    border-radius: 50%;
+    font-size: 14px;
+    background-color: #68cdd5;
     text-align: center;
+}
+.footer2-image {
+    width: 15px;
+    height: 15px;
+}
+
+
+.footer3 {
+    display: flex;
+    flex-flow:  wrap;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+.footer3-image{
+    width: 30px;
+    height: 30px;
+
 
 }
