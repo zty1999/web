@@ -1,83 +1,104 @@
-.header{
+.header {
     position: fixed;
     left: 0; top: 0;
     display: flex;
-    width: 100%; height: 80px;
-    justify-content:center;
+    width: 100%; height: 60px;
+    justify-content: center;
     align-items: center;
-    background-color: #68cdd5;
-}
-.header1{
-    outline:none;
-    display: flex;
-    flex-direction: row;
-    background-color: cadetblue;
-}
-.header1-1{
 
-    width: 100px;
-    height: 60px;
-    border-radius: 10px;
+    background-color: #5fc0cd;
+}
+.header1 {
+
+}
+.header1-1 {
     outline: none;
-    border-width: 0;
-
-}
-.header1-2{
     width: 100px;
-    height: 60px;
+    height: 50px;
+    margin-right: -15px;
+    padding-right: 15px;
+    border-width: 0;
     border-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #55a8b3;
+}
+.header1-2 {
+    width: 100px;
+    height: 50px;
+    border: #1b6d85;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #55a8b3;
+    background-color: #ffffff;
 
 }
-.header2{
-    position:absolute; top: 25px;right: 20px;
-    outline:none;
-    align-items:center;
-    width:35px;height:30px;
+.header2 {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    outline: none;
+    align-items: center;
+    width: 20px;
+    height: 30px;
 
 
 }
-.header2{
-    float:right;
-}
+
 
 
 
 .drop{
     display: flex;
     flex-flow: row;
-    text-align: center;
     align-items: center;
     justify-content: center;
-    margin-top:80px;
-    width: 100%;
-    height: 50px;
-
-
-}
-.drop1{
-    width: 33%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-.drop2{
-
-    width: 33%;
-}
-.drop3{
-    width: 33%;
-}
-
-.drop1-1{
-
-    outline: none;
+    margin-top: 60px;
     width: 100%;
     height: 40px;
-    line-height: 30px;
 
 
-    border-right: 1px solid #bababa;
 }
+.dropdown {
+    width: 33%;
+    height: 40px;
+
+
+}
+.box1 {
+
+
+
+}
+.dropdown-content {
+
+}
+
+
+
+
+
+.drop2{
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 40px;
+    text-align: center;
+    background-color: #2aabd2;
+
+}
+.drop3{
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 40px;
+    text-align: center;
+    background-color: #68cdd5;
+}
+
+
+
+
 
 
 
@@ -112,9 +133,9 @@
     width: 70%;
     height: 90px;
 
-    background-color: #68cdd5;
+
 }
-.lost1{
+.lost1 {
     height: 30px;
     line-height: 30px;
     padding-left: 30px;
@@ -122,7 +143,6 @@
     background-repeat: no-repeat;
     background-size: 20px 20px;
     background-position: 5px 5px;
-    background-color: #bababa;
 }
 
 
