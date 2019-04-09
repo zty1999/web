@@ -167,12 +167,13 @@ body {
 .line6 {
     display: flex;
     align-items: center;
-    min-height: 5rem;
+    height: 5rem;
     border-bottom: 1px solid #bababa;
     margin-bottom: 7rem;
     background-color: white;
 }
 .line6-1 {
+    min-height: 5rem;
     margin-left: 1rem;
     padding-right: 2.5rem;
     border-right: 1px solid #bababa;
@@ -181,7 +182,7 @@ body {
 }
 .line6-2 {
     padding-left: 2rem;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 
