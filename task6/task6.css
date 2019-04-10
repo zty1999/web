@@ -36,7 +36,6 @@ body{
     font-size: 20px;
     color: #55a8b3;
     background-color: #ffffff;
-
 }
 .header-image {
     position: absolute;
@@ -61,46 +60,37 @@ body{
     border-bottom: 1px solid #bababa;
     background-color: ghostwhite;
 }
-
-
 .dropdown {
     position: relative;
     height: 25px;
-    width: 33%;
-    padding-right: 2%;
+    width: 33.33%;
     border-right:1px solid #bababa;
-
     text-align: center;
     align-items: center;
-    background: url("img/形状 1 拷贝.png") no-repeat 98% center ;
-
-}
-.box-1 {
-    display: block;
-    text-align: center;
+    background: url("img/形状 1 拷贝.png") no-repeat 90% center ;
 }
 .dropdown-content {
     display: none;
     position: absolute;
     width: 100%;
-    border-bottom:1px solid  whitesmoke ;
+    border:1px solid  whitesmoke ;
     list-style: none;
+    color: lightslategray;
     background-color: #ffffff;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
-
 }
-.main{
+
+
+
+
+.main {
     margin-top: 100px;
     margin-bottom: 60px;
+    width: 100%;
 }
 .lost {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     width: 100%;
     height: 90px;
     border-bottom: 1px solid #bababa;
@@ -109,37 +99,45 @@ body{
     background-size: 16px 16px;
 }
 .lost1 {
-    width: 100%;
+    display: flex;
+    align-items: center;
     height: 30px;
-
-    font-size: 16px;
+    min-width: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     color: lightslategray;
 }
-.lost2{
-    width:100%;
+.lost2 {
+    display: flex;
     height: 30px;
-
-    align-content: space-between;
-
-    background-color: #1b6d85;
+    padding-right: 30px;
+    justify-content: space-between;
+    align-items: center;
 }
-
-.line{
-    display: inline-block;
+.lost2-2{
+    min-width: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
-.line2{
+.line2 {
+    padding-right: 10px;
     color: red;
 }
-.image-space{
-    width: 20px;
-    height: 20px;
-
+.image-space {
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
 }
-.lost3{
-    width: 100%;
+.lost3 {
+    display: flex;
+    align-items: center;
     height: 30px;
-
-    font-size: 14px;
+    min-width: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     color: lightslategray;
 }
 
@@ -147,32 +145,17 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-.footer{
+.footer {
     position: fixed; left: 0; bottom: 0;
     display:flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 60px;
     background: white;
     border-top: 1px solid #bababa;
-
-
-
 }
-.footer1{
+.footer1 {
     display:flex;
     flex-direction:column;
     text-align: center;
@@ -184,11 +167,10 @@ body{
     width: 40px;
     height: 30px;
 }
-.footer2{
+.footer2 {
     display: flex;
     align-items: center;
     justify-content: center;
-
     width:50px;
     height:50px;
     border-radius: 50%;
@@ -197,26 +179,20 @@ body{
     text-align: center;
 }
 .footer2-image {
-
     vertical-align: middle;
     width: 25px;
     height: 25px;
 }
-
-
 .footer3 {
     display: flex;
     flex-flow:  wrap;
     justify-content: center;
-
     width: 40px;
     height: 40px;
     text-align: center;
     font-size: 14px;
 }
-.footer3-image{
+.footer3-image {
     width: 40px;
     height: 25px;
-
-
 }
