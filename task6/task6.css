@@ -52,12 +52,14 @@ body{
 
 
 .box {
+    position: fixed; top: 60px;
     display: flex;
     align-items: center;
-    margin-top: 40px;
     width: 100%;
     height: 40px;
+    color: lightslategray;
     border-bottom: 1px solid #bababa;
+    background-color: ghostwhite;
 }
 
 
@@ -65,8 +67,9 @@ body{
     position: relative;
     height: 25px;
     width: 33%;
+    padding-right: 2%;
     border-right:1px solid #bababa;
-    text-decoration: none;
+
     text-align: center;
     align-items: center;
     background: url("img/形状 1 拷贝.png") no-repeat 98% center ;
@@ -89,95 +92,72 @@ body{
     display: block;
 
 }
-
-
-
-
-
-
-
-
-
-
-
 .main{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.lost {
     display: flex;
-    flex-flow: row wrap;
-    align-items:center;
-    width: 100%;
-    border-bottom: 1px solid #bababa;
-
-
-
-
-}
-.main2{
-
-}
-.main3{
-
-}
-
-
-
-
-
-
-.lost{
-    display: -webkit-flex;
-    -webkit-flex-flow: column wrap;
     justify-content: center;
-    width: 200px;
+    align-items: center;
+
+    width: 100%;
     height: 90px;
-    font-size: 14px;
+    border-bottom: 1px solid #bababa;
+    padding-left: 25px;
+    background: url("img/calendar2.png") no-repeat  5px 7px, url("img/Shape 4 拷贝.png")  no-repeat  5px 67px;
+    background-size: 16px 16px;
 }
 .lost1 {
+    width: 100%;
     height: 30px;
-    line-height: 30px;
-    padding-left: 30px;
-    background: url("img/calendar2.png") no-repeat 5px 5px;
-    background-size: 15px 15px;
+
+    font-size: 16px;
+    color: lightslategray;
 }
 .lost2{
+    width:100%;
     height: 30px;
-    line-height: 30px;
-    padding-left: 30px;
-}
-.lost3{
-    height: 30px;
-    line-height: 30px;
-    padding-left: 30px;
-    background: url("img/Shape 4 拷贝.png") no-repeat  5px 5px;
-    background-size: 15px 15px;
-}
 
-.box-2{
-    flex: 1;
+    align-content: space-between;
+
+    background-color: #1b6d85;
 }
 
 .line{
-    width: 100px;
-    color: red;
-
+    display: inline-block;
 }
 .line2{
-
+    color: red;
 }
-
 .image-space{
-    width: 15px;
+    width: 20px;
     height: 20px;
-}
 
-.main-2{
-    display: flex;
-    flex-flow: row wrap;
-    align-items:center;
+}
+.lost3{
     width: 100%;
-    margin-bottom: 80px;
-    border-bottom: 1px solid #bababa;
+    height: 30px;
 
+    font-size: 14px;
+    color: lightslategray;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer{
     position: fixed; left: 0; bottom: 0;
@@ -185,8 +165,9 @@ body{
     justify-content:space-around;
     align-items: center;
     width: 100%;
-    height: 80px;
+    height: 60px;
     background: white;
+    border-top: 1px solid #bababa;
 
 
 
@@ -195,25 +176,31 @@ body{
     display:flex;
     flex-direction:column;
     text-align: center;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     font-size: 14px;
 }
 .footer1-image {
-    width: 30px;
+    width: 40px;
     height: 30px;
 }
 .footer2{
-    width:30px;
-    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width:50px;
+    height:50px;
     border-radius: 50%;
     font-size: 14px;
     background-color: #68cdd5;
     text-align: center;
 }
 .footer2-image {
-    width: 15px;
-    height: 15px;
+
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
 }
 
 
@@ -222,14 +209,14 @@ body{
     flex-flow:  wrap;
     justify-content: center;
 
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     text-align: center;
     font-size: 14px;
 }
 .footer3-image{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 25px;
 
 
 }
