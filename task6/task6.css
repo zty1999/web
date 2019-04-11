@@ -1,16 +1,17 @@
 body{
     margin: 0;
     padding: 0;
+    width: 100vw;
+    overflow: hidden;
 }
 
 .header {
     position: fixed;
-    left: 0; top: 0;
+    top: 0;
     display: flex;
-    width: 100%; height: 60px;
+    width: 100%; height: 40px;
     justify-content: center;
     align-items: center;
-
     background-color: #5fc0cd;
 }
 .header1 {
@@ -19,27 +20,27 @@ body{
 .header1-1 {
     outline: none;
     width: 100px;
-    height: 50px;
+    height: 30px;
     margin-right: -15px;
     padding-right: 15px;
     border-width: 0;
     border-radius: 10px;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #55a8b3;
 }
 .header1-2 {
     width: 100px;
-    height: 50px;
+    height: 30px;
     border: #1b6d85;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 18px;
     color: #55a8b3;
     background-color: #ffffff;
 }
 .header-image {
-    position: absolute;
-    top: 17px;
+    position: fixed;
+    top: 7px;
     right: 20px;
     outline: none;
     align-items: center;
@@ -51,7 +52,8 @@ body{
 
 
 .box {
-    position: fixed; top: 60px;
+    position: fixed;
+    top: 40px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -62,21 +64,22 @@ body{
 }
 .dropdown {
     position: relative;
+    text-align: center;
+    align-items: center;
     height: 25px;
     width: 33.33%;
     border-right:1px solid #bababa;
-    text-align: center;
-    align-items: center;
-    background: url("img/形状 1 拷贝.png") no-repeat 90% center ;
+    background: url("img/形状 1 拷贝.png") no-repeat 95% center ;
+    background-size: 10px 7px;
 }
 .dropdown-content {
     display: none;
     position: absolute;
     width: 100%;
-    border:1px solid  whitesmoke ;
+    padding: 0;
     list-style: none;
-    color: lightslategray;
-    background-color: #ffffff;
+    box-shadow: 1px 1px 1px  #bababa;
+    background-color: ghostwhite;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -86,12 +89,12 @@ body{
 
 
 .main {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 60px;
-    width: 100%;
+
 }
 .lost {
-    width: 100%;
+
     height: 90px;
     border-bottom: 1px solid #bababa;
     padding-left: 25px;
@@ -111,7 +114,7 @@ body{
 .lost2 {
     display: flex;
     height: 30px;
-    padding-right: 30px;
+    padding-right: 10px;
     justify-content: space-between;
     align-items: center;
 }
@@ -121,8 +124,11 @@ body{
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+.line{
+    margin-right: 10px;
+}
 .line2 {
-    padding-right: 10px;
+
     color: red;
 }
 .image-space {
@@ -146,7 +152,8 @@ body{
 
 
 .footer {
-    position: fixed; left: 0; bottom: 0;
+    position: fixed;
+    bottom: 0;
     display:flex;
     justify-content: space-around;
     align-items: center;
