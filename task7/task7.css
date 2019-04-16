@@ -26,41 +26,34 @@ body{
 .main{
     margin-top: 4rem;
     margin-bottom: 2rem;
-    padding: .5rem 1rem;
+    padding: 1rem 1.5rem;
     border: 10px solid #f0f0f0;
     background-color: #f0f0f0;
 }
 .getting1{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-
-
     height: 4rem;
 
-    font-size: 1rem;
     border: 1px solid #bababa;
     background-color: white;
 }
+
 .getting1-1{
-    height: 2rem;
+    display: inline-block;
+
+    color: #bababa;
 
 }
-.getting1-1-1{
-    display: inline-block;
-    vertical-align: middle;
-}
-.getting1-1-2{
-    display: inline-block;
-    vertical-align: middle;
-
+.getting1-2{
     height: 1.6rem;
-
+    margin-right: .5rem;
 }
 
 
 .getting2{
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     border: 1px solid #bababa;
     background-color: white;
 }
@@ -68,56 +61,63 @@ body{
 
 
     text-align: center;
-    height: 4rem;
-    line-height: 4rem;
-    font-size: 2rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.4rem;
     color: #FF9900;
-
-    border-bottom: #FF9900;
+    border-bottom: 1px solid #FF9900;
 
 }
+
 
 .getting2-2{
-
+    position: relative;
     padding-top: 1.5rem;
     text-align: center;
-
 }
+
 .getting2-2-6{
-    display: inline-block;
     width: 80%;
     margin-left: 10%;
+
 }
+
 .getting2-2-1{
-
-
-
-
-
-
-}
-.getting2-2-1-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-
     height: 5rem;
 
+    background-color: #5fc0cd;
+}
+.getting2-2-1-1{
     color: ghostwhite;
-    background-color: #29bde0;
 }
 .getting2-2-1-2{
     font-size: 0.8rem;
     color: #bababa;
 }
+
+
 .getting2-3{
     float: right;
     display: inline-block;
     vertical-align: middle;
     width: 10%;
 }
-.getting2-3-1{
+
+
+.getting2-3{
+    position: absolute;
+    top: 10.5rem;
+    right: .01rem;
+
+
+
 
 }
-.getting2-3-1-1{
+.getting2-3-1{
 
 
     width: 1rem;
@@ -130,6 +130,23 @@ body{
 
 .footer{
     position: fixed;
-    top: 0;
-    height: 50px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+
+}
+.footer1{
+
+}
+.cycle{
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem;
+    border: 1px solid #bababa;
+    border-radius: 50%;
+    background-color: #bababa;
 }
