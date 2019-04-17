@@ -12,15 +12,13 @@ body{
     background-color: #29bde0;
 }
 .header1{
-    padding: 1rem .5rem;
     width: 2rem;
     height: 2rem;
+    margin: 1rem 1rem;
 }
 .header1-1{
-    display: block;
-    width: 1.6rem;
-    height: .15rem;
-    margin: 5px 0;
+
+
 }
 
 .main{
