@@ -31,7 +31,7 @@ body {
     height: 1.2rem;
 }
 .header1-2 {
-
+    font-size: 1.4rem;
     color: ghostwhite;
 }
 .header1-3 {
@@ -50,7 +50,7 @@ body {
     align-items: center;
     width: 100%;
     height: 3rem;
-    background-color: rgba(255,255,255, .6);
+    background-color: #b9e9f5;
 }
 .header2-1 {
     padding-left: 1.5rem;
@@ -105,7 +105,7 @@ body {
     float: left;
     width: 20vw;
     height: 20vw;
-    margin: 6vw 5vw;
+    margin: 6vw 4vw;
     border: 3px solid #f0f0f0;
 
 }
