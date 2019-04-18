@@ -9,7 +9,7 @@ body {
     left: 0;
     z-index: 100;
     width: 100%;
-    height: 14vw;
+    height: 8rem;
 
 }
 
@@ -20,22 +20,27 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 5vw;
+    height: 3rem;
     background-color: #29bde0;
 }
 .header1-1 {
-    width: 1.5vw;
     padding-left: 2vw;
 }
+.header1-1-1 {
+   width: 1.2rem;
+    height: 1.2rem;
+}
 .header1-2 {
-    font-size: 1.4vw;
+
     color: ghostwhite;
 }
 .header1-3 {
+
     padding-right: 2vw;
 }
 .header1-3-1 {
-    width: 1.5vw;
+    width: 1.2rem;
+
 }
 
 
@@ -43,8 +48,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5vw;
-    background-color: rgba(251 251 0 0);
+    height: 3rem;
+    background-color: rgba(0,0,0,-1);
+
 }
 .header2-1 {
     padding-left: 3vw;
@@ -52,12 +58,15 @@ body {
 .header2-2 {
     display: flex;
     align-items: center;
-    padding-right: 1vw;
+    width: 2rem;
+    padding-right: 1rem;
+}
+.header2-2-1 {
+    width: 2rem;
 }
 
-
 .header3 {
-    height: 4vw;
+    height: 2rem;
     padding: 0;
     background: url("讨论页/小多边形 1.png") no-repeat 3vw 0;
     background-color: #29bde0;
@@ -77,8 +86,9 @@ body {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
-    margin-top: 14vw;
-    margin-bottom: 6vw;
+
+    margin-top: 8rem;
+    margin-bottom: 5rem;
     padding-left: 4vw;
     padding-right: 4vw;
     background-color: #29bde0;
@@ -87,10 +97,11 @@ body {
 
 .main3-1-big {
     position: relative;
+    float: left;
     width: 20vw;
     height: 20vw;
-    margin: 4vw 4vw;
-    border: 2px solid #f0f0f0;
+    margin: 6vw 4vw;
+    border: 3px solid #f0f0f0;
 
 }
 .main3-1-big1 {
@@ -99,8 +110,8 @@ body {
     align-items: center;
     width: 20vw;
     height: 16vw;
-    font-size: 2rem;
-    background-color: darkgoldenrod;
+
+    background-color: #f5c97b;
 
  }
 .main3-1-big2{
@@ -108,8 +119,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 4vw;
+    font-size: .8rem;
     color: ghostwhite;
-    background-color: goldenrod;
+    background-color: #83b09a;
 
 }
 
@@ -137,14 +149,14 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 6vw;
+    height: 5rem;
     border-top: 2px solid #f0f0f0;
     background-color: #29bde0;
 }
 .footer1 {
     width: 80%;
-    height: 4vw;
-    line-height: 4vw;
+    height: 3rem;
+    line-height: 3rem;
     text-align: center;
     color: ghostwhite;
     background-color: #FF9900;
