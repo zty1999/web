@@ -24,20 +24,9 @@
         <span class="header2-1">发言讨论结束， 大家请投票</span>
         <span class="header2-2">
             <button  class="btn"  id="a" onclick="a();"> </button>
-            <audio src="财富自由.mp3" autoplay loop="loop"></audio>
-
+            <audio id="music" src="财富自由.mp3" autoplay loop="loop"></audio>
         </span>
-        <script>
-            function a(){
-                var audio = document.getElementById('music');
-                if(audio.paused){
-                    audio.play();//audio.play();// 播放
-                }
-                else{
-                    audio.pause();// 暂停
-                }
-            }
-        </script>
+
     </div>
 
     <div class="header3">
@@ -199,7 +188,17 @@
 </body>
 
 
-
+<script>
+    function a(){
+        var audio = document.getElementById('music');
+        if(audio.paused){
+            audio.play();//audio.play();// 播放
+        }
+        else{
+            audio.pause();// 暂停
+        }
+    }
+</script>
 
 
 
