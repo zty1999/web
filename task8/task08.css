@@ -7,19 +7,33 @@ header {
 
 
 }
-.header-text {
-
+.header-top {
+    height: 4rem;
+}
+.header-top-text {
+    line-height: 4rem;
+    color: #28a745;
 
 }
-.header-image {
+.header-top-image {
 
 }
-.header-image-left {
-
+.header-top-image-left {
+    height: 1.5rem;
+    line-height: 2rem;
 }
-.header-image-middle {
-
+.header-top-image-middle {
+    height: 1.5rem;
+    line-height: 2rem;
 }
-.header-image-right {
-
+.header-top-image-right {
+    height: 1.5rem;
+    line-height: 2rem;
+}
+.header-bottom-nav {
+    float: right;
+}
+.header-bottom-link {
+    display: inline;
+    list-style: none;
 }
