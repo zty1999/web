@@ -330,18 +330,17 @@ header {
     
 }
 .main-bottom-box {
-    display: flex;
-    justify-content: center;
+    width: 100%;
 }
 .main-bottom-content {
-    width: 100%;
-    margin: 2rem auto;
-
-
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 
 }
+
 .main-bottom-item  {
-    margin:0 auto;
+
     color: #bababa;
 }
 footer {
