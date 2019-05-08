@@ -129,52 +129,21 @@ header {
     }
 }
 
-
-
-
-.block-top {
-    display: flex;
-    justify-content: space-between;
-    
-    height: 20rem;
-    background: url("1-beijing.png") no-repeat;
-    background-size: 100% 100%;
-}
-.block-top-link-left {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 3rem;
-}
-.block-top-icon-left {
-    height: 2rem;
-}
-.block-top-link-right {
-    display: flex;
-    align-items: center;
-    width: 3rem;
-}
-
-.block-top-icon-right {
-    height: 2rem;
-}
-.block-top-icon-center {
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 2rem;
-}
-.block-top-icon-item {
-    width: .8rem;
-    height: .8rem;
-    margin: 0 .1rem;
-    border: 1px solid #f0f0f0;
+.carousel-indicators li {
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
+    margin: .5rem;
 }
-.block-top-icon-item:hover {
-    display: block;
-    background-color: #f0f0f0;
-}
+.carousel-control-prev-icon {
+    width: 2rem;
+    height: 2rem;
 
+}
+.carousel-control-next-icon {
+    width: 2rem;
+    height: 2rem;
+}
 
 .main-content {
 
@@ -185,7 +154,7 @@ header {
 }
 .count {
     padding-top: 5rem;
-    border-left: .5px dotted #bababa;
+    border-left: 1px dotted #bababa;
 }
 
 .rocket,
@@ -246,7 +215,7 @@ header {
     justify-content: center;
     width:3rem;
     height: 3rem;
-    border: .5px solid #bababa;
+    border: .5px solid #b3b3b3;
     border-radius: 50%;
     color: #28a745;
     background-color: #ffffff;
@@ -329,19 +298,31 @@ header {
     
     
 }
-.main-bottom-box {
-    width: 100%;
+.page-bottom {
+
 }
-.main-bottom-content {
-    display: flex;
+.page-bottom-content {
+    text-align: center;
     justify-content: space-between;
+    color: #b3b3b3;
+    font-size: 12px;
     margin: 0 auto;
 
 }
+.page-items {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+.page-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.main-bottom-item  {
+}
+.page-box-item {
 
-    color: #bababa;
+    font-size: .8rem;
 }
 footer {
     background-color: #26a26f;
