@@ -165,16 +165,66 @@ header {
     border-bottom: 1px solid #bababa;
 }
 .page-block {
+
     margin-top: 2rem;
+    margin-bottom: 2rem;
 
 
 }
 
 .block-box {
-
+    position: relative;
     background-color: #ffffff;
     border: .5px solid #b3b3b3;
 }
+.hv-box {
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left:0;
+    display: none;
+    text-align: center;
+    height: 100%;
+    background: url("image/u=1420534138,2413426954&fm=26&gp=0.jpg") no-repeat 0 0;
+    background-size: 100% 100%;
+    color: white;
+    padding: 60px 40px 0 40px;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft;
+
+}
+.hv-text {
+    font-size: 1.2rem;
+}
+.hv-box:hover {
+    opacity: 0.8;
+    transition:all 2s;
+    transform-origin: 50 100;
+    transform:rotate(360deg);
+    border-radius:50%;
+
+}
+.block-box:hover .hv-box {
+    display: block;
+
+
+}
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+
+
 .block-box-head {
     display: flex;
     margin-bottom: 0;
@@ -195,6 +245,7 @@ header {
 
 }
 .block-body {
+
     flex: 1;
     padding: .5rem;
 }
@@ -305,4 +356,61 @@ header {
 .block-icon {
     margin-left: .5rem;
     vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #26a26f;
+}
+.footer-block {
+
+    padding: 2rem  0 1rem 0;
+    color: #f0f0f0;
+
+}
+.footer-left {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: center;
+}
+
+.jnshu {
+
+}
+.footer-left-block {
+    padding-top: 1.5rem;
+    white-space: nowrap;
+}
+.footer-center {
+    padding: 1rem 0;
+}
+.footer-center-block {
+    padding: .5rem .25rem;
+}
+.footer-right {
+    text-align: center;
+
+}
+.footer-box {
+    display: flex;
+    justify-content: center;
+    font-size: .8rem;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
 }
