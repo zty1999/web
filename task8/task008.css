@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
     background-color: #f0f0f0;
 }
 header {
@@ -188,21 +189,22 @@ header {
     background: url("image/u=1420534138,2413426954&fm=26&gp=0.jpg") no-repeat 0 0;
     background-size: 100% 100%;
     color: white;
-    padding: 60px 40px 0 40px;
-    animation-duration: 2s;
-    animation-fill-mode: both;
-    animation-name: fadeInLeft;
+    opacity: 0.8;
+    padding: 60px 20px 0 20px;
 
 }
 .hv-text {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .hv-box:hover {
-    opacity: 0.8;
-    transition:all 2s;
-    transform-origin: 50 100;
-    transform:rotate(360deg);
-    border-radius:50%;
+
+    transform: rotate(360deg);
+    transition: 2s;
+    border-radius: 50%;
+
+
+
+
 
 }
 .block-box:hover .hv-box {
@@ -210,17 +212,7 @@ header {
 
 
 }
-@keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        transform: translate3d(0, 0, 0);
-    }
 
-    to {
-        opacity: 1;
-        transform: none;
-    }
-}
 
 
 
@@ -368,6 +360,7 @@ header {
 
 footer {
     background-color: #26a26f;
+    width: 100%;
 }
 .footer-block {
 
@@ -413,4 +406,9 @@ footer {
     font-size: .8rem;
     color: #ffffff;
     border-top: 1px solid #ffffff;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
