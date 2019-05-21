@@ -60,6 +60,17 @@ header {
 
 
 
+.header-bottom {
+    background-color: #28a745;
+}
+
+.navbar  {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+
+}
 
 
 
@@ -67,19 +78,24 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.navbar-nav {
+    width: 100%;
+}
+.text-bot {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-link {
+    padding: 0 ;
+    height: 10vh ;
+    line-height: 10vh ;
+    text-align: center;
+    font-size: 1.4rem;
+ }
+.nav-item :hover{
+    display: block;
+    border-bottom: 2px solid #f0f0f0 ;
+}
 .hd-bottom-text-top {
     display: block;
     font-size: 2rem;
@@ -87,21 +103,19 @@ header {
 }
 .hd-bottom-text-bottom {
     display: block;
+    font-size: 1rem;
 }
-
-@media screen and (max-width:780px) {
-    .header-box,
-    .header-bottom-btn {
+ @media screen and (max-width:780px) {      
+    .header-box {
         display: block;
     }
-    .header-top,
-    .header-bottom-nav {
+    .header-top {
         display: none;
     }
-    .item-link {
-        text-align: center;
-    }
+
 }
+
+
 
 .carousel-indicators li {
     width: 1rem;
