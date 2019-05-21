@@ -200,10 +200,16 @@ header {
     border-radius: 50%;
 }
 .content-text {
-
+    color: #28a745;
 }
 
+.block-left-items:hover .content-icon{
+    background-color: #FF9900;
 
+}
+.block-left-items:hover .content-text {
+    color: #FF9900;
+}
 
 
 .right-box {
