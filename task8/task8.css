@@ -65,21 +65,21 @@ header {
 
 
 
-.header-bottom {
-    display: flex;
-    background-color: #26a26f;
-}
-.container-box {
-    display: flex;
-    justify-content: space-between;
-}
-.header-bottom-text {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    color: #f0f0f0;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .hd-bottom-text-top {
     display: block;
     font-size: 2rem;
@@ -88,52 +88,6 @@ header {
 .hd-bottom-text-bottom {
     display: block;
 }
-.header-bottom-nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.header-bottom-nav,
-.nav-bar-nav {
-    padding: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
-.nav-bar-item {
-
-}
-
-.item-link {
-    display: block;
-    height: 6rem;
-    line-height: 6rem;
-    padding: 0  .5rem;
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-}
-
-.nav-bar-item :hover {
-    border-bottom: 2px solid #f0f0f0;
-
-}
-.item-link:hover {
-    text-decoration: none;
-    color: white;
-}
-.header-bottom-btn {
-    display: none;
-    vertical-align: middle;
-
-}
-.navbar-dark {
-
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 6rem;
-}
-
 
 @media screen and (max-width:780px) {
     .header-box,
@@ -150,8 +104,8 @@ header {
 }
 
 .carousel-indicators li {
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
     margin: .5rem;
 }
