@@ -4,21 +4,20 @@ body {
     width: 100%;
     background-color: #f0f0f0;
 }
+
 header {
     width:100%;
 }
 
 .header-top {
-
     display: flex;
     align-items: center;
     height: 2.6rem;
-
 }
 .header-top-text {
     font-size: 1.2rem;
     line-height: 2.6rem;
-    color: #28a745;
+    color: #26a26f;
 }
 .header-top-image {
     display: flex;
@@ -50,12 +49,12 @@ header {
     outline: none;
 }
 .header-top-link {
-    color: #28a745;
+    color: #26a26f;
     text-decoration: none;
 }
 .header-top-link:hover {
     text-decoration: none;
-    color: #28a745;
+    color: #26a26f;
 }
 
 
@@ -63,7 +62,7 @@ header {
 
 
 .header-bottom {
-    background-color: #28a745;
+    background-color: #26a26f;
 }
 .navbar  {
     width: 100%;
@@ -126,14 +125,20 @@ header {
     margin-bottom: 0;
     border-bottom: 1px solid #bababa;
 }
-.block-center-box {
-    padding-left: 2rem;
+.block-center-link {
+    margin: .25rem 1rem;
     color: black;
-
 }
-.block-center-box :hover {
+.block-center-link:hover {
     background-color: #28a745;
+    color: #f0f0f0;
+    text-decoration: none;
 }
+
+
+
+
+
 .page-title {
     height: 5rem;
     line-height: 5rem;

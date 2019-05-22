@@ -18,7 +18,7 @@ header {
 .header-top-text {
     font-size: 1.2rem;
     line-height: 2.6rem;
-    color: #28a745;
+    color: #26a26f;
 }
 .header-top-image {
     display: flex;
@@ -50,12 +50,12 @@ header {
     outline: none;
 }
 .header-top-link {
-    color: #28a745;
+    color: #26a26f;
     text-decoration: none;
 }
 .header-top-link:hover {
     text-decoration: none;
-    color: #28a745;
+    color: #26a26f;
 }
 
 
@@ -63,7 +63,7 @@ header {
 
 
 .header-bottom {
-    background-color: #28a745;
+    background-color: #26a26f;
 }
 .navbar  {
     width: 100%;
@@ -157,7 +157,7 @@ header {
     border-radius: 50%;
 }
 .content-text {
-    color: #28a745;
+    color: #26a26f;
 }
 
 .block-left-items:hover .content-icon{

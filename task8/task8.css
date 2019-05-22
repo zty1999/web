@@ -8,16 +8,15 @@ header {
 }
 
 .header-top {
-
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 2.6rem;
 
 }
 .header-top-text {
     font-size: 1.2rem;
-    line-height: 2.6rem;
-    color: #28a745;
+    color: #26a26f;
 }
 .header-top-image {
     display: flex;
@@ -40,20 +39,29 @@ header {
     height: 2rem;
 }
 .header-box-btn {
-
-    line-height: 2rem;
     float: right;
+    line-height: 2rem;
     border: none;
     background-color: transparent;
     outline: none;
 }
 .header-top-link {
-    color: #28a745;
+    color: #26a26f;
     text-decoration: none;
 }
 .header-top-link:hover {
     text-decoration: none;
-    color: #28a745;
+    color: #26a26f;
+}
+
+@media screen and (max-width:780px) {
+    .header-box {
+        display: block;
+    }
+    .header-top {
+        display: none;
+    }
+
 }
 
 
@@ -61,7 +69,7 @@ header {
 
 
 .header-bottom {
-    background-color: #28a745;
+    background-color: #26a26f;
 }
 .navbar  {
     width: 100%;
@@ -94,16 +102,6 @@ header {
     border-bottom: 2px solid #f0f0f0 ;
 }
 
-@media screen and (max-width:780px) {
-    .header-box {
-        display: block;
-    }
-    .header-top {
-        display: none;
-    }
-
-}
-
 
 
 .carousel-indicators li {
@@ -122,9 +120,7 @@ header {
     height: 1rem;
 }
 
-.main-content {
 
-}
 
 .content-top {
     padding-top: 4rem;
@@ -133,7 +129,6 @@ header {
     padding-top: 5rem;
     border-left: 1px dotted #bababa;
 }
-
 .rocket,
 .books,
 .man,
@@ -169,15 +164,10 @@ header {
 
 
 .main-block-tt {
-
     margin:  3rem 0;
     text-align: center;
-    white-space: nowrap;
     font-size: 1.6rem;
     font-weight: 700;
-}
-.content-center {
-
 }
 .main-block-cn-number {
     display: flex;
@@ -190,8 +180,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width:2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border: .5px solid #b3b3b3;
     border-radius: 50%;
     color: #28a745;
@@ -205,22 +195,12 @@ header {
     padding-left: 1rem;
     color: #bababa;
 }
-.main-block-cn-right {
-
-}
-
-
-
-
 
 
 .block-bottom-box {
     padding: 1rem;
-    
-
 }
 .block-bottom-small-box {
-    
     padding: 2rem 1rem;
     border: .2px solid #b3b3b3;
 }
@@ -231,7 +211,6 @@ header {
 }
 .block-bottom-box-text-top{
     text-align: center;
-
     font-size: 1.4rem;
     font-weight: 700;
 }     
@@ -259,24 +238,20 @@ header {
 }
 .page-icon {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 8rem;
+
 }
 
 .main-enterprise-icon {
-
-    flex: 1; 
-    margin: 1rem 0;
+    margin: 10px auto 0;
     text-align: center;
 }
-
 .enterprise-icon-item {
-    
-    
+    width: 160px;
 }
-.page-bottom {
-
+.enterprise-icon-item:hover {
+    box-shadow: 0 0 20px 10px #b3b3b3;
 }
 .page-bottom-content {
     text-align: center;
@@ -284,7 +259,6 @@ header {
     color: #b3b3b3;
     font-size: 12px;
     margin: 0 auto;
-
 }
 .page-items {
     margin-left: 0;
@@ -295,48 +269,53 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .page-box-item {
-
     font-size: .8rem;
 }
+.page-box-link {
+    color: #b3b3b3;
+}
+.page-box-link :hover {
+    color: #b3b3b3;
+    text-decoration:underline;
+}
+
 footer {
     background-color: #26a26f;
 }
 .footer-block {
-
     padding: 2rem  0 1rem 0;
     color: #f0f0f0;
-
 }
 .footer-left {
     display: flex;
     justify-content: center;
 }
-
 .footer-center {
     display: flex;
     justify-content: center;
+    padding: 1rem 0;
 }
-
 .footer-right {
     display: flex;
     justify-content: center;
+    text-align: center;
+    padding-bottom: .5rem;
 }
 .footer-left-block {
     padding-top: 1.5rem;
     white-space: nowrap;
 }
-.footer-center {
-    padding: 1rem 0;
-}
 .footer-center-block {
-    padding: .5rem .25rem;
+    padding: .5rem 0;
 }
-.footer-right {
-    text-align: center;
-
+.footer-link {
+    color: #f0f0f0;
+}
+.footer-link :hover {
+    color: #f0f0f0;
+    text-decoration:underline;
 }
 .footer-box {
     display: flex;
