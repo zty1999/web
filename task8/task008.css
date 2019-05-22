@@ -62,24 +62,13 @@ header {
 
 
 
-
-
-
-
 .header-bottom {
-    display: flex;
-    background-color: #26a26f;
+    background-color: #28a745;
 }
-.container-box {
-    display: flex;
-    justify-content: space-between;
-}
-.header-bottom-text {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    color: #f0f0f0;
-
+.navbar  {
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 .hd-bottom-text-top {
     display: block;
@@ -88,69 +77,37 @@ header {
 }
 .hd-bottom-text-bottom {
     display: block;
+    font-size: 1rem;
 }
-.header-bottom-nav {
-    display: flex;
+.text-bot {
+    text-align: center;
     justify-content: flex-end;
-    align-items: center;
-
-
 }
-.header-bottom-nav,
-.nav-bar-nav {
-    padding: 0;
-    margin-bottom: 0;
-    list-style: none;
+.nav-link {
+    padding: 0 ;
+    height: 10vh ;
+    line-height: 10vh ;
+    text-align: center;
+    font-size: 1.4rem;
 }
-.nav-bar-item {
-
-}
-
-.item-link {
+.nav-item :hover{
     display: block;
-    height: 6rem;
-    line-height: 6rem;
-    padding: 0  .5rem;
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
+    font-size: 1.6rem;
+    border-bottom: 2px solid #f0f0f0 ;
 }
-
-.nav-bar-item :hover {
-    border-bottom: 2px solid #f0f0f0;
-
-}
-.item-link:hover {
-    text-decoration: none;
-    color: white;
-}
-.header-bottom-btn {
-    display: none;
-    vertical-align: middle;
-
-}
-.navbar-dark {
-
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 6rem;
-}
-
 
 @media screen and (max-width:780px) {
-    .header-box,
-    .header-bottom-btn {
+    .header-box {
         display: block;
     }
-    .header-top,
-    .header-bottom-nav {
+    .header-top {
         display: none;
     }
-    .item-link {
-        text-align: center;
-    }
+
 }
+
+
+
 
 
 
@@ -220,18 +177,28 @@ header {
     background-color: white;
     border: 1px solid #b3b3b3;
 }
-.block-image-box {
+.block-right-top {
 
-    padding: 1rem 0 1rem 4rem;
+    border-bottom: 1px solid #b3b3b3;
+}
+.block-image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 10rem;
+    padding: 1rem 2rem;
 
 
 }
 
 .block-image {
-
+    width:8rem;
+    height: 8rem;
 
 }
 .block-ct-text {
+    flex: 3;
     padding: 1rem 3rem 1rem 1rem;
 
 }
