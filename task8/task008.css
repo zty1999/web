@@ -232,45 +232,18 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     background-color: #26a26f;
     width: 100%;
 }
 .footer-block {
-
     padding: 2rem  0 1rem 0;
     color: #f0f0f0;
-
 }
 .footer-left {
     display: flex;
     justify-content: center;
 }
-
 .footer-center {
     display: flex;
     justify-content: center;
@@ -279,24 +252,21 @@ footer {
 .footer-right {
     display: flex;
     justify-content: center;
-}
-
-.jnshu {
-
+    padding-bottom: .5rem;
 }
 .footer-left-block {
     padding-top: 1.5rem;
     white-space: nowrap;
 }
-.footer-center {
-    padding: 1rem 0;
-}
 .footer-center-block {
-    padding: .5rem .25rem;
+    padding: .5rem 0;
 }
-.footer-right {
-    text-align: center;
-
+.footer-link {
+    color: #f0f0f0;
+}
+.footer-link :hover {
+    color: #f0f0f0;
+    text-decoration:underline;
 }
 .footer-box {
     display: flex;
@@ -305,4 +275,24 @@ footer {
     color: #ffffff;
     border-top: 1px solid #ffffff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

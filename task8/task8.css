@@ -283,6 +283,7 @@ header {
 
 footer {
     background-color: #26a26f;
+    width: 100%;
 }
 .footer-block {
     padding: 2rem  0 1rem 0;
@@ -295,12 +296,10 @@ footer {
 .footer-center {
     display: flex;
     justify-content: center;
-    padding: 1rem 0;
 }
 .footer-right {
     display: flex;
     justify-content: center;
-    text-align: center;
     padding-bottom: .5rem;
 }
 .footer-left-block {
