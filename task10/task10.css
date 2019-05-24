@@ -129,7 +129,10 @@ header {
 .box-icon {
     margin: .5rem;
 }
-
+.box-text {
+    display: inline-block;
+    vertical-align: middle;
+}
 
 .size {
     margin: 0;
@@ -146,18 +149,17 @@ input[type="radio"] + label::before {
     display: inline-block;
     vertical-align: middle;
     font-size: 18px;
-    width: 1em;
-    height: 1em;
-    margin-right: .4em;
-    border-radius: 50%;
-    border: 1px solid #1d7ad9;
-    text-indent: .15em;
+    width: 1rem;
+    height: 1rem;
+    margin-right: .4rem;
+    text-indent: .15rem;
     line-height: 1;
 }
 
 input[type="radio"]:checked + label::before {
     background-clip: content-box;
     border: .3em solid #1d7ad9;
+    border-radius: 50%;
 }
 input[type="radio"] {
     position: absolute;
@@ -176,26 +178,27 @@ input[type="radio"] {
     -moz-appearance:none;
     -webkit-appearance: none;
     padding: .5rem 1.5rem .5rem 1rem;
-
+    background-image: url("圆角矩形 10 拷贝.png");
     background-repeat: no-repeat;
-    background-position: 6rem;
+    background-position: 6.5rem;
     color: #999999;
     outline: none;
 
 }
-.cc {
-    position:absolute;
-    top: .5rem;
-    right: .5rem;
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #1d7ad9;
-}
-.cc :hover .option {
 
+.page-rule {
+    padding: .5rem 0;
+    color: #1d7ad9;
+    background-color: whitesmoke;
 }
 
-
+.rule-icon {
+    margin: .5rem;
+}
+.rule-text {
+    display: inline-block;
+    vertical-align: middle;
+}
 
 
 
