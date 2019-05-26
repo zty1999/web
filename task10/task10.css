@@ -176,6 +176,7 @@ input[type="radio"] {
 .box-put {
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: 0;
 }
 
 
