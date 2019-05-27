@@ -25,7 +25,11 @@ header {
     padding: .3rem .5rem;
     border-right: 2px solid #f0f0f0;
 }
-.hd-btn-left,
+.hd-btn-left:hover {
+    padding: .3rem 1rem;
+    color: black;
+    background-color: #f0f0f0;
+}
 .hd-btn-right:hover {
     padding: .3rem 1rem;
     color: black;
@@ -60,6 +64,7 @@ header {
     display: flex;
     justify-content: flex-end;
     flex-flow: wrap;
+    padding-top: 2rem;
     text-align: center;
 }
 
@@ -69,7 +74,7 @@ header {
     }
 }
 .main-pt-box {
-    padding: 2rem 0;
+
 }
 .main-pt {
     display: flex;
@@ -78,14 +83,14 @@ header {
 }
 .main-ob {
     width: 2.7rem;
-    height: .4rem;
+    height: .3rem;
     background-color: #ccc;
 
 }
 .main-circle {
-    width: 2rem;
-    height: 2rem;
-    line-height: 2rem;
+    width: 1.6rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
     color: white;
     background-color: #ccc;
     border-radius: 50%;
@@ -105,10 +110,10 @@ header {
     }
 .page-tt {
     display: flex;
-    margin: .5rem auto;
+    margin: 2rem auto .5rem;
 }
-.page-ob {
-    width: .3rem;
+.page-op {
+    width: .2rem;
     background-color: #1d7ad9;
     border: 1px solid #1d7ad9;
     border-radius: 5px;
@@ -116,6 +121,7 @@ header {
 .page-title {
     margin: 0;
     padding-left: 1rem;
+    line-height: 1;
 }
 
 
@@ -142,7 +148,7 @@ header {
 .style-a {
     display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
 }
 .radio-inline {
     margin-bottom: 0;
@@ -174,6 +180,7 @@ input[type="radio"] {
 
 
 .box-put {
+
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 0;
@@ -181,10 +188,10 @@ input[type="radio"] {
 
 
 .box-put select {
-    position: relative;
-    -moz-appearance:none;
     -webkit-appearance: none;
+    display: block;
     padding: .5rem 2.5rem .5rem 1rem;
+    margin: auto;
     background-image: url("arrow.png");
     background-repeat: no-repeat;
     background-position: 7rem;
@@ -192,6 +199,19 @@ input[type="radio"] {
     outline: none;
 }
 
+
+.page-counted {
+    padding: .5rem 0;
+    color: #1d7ad9;
+    background-color: whitesmoke;
+}
+.counted-icon {
+    margin: .5rem;
+}
+.counted-text {
+    display: inline-block;
+    vertical-align: middle;
+}
 .size {
     margin: 0;
     padding: 1rem;
@@ -201,20 +221,14 @@ input[type="radio"] {
 .size-top {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
-}
-.size-box {
-    display: inline-block;
-    vertical-align: middle;
-    width: 4rem;
-    height: 2rem;
-    margin: auto .3rem;
-    border: 1px solid #b3b3b3;
-
+    justify-content: center;
+    margin-bottom: .5rem;
 }
 .size-bottom {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
 }
 .end {
     margin-bottom: 3rem;
@@ -225,7 +239,7 @@ input[type="radio"] {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 8rem 0;
+    padding: 6rem 0;
     border: 1px solid #b3b3b3;
 }
 .red {
@@ -262,6 +276,9 @@ footer {
 .ft-center-item {
     padding: .5rem;
 }
+.ft-center-item:hover {
+    color: #1d7ad9;
+}
 .ft-right {
     display: flex;
     align-items: center;
@@ -275,9 +292,16 @@ footer {
     display: inline-block;
 }
 .ft-bottom {
-    height: 2rem;
-    line-height: 2rem;
+    min-height: 2rem;
+    padding: .1rem ;
     text-align: center;
+    word-break: break-all;
     color: #f0f0f0;
     background-color: #1d7ad9;
+}
+
+@media screen and (max-width:780px){
+    .ft-bottom {
+        text-align: left;
+    }
 }
