@@ -149,6 +149,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #b3b3b3;
 }
 .radio-inline {
     margin-bottom: 0;
