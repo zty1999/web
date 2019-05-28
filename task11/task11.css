@@ -54,6 +54,10 @@ main {
   display: flex;
   justify-content: center;
   margin-top: 5rem; }
+  .title solid {
+    width: 5rem;
+    height: 2px;
+    background-color: #b3b3b3; }
 
 .icon {
   justify-content: center; }
