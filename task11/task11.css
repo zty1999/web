@@ -1,51 +1,79 @@
-/*
-Error: Invalid CSS after "...-items: center;": expected "}", was "{"
-        on line 79 of task11.scss
+body {
+  margin: 0;
+  background-color: #eff0f4; }
 
-74:   div {
-75:     display: flex;
-76:     justify-content: center;
-77:     align-items: center;
-78: 
-79:      {
-80:       width: 5rem;
-81:       height: 1px;
-82:       font-size: 1rem;
-83:       background-color: #b3b3b3;
-84:     }
+header {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  margin-bottom: 1rem;
+  background-color: #1ba2ea; }
+  header img {
+    margin: 0 1rem; }
+  header span {
+    margin: 0 1rem;
+    color: #f0f0f0;
+    font-size: 1rem; }
 
-Backtrace:
-task11.scss:79
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:690:in `block'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:681:in `ruleset'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin.rb:82:in `update_stylesheets'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/bin/scss:13:in `<top (required)>'
-C:/Ruby26/bin/scss:23:in `load'
-C:/Ruby26/bin/scss:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...-items: center;\": expected \"}\", was \"{\"\A         on line 79 of task11.scss\A \A 74:   div {\A 75:     display: flex;\A 76:     justify-content: center;\A 77:     align-items: center;\A 78: \A 79:      {\A 80:       width: 5rem;\A 81:       height: 1px;\A 82:       font-size: 1rem;\A 83:       background-color: #b3b3b3;\A 84:     }"; }
+main .box, main .block {
+  display: flex;
+  align-items: center;
+  margin: .2rem 0;
+  padding: .5rem 0;
+  background-color: white; }
+  main .box img, main .block img {
+    margin: 0 2rem; }
+  main .box input, main .block input {
+    -webkit-appearance: none;
+    outline: none;
+    height: 32px;
+    padding-left: 1rem;
+    border: 0;
+    border-left: 1px solid #b3b3b3; }
+main .block img {
+  margin: 0 1.6rem; }
+main .link {
+  display: block;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  margin: 1rem 1rem 0 1rem;
+  color: #f0f0f0;
+  font-size: 1rem;
+  outline: none;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #1ba2ea; }
+main article {
+  display: flex;
+  justify-content: space-between;
+  margin: .5rem 1rem; }
+  main article a {
+    color: #b3b3b3;
+    font-size: 1rem;
+    outline: none;
+    text-decoration: none; }
+    main article a:hover {
+      font-size: 1.2rem; }
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  footer div span {
+    width: 5rem;
+    height: 1px;
+    font-size: 1rem;
+    background-color: #b3b3b3; }
+  footer div a {
+    color: black;
+    text-align: center;
+    text-decoration: none; }
+    footer div a img {
+      display: block;
+      margin: 1.5rem; }
+    footer div a:hover p {
+      font-size: 1.2rem;
+      color: #1ba2ea; }
+
+/*# sourceMappingURL=task11.css.map */
