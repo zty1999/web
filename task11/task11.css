@@ -1,5 +1,7 @@
 body {
-  margin: 0;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 780px;
   background-color: #eff0f4; }
 
 header {
@@ -56,22 +58,25 @@ main article {
     main article a:hover {
       font-size: 1.2rem; }
 
-footer .cook {
+footer .cool, footer .cook {
   display: flex;
   justify-content: center;
-  align-items: center; }
-  footer .cook .solid {
+  align-items: center;
+  margin: 6rem 0 1rem 0; }
+  footer .cool .solid, footer .cook .solid {
     width: 5rem;
     height: 1px;
     font-size: 1rem;
     background-color: #b3b3b3; }
+footer .cook {
+  margin-top: 0; }
   footer .cook a {
     color: black;
     text-align: center;
     text-decoration: none; }
     footer .cook a img {
       display: block;
-      margin: 1.5rem; }
+      margin: 1.5rem 1rem; }
     footer .cook a:hover p {
       font-size: 1.2rem;
       color: #1ba2ea; }
