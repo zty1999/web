@@ -56,23 +56,23 @@ main article {
     main article a:hover {
       font-size: 1.2rem; }
 
-footer div {
+footer .cook {
   display: flex;
   justify-content: center;
   align-items: center; }
-  footer div .solid {
+  footer .cook .solid {
     width: 5rem;
     height: 1px;
     font-size: 1rem;
     background-color: #b3b3b3; }
-  footer div a {
+  footer .cook a {
     color: black;
     text-align: center;
     text-decoration: none; }
-    footer div a img {
+    footer .cook a img {
       display: block;
       margin: 1.5rem; }
-    footer div a:hover p {
+    footer .cook a:hover p {
       font-size: 1.2rem;
       color: #1ba2ea; }
 

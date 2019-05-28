@@ -71,7 +71,7 @@ main {
   }
 }
 footer {
-  div {
+  @mixin cool {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,22 +81,21 @@ footer {
       font-size: 1rem;
       background-color: #b3b3b3;
     }
+  }
+  .cook {
+    @include cool;
     a {
-      color: black;
-      text-align: center;
-      text-decoration: none;
-
-      img {
-        display: block;
-        margin: 1.5rem;
-
-      }
-      &:hover p {
-        font-size: 1.2rem;
-        color: #1ba2ea;
-
-      }
-
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    img {
+      display: block;
+      margin: 1.5rem;
     }
+    &:hover p {
+      font-size: 1.2rem;
+      color: #1ba2ea;
+    }
+  }
   }
 }
