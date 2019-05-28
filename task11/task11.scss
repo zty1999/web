@@ -8,7 +8,6 @@ header {
   display: flex;
   align-items: center;
   height: 3rem;
-  margin-bottom: 1rem;
   background-color: #1ba2ea;
   img {
     margin: 0 1rem;
@@ -20,6 +19,7 @@ header {
   }
 }
 main {
+  padding-top: 1rem;
   background-color: #eff0f4;
   .box {
     display: flex;
