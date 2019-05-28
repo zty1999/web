@@ -1,7 +1,7 @@
 body {
   margin: 0; }
 
-.header, .box, .block {
+.header, .box, .block, .icon {
   display: flex;
   align-items: center; }
 
@@ -13,8 +13,12 @@ body {
     width: 1.5rem;
     margin: 0 1rem; }
   .header text {
+    font-size: 1.6rem;
     margin: 0 1rem;
     color: #f0f0f0; }
+
+main {
+  font-size: 1.6rem; }
 
 .box, .block {
   height: 4rem;
@@ -48,6 +52,15 @@ body {
 
 .title {
   display: flex;
+  justify-content: center;
+  margin-top: 5rem; }
+
+.icon {
   justify-content: center; }
+  .icon bottle {
+    text-align: center; }
+    .icon bottle img {
+      display: block;
+      margin: 2rem; }
 
 /*# sourceMappingURL=task11.css.map */

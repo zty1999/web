@@ -1,7 +1,7 @@
 body {
   margin: 0;
 }
-.header, .box, .block {
+.header, .box, .block, .icon {
   display: flex;
   align-items: center;
 }
@@ -15,27 +15,33 @@ body {
 
   }
   text {
+    font-size: 1.6rem;
     margin: 0 1rem;
     color: #f0f0f0;
   }
 }
-.box, .block {
-  height: 4rem;
-  margin: .2rem 0;
-  background-color: white;
-  img {
-    margin: 0 2rem;
-  }
-  input {
-    -webkit-appearance: none;
-    outline: none;
-    height: 2rem;
-    padding-left: 1rem;
-    border-left: 1px solid #b3b3b3;
-  }
+main {
+  font-size: 1.6rem;
 }
+  .box, .block {
+    height: 4rem;
+    margin: .2rem 0;
+    background-color: white;
 
-.btn {
+    img {
+      margin: 0 2rem;
+    }
+
+    input {
+      -webkit-appearance: none;
+      outline: none;
+      height: 2rem;
+      padding-left: 1rem;
+      border-left: 1px solid #b3b3b3;
+    }
+  }
+
+  .btn {
     display: block;
     text-align: center;
     height: 4rem;
@@ -46,16 +52,34 @@ body {
     background-color: #1ba2ea;
     border-radius: 10px;
   }
-.text {
+
+  .text {
     display: flex;
     justify-content: space-between;
     margin: 0 .5rem;
     color: #b3b3b3;
-}
-.title {
-  display: flex;
-  justify-content: center;
-  solid {
-
   }
-}
+
+  .title {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+
+    solid {
+
+    }
+  }
+
+  .icon {
+    justify-content: center;
+
+    bottle {
+      text-align: center;
+
+      img {
+        display: block;
+        margin: 2rem;
+      }
+    }
+  }
+
