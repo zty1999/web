@@ -2,7 +2,6 @@ body {
   margin: 0 auto;
   min-width: 320px;
   max-width: 780px;
-  background-color: #eff0f4;
 }
 header {
   display: flex;
@@ -20,6 +19,7 @@ header {
   }
 }
 main {
+  background-color: #eff0f4;
   .box {
     display: flex;
     align-items: center;
@@ -60,7 +60,7 @@ main {
   article {
     display: flex;
     justify-content: space-between;
-    margin: .5rem 1rem;
+    padding: .5rem 1rem;
     a {
       color: #b3b3b3;
       font-size: 1rem;
@@ -73,11 +73,12 @@ main {
   }
 }
 footer {
+  background-color: #eff0f4;
    .cool {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 6rem 0 1rem 0;
+    padding: 6rem 0 1rem 0;
     .solid {
       width: 5rem;
       height: 1px;
