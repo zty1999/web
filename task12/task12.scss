@@ -84,8 +84,10 @@ main {
       align-items: center;
       border-bottom: 1px solid #b3b3b3;
       span {
-        @extend .count;
+        display: flex;
+        align-items: center;
         margin-left: 1rem;
+        padding: 0;
         img {
           padding: 1rem;
         }
@@ -108,6 +110,9 @@ main {
 
 
       }
+    }
+    .item_filed {
+      @extend .item;
     }
   }
 }

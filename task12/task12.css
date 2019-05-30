@@ -65,22 +65,25 @@ main {
         height: .7rem;
         margin: 1rem;
         background-color: #68cdd5; }
-    main .block .count, main .block .count span, main .block .item {
+    main .block .count, main .block .item, main .block .item_filed {
       display: flex;
       align-items: center;
       border-bottom: 1px solid #b3b3b3; }
-      main .block .count span, main .block .item span {
-        margin-left: 1rem; }
-        main .block .count span img, main .block .item span img {
+      main .block .count span, main .block .item span, main .block .item_filed span {
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+        padding: 0; }
+        main .block .count span img, main .block .item span img, main .block .item_filed span img {
           padding: 1rem; }
-    main .block .item {
+    main .block .item, main .block .item_filed {
       border-bottom: 1px solid #b3b3b3;
       margin-left: 1rem; }
-      main .block .item p {
+      main .block .item p, main .block .item_filed p {
         padding: 0 1rem;
         white-space: nowrap;
         color: #b3b3b3; }
-      main .block .item section {
+      main .block .item section, main .block .item_filed section {
         min-width: 3rem;
         padding: 5px;
         font-size: .8rem;
