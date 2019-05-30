@@ -1,4 +1,4 @@
-body {
+body, header, footer {
   margin: 0 auto;
   min-width: 320px;
   max-width: 980px; }

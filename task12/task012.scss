@@ -4,6 +4,7 @@ body {
   max-width: 980px;
 }
 header {
+  @extend body;
   position: fixed;
   left: 0;
   top: 0;
@@ -133,6 +134,7 @@ main {
   }
 }
 footer {
+  @extend body;
   position: fixed;
   left: 0;
   bottom: 0;
