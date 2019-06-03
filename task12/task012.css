@@ -96,6 +96,8 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  min-width: 320px;
+  max-width: 780px;
   height: 5rem;
   padding: 0.5rem 0 0 0;
   display: flex;
