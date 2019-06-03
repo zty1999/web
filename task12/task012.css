@@ -1,11 +1,11 @@
 /*
-Sass::SyntaxError: "footer .ft_right" failed to @extend ".ft_left".
-The selector ".ft_left" was not found.
-Use "@extend .ft_left !optional" if the extend should be able to fail.
+Sass::SyntaxError: "footer .ft-right" failed to @extend ".ft-left".
+The selector ".ft-left" was not found.
+Use "@extend .ft-left !optional" if the extend should be able to fail.
 
 
 Backtrace:
-task012.scss:141
+task012.scss:140
 D:/mian/web/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/extend.rb:56:in `block in check_extends_fired!'
 D:/mian/web/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/util/subset_map.rb:105:in `block in each_value'
 D:/mian/web/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/util/subset_map.rb:105:in `each'
@@ -32,4 +32,4 @@ D:/mian/web/Ruby25-x64/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Sass::SyntaxError: \"footer .ft_right\" failed to @extend \".ft_left\".\A The selector \".ft_left\" was not found.\A Use \"@extend .ft_left !optional\" if the extend should be able to fail.\A "; }
+  content: "Sass::SyntaxError: \"footer .ft-right\" failed to @extend \".ft-left\".\A The selector \".ft-left\" was not found.\A Use \"@extend .ft-left !optional\" if the extend should be able to fail.\A "; }
