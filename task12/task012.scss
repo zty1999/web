@@ -1,15 +1,15 @@
-body {
-  margin: 0 auto;
+body,header,footer {
   min-width: 320px;
   max-width: 780px;
+}
+body {
+  margin: 0 auto;
 }
 header {
   position: fixed;
   width: 100%;
   top: 0;
   height: 7rem;
-  min-width: 320px;
-  max-width: 780px;
   .hd {
     display: flex;
     justify-content: space-between;
@@ -39,18 +39,14 @@ header {
       margin-right: 1rem;
     }
   }
-
   .put {
     display: flex;
     align-items: center;
     height: 3rem;
     color: #b3b3b3;
     background-color: #f0f0f0;
-
     .putdown {
-
       position: relative;
-
       width: 33.33%;
       height: 3rem;
       line-height: 3rem;
@@ -58,7 +54,6 @@ header {
       background: url("img/put.png") no-repeat 98% 1.4rem;
       border: 1px solid #b3b3b3;
     }
-
     ul {
       position: absolute;
       display: none;
@@ -74,17 +69,13 @@ header {
       a {
         text-decoration: none;
         outline: none;
-
       }
       a:hover {
         color: red;
       }
     }
-
     .putdown:hover ul {
       display: block;
-
-
     }
   }
 }
@@ -125,20 +116,12 @@ main {
     .line_map {
       @extend .line_item;
     }
-
-
-
-
-
-
   }
 }
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  min-width: 320px;
-  max-width: 780px;
   height: 5rem;
   padding: .5rem 0 0 0 ;
   display: flex;

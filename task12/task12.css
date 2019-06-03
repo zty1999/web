@@ -1,15 +1,17 @@
-body {
-  margin: 0 auto;
+body, header, footer {
   min-width: 320px;
   max-width: 780px; }
+
+header, footer, .box, .count, main .block .item, main .block .item-filed {
+  display: flex; }
+
+body {
+  margin: 0 auto; }
 
 header {
   position: fixed;
   top: 0;
   width: 100%;
-  min-width: 320px;
-  max-width: 780px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   height: 3rem;
@@ -30,7 +32,6 @@ main {
   margin-bottom: 6rem;
   background-color: #f0f0f0; }
   main .box {
-    display: flex;
     justify-content: flex-start;
     align-items: center;
     height: 16rem;
@@ -66,7 +67,6 @@ main {
         margin: 1rem;
         background-color: #68cdd5; }
     main .block .count, main .block .item, main .block .item-filed {
-      display: flex;
       align-items: center;
       border-bottom: 1px solid #b3b3b3; }
       main .block .count span, main .block .item span, main .block .item-filed span {
@@ -93,10 +93,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  min-width: 320px;
-  max-width: 780px;
   height: 6rem;
-  display: flex;
   justify-content: center;
   background-color: #f0f0f0; }
   footer .btn-left, footer .btn-right {

@@ -1,15 +1,15 @@
-body {
-  margin: 0 auto;
+body, header, footer {
   min-width: 320px;
   max-width: 780px; }
+
+body {
+  margin: 0 auto; }
 
 header {
   position: fixed;
   width: 100%;
   top: 0;
-  height: 7rem;
-  min-width: 320px;
-  max-width: 780px; }
+  height: 7rem; }
   header .hd {
     display: flex;
     justify-content: space-between;
@@ -96,8 +96,6 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  min-width: 320px;
-  max-width: 780px;
   height: 5rem;
   padding: 0.5rem 0 0 0;
   display: flex;
