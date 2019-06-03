@@ -6,8 +6,8 @@ header, footer, .box, .count, main .block .item, main .block .item-filed {
   display: flex; }
 
 body {
-  margin: 0 auto; }
-
+  margin: 0 auto;
+}
 header {
   position: fixed;
   top: 0;
