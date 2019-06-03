@@ -128,13 +128,16 @@ footer {
   justify-content: space-around;
   align-items: center;
   background-color: #f0f0f0;
-  ft-left {
+  .ft-left {
     padding: 1rem;
     text-align: center;
     color: #68cdd5;
     outline: none;
     text-decoration: none;
     border-radius: 50%;
+    img {
+      display: block;
+    }
   }
   .ft-right {
     @extend .ft-left;
