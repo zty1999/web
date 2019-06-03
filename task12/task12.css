@@ -88,6 +88,8 @@ main {
         padding: 5px;
         font-size: .8rem;
         color: #b3b3b3; }
+    main .block .item-filed {
+      border-bottom: none; }
 
 footer {
   position: fixed;
