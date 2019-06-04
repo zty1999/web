@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAK;EACH,MAAM,EAAE,CAAC;EACT,KAAK,EAAE,OAAO",
+"mappings": "AAAA,IAAK;EACH,MAAM,EAAE,CAAC",
 "sources": ["task13.scss"],
 "names": [],
 "file": "task13.css"
