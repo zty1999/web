@@ -1,13 +1,11 @@
 @charset "UTF-8";
-body, header, footer {
-  min-width: 320px;
-  max-width: 780px; }
-
 a {
   font-size: 18px; }
 
 body {
   margin: 0 auto;
+  min-width: 320px;
+  max-width: 780px;
   position: relative;
   overflow: hidden; }
 
@@ -50,8 +48,7 @@ aside {
   color: orange; }
 
 #sidemenu:checked ~ article {
-  padding-left: 50%;
-  margin-right: 50%; }
+  padding-left: 50%; }
 
 header {
   background-color: #29bde0; }
