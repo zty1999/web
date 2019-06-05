@@ -1,13 +1,16 @@
-body,header,footer {
 
-  min-width: 320px;
-  max-width: 780px;
-}
+
 $back-color: #29bde0;
 $color: white;
+body,header,footer {
+  min-width: 320px;
+  max-width: 780px;
+  background-color: $back-color;
+}
+
 body {
   margin: 0 auto;
-  background-color: $back-color;
+
 }
 
 header {
@@ -15,6 +18,7 @@ header {
   left: 0;
   top: 0;
   width: 100%;
+  height: 8rem;
   .hd {
     display: flex;
     align-items: center;
@@ -25,38 +29,72 @@ header {
       margin: .5rem;
     }
   }
-  > section {
-    > button {
-      padding: 1rem;
+  section {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    background-color: #b9e9f5;
+
+    button {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      outline: none;
+      background: url("img/2-header4.png") no-repeat 0 0;
+      background-size: 100% 100%;
+    }
+    #music {
+      display: none;
     }
   }
-  line {
+  .line {
     padding-left: 3rem;
-    color: $color
+    font-size: .8rem;
+    color: $color;
+    .line-icon {
+      height: 0;
+      width: 0;
+      overflow: hidden;
+      font-size: 0;
+      line-height: 0;
+      border-color: #b9e9f5 transparent transparent transparent;
+      border-style: solid dashed dashed dashed;
+      border-width: 6px;
+    }
   }
 }
 main {
   display: flex;
-  align-content: center;
-  justify-content: flex-start;
-  .main-box {
-    flex: 1;
-    margin: 1rem;
-    border: 5px solid white;
-    .box-name {
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  margin: 8rem auto 5rem;
+  .main-block {
+    width: 33.333%;
+    //padding: 1rem;
+    .main-block-box {
+      //box-sizing: border-box;
+      //width: 100%;
+      margin: 1rem;
+      border: 5px solid white;
+      .box-name {
 
-      background-color: #FF9900;
+        background-color: #FF9900;
+      }
+      .box-number {
+        color: white;
+        background-color: #1c7430;
+      }
     }
-    .box-number {
-      color: white;
-      background-color: #1c7430;
-    }
-    .icon {
-      display: none;
-    }
-    &:hover + .icon  {
-      display: block;
-    }
+  }
+  .icon {
+    display: none;
+  }
+  &:hover + .icon  {
+    display: block;
   }
 }
 footer {
@@ -69,6 +107,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 3rem;
     margin: 1rem 2rem;
     text-decoration: none;
     color: $color;

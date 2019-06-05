@@ -1,16 +1,17 @@
 body, header, footer {
   min-width: 320px;
-  max-width: 780px; }
+  max-width: 780px;
+  background-color: #29bde0; }
 
 body {
-  margin: 0 auto;
-  background-color: #29bde0; }
+  margin: 0 auto; }
 
 header {
   position: fixed;
   left: 0;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  height: 8rem; }
   header .hd {
     display: flex;
     align-items: center;
@@ -19,29 +20,57 @@ header {
     color: white; }
     header .hd img {
       margin: .5rem; }
-  header > section > button {
-    padding: 1rem; }
-  header line {
+  header section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    background-color: #b9e9f5; }
+    header section button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      outline: none;
+      background: url("img/2-header4.png") no-repeat 0 0;
+      background-size: 100% 100%; }
+    header section #music {
+      display: none; }
+  header .line {
     padding-left: 3rem;
+    font-size: .8rem;
     color: white; }
+    header .line .line-icon {
+      height: 0;
+      width: 0;
+      overflow: hidden;
+      font-size: 0;
+      line-height: 0;
+      border-color: #b9e9f5 transparent transparent transparent;
+      border-style: solid dashed dashed dashed;
+      border-width: 6px; }
 
 main {
   display: flex;
-  align-content: center;
-  justify-content: flex-start; }
-  main .main-box {
-    flex: 1;
-    margin: 1rem;
-    border: 5px solid white; }
-    main .main-box .box-name {
-      background-color: #FF9900; }
-    main .main-box .box-number {
-      color: white;
-      background-color: #1c7430; }
-    main .main-box .icon {
-      display: none; }
-    main .main-box:hover + .icon {
-      display: block; }
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  margin: 8rem auto 5rem; }
+  main .main-block {
+    width: 33.333%; }
+    main .main-block .main-block-box {
+      margin: 1rem;
+      border: 5px solid white; }
+      main .main-block .main-block-box .box-name {
+        background-color: #FF9900; }
+      main .main-block .main-block-box .box-number {
+        color: white;
+        background-color: #1c7430; }
+  main .icon {
+    display: none; }
+  main:hover + .icon {
+    display: block; }
 
 footer {
   position: fixed;
@@ -53,6 +82,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 3rem;
     margin: 1rem 2rem;
     text-decoration: none;
     color: white;

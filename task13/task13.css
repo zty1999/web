@@ -10,6 +10,19 @@ body {
   position: relative;
   overflow: hidden; }
 
+#sidemenu {
+  display: none; }
+
+#sidemenu:checked + aside {
+  left: 0; }
+
+#sidemenu:checked ~ article {
+  padding-left: 50%;
+  margin-right: -50%; }
+
+#sideul {
+  padding: 0; }
+
 aside {
   position: absolute;
   left: -50%;
@@ -32,19 +45,6 @@ aside {
     color: #29bde0;
     text-decoration: none;
     border-bottom: 1px solid #b3b3b3; }
-
-#sidemenu {
-  display: none; }
-
-#sidemenu:checked + aside {
-  left: 0; }
-
-#sidemenu:checked ~ article {
-  padding-left: 50%;
-  margin-right: -50%; }
-
-#sideul {
-  padding: 0; }
 
 header {
   background-color: #29bde0; }
