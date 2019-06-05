@@ -49,7 +49,7 @@ aside {
 #sideul a:hover {
   color: orange; }
 
-#sidemenu:checked ~ .article {
+#sidemenu:checked ~ article {
   padding-left: 50%;
   margin-right: 50%; }
 
@@ -68,7 +68,7 @@ header {
 main {
   padding: 1rem 2rem 0 2rem;
   background-color: #f0f0f0; }
-  main > a {
+  main a {
     position: relative;
     display: block;
     padding: 1rem;
@@ -78,7 +78,7 @@ main {
     text-decoration: none;
     border: 1px solid #f0f0f0;
     background-color: white; }
-    main > a img {
+    main a img {
       position: absolute;
       right: 1rem;
       top: 50%;
