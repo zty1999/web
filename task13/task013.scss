@@ -35,13 +35,15 @@ aside {
   li {
     list-style: none;
     width: 100%;
-    font-size: 1.2em;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1rem;
   }
   a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0 1rem;
     color: $back-color;
     text-decoration: none;
     border-bottom: 1px solid #b3b3b3;
@@ -67,10 +69,6 @@ header {
       cursor: pointer;
       color: white;
       font-size: 50px;
-      label:hover {
-        background: #000;
-      }
-
     }
   }
 }
