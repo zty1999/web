@@ -1,8 +1,10 @@
+@charset "UTF-8";
 
-
-a {
-  font-size: 18px;
+html {
+  overflow: hidden;
+  background-color: #eff0f4;
 }
+
 $back-color: #29bde0;
 body {
   margin: 0 auto;
@@ -11,24 +13,11 @@ body {
   position: relative;
   overflow: hidden;
 }
-
-#sidemenu{
-  display: none;
-}
-#sidemenu:checked + aside {
-  left: 0;
-}
-#sidemenu:checked ~ #wrap {
-  padding-left: 220px;
-}
-#sideul {
-  padding: 0;
-}
 aside {
   position: absolute;
+  left: -50%;
   top: 0;
   bottom: 0;
-  left: -50%;
   width: 50%;
   background-color: #f0f0f0;
   transition: 0.2s ease-out;
@@ -50,31 +39,43 @@ aside {
   }
 }
 
-#sideul a:hover {
-  color: orange;
+#sidemenu {
+  display: none;
+  //隐藏侧边栏
 }
+#sidemenu:checked + aside {
+  left: 0;
+  //点击后侧边栏从页面最左侧显示
+
+}
+
 #sidemenu:checked ~ article {
   padding-left: 50%;
+  margin-right: -50%;
+  //点击按钮主页内容右移
+}
+
+#sideul {
+  padding: 0;
+  //去除ul自带左内边距*不去除会使侧边栏内容溢出到主页面
 }
 
 header {
   background-color: $back-color;
-  #wrap {
-    margin-left: 20px;
+  label {
+    /*控制侧边栏进出的按钮*/
+    cursor: pointer;
+    display: block;
+    color: white;
+    padding: 1rem;
     transition: 0.2s ease-out;
-    /*控制侧边栏进出的按钮（内部文字样式）*/
-    label {
-      /*控制侧边栏进出的按钮*/
-      cursor: pointer;
-      color: white;
-      font-size: 50px;
-    }
+    //控制侧边栏进出样式
   }
 }
 main {
-  padding: 1rem 2rem 0 2rem;
+  padding: .5rem 1rem 0 1rem;
   background-color: #f0f0f0;
-   a {
+  a {
     position: relative;
     display: block;
     padding: 1rem;
@@ -86,7 +87,7 @@ main {
     background-color: white;
     img {
       position: absolute;
-      right: 1rem;
+      right: .5rem;
       top: 50%;
       transform:translate(-50%,-50%);
     }
