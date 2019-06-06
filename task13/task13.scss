@@ -1,11 +1,15 @@
 @charset "UTF-8";
-
+$back-color: #29bde0;
 html {
   overflow: hidden;
   background-color: #eff0f4;
 }
+aside li a,.main-block-count,footer {
+  display: flex;
+  align-items: center;
+}
 
-$back-color: #29bde0;
+
 body {
   margin: 0 auto;
   min-width: 320px;
@@ -50,8 +54,6 @@ aside {
     font-size: 1rem;
   }
   a {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
     color: $back-color;
@@ -104,8 +106,6 @@ main  {
       border-bottom: 1px solid #FF9900;
     }
     .main-block-count {
-      display: flex;
-      align-items: center;
       padding: 1rem 0 4rem 3rem;
       background-color: white;
       .main-block-count-items {
@@ -135,7 +135,6 @@ main  {
 }
 footer {
   margin-top: -3rem;
-  display: flex;
   justify-content: center;
   .cycle {
     width: .8rem;

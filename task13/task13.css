@@ -3,6 +3,10 @@ html {
   overflow: hidden;
   background-color: #eff0f4; }
 
+aside li a, .main-block-count, footer {
+  display: flex;
+  align-items: center; }
+
 body {
   margin: 0 auto;
   min-width: 320px;
@@ -38,8 +42,6 @@ aside {
     line-height: 3rem;
     font-size: 1rem; }
   aside a {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
     color: #29bde0;
@@ -83,8 +85,6 @@ main {
       color: #FF9900;
       border-bottom: 1px solid #FF9900; }
     main .main-block .main-block-count {
-      display: flex;
-      align-items: center;
       padding: 1rem 0 4rem 3rem;
       background-color: white; }
       main .main-block .main-block-count .main-block-count-items {
@@ -107,7 +107,6 @@ main {
 
 footer {
   margin-top: -3rem;
-  display: flex;
   justify-content: center; }
   footer .cycle {
     width: .8rem;

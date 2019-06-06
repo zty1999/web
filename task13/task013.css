@@ -7,23 +7,23 @@ body, header, footer {
   margin: 0 auto;
   background-color: #29bde0; }
 
+.hd, section, .box-name, .box-number, footer a {
+  display: flex;
+  align-items: center; }
+
 header {
   position: fixed;
   top: 0;
   width: 100%;
   height: 8rem; }
   header .hd {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     text-align: center;
     color: white; }
     header .hd img {
       margin: .5rem; }
   header section {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: .5rem 1rem;
     background-color: #b9e9f5; }
     header section .play {
@@ -58,15 +58,11 @@ main {
     margin: 5% 3%;
     border: 2px solid white; }
     main .main-box .box-name {
-      display: flex;
       justify-content: center;
-      align-items: center;
       height: 70%;
       background-color: #f5c97b; }
     main .main-box .box-number {
-      display: flex;
       justify-content: center;
-      align-items: center;
       height: 30%;
       color: white;
       background-color: #83b09a; }
@@ -85,8 +81,6 @@ footer {
   width: 100%;
   height: 5rem; }
   footer a {
-    display: flex;
-    align-items: center;
     justify-content: center;
     height: 3rem;
     margin: 1rem 2rem;
