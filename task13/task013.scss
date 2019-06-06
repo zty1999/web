@@ -2,20 +2,19 @@
 
 $back-color: #29bde0;
 $color: white;
+html {
+  background-color: $color;
+}
 body,header,footer {
   min-width: 320px;
   max-width: 780px;
+  margin: 0 auto;
   background-color: $back-color;
 }
 
-body {
-  margin: 0 auto;
-
-}
 
 header {
   position: fixed;
-  left: 0;
   top: 0;
   width: 100%;
   height: 8rem;
@@ -36,18 +35,18 @@ header {
     padding: .5rem 1rem;
     background-color: #b9e9f5;
 
-    button {
-      display:flex;
-      justify-content: center;
-      align-items: center;
+    .play {
+      //display:flex;
+      //justify-content: center;
+      //align-items: center;
       width: 30px;
       height: 30px;
-      outline: none;
+      //outline: none;
       background: url("img/2-header4.png") no-repeat 0 0;
       background-size: 100% 100%;
     }
-    #music {
-      display: none;
+    source {
+
     }
   }
   .line {
@@ -70,36 +69,50 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
+  //justify-content: space-between;
+  //justify-content: center;
   justify-content: space-around;
+  //width: 100vw;
   margin: 8rem auto 5rem;
-  .main-block {
-    width: 33.333%;
-    //padding: 1rem;
-    .main-block-box {
-      //box-sizing: border-box;
-      //width: 100%;
-      margin: 1rem;
-      border: 5px solid white;
-      .box-name {
+  .main-box {
 
-        background-color: #FF9900;
+    //box-sizing: border-box;
+      width: 18vw;
+      height: 18vw;
+      margin: 5% 3%;
+      border: 2px solid white;
+      .box-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        background-color: #f5c97b;
       }
       .box-number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30%;
         color: white;
-        background-color: #1c7430;
+        background-color: #83b09a;
       }
-    }
+
   }
   .icon {
     display: none;
+    background: url("img/css sprites .png")  no-repeat 0 0;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 4vw;
   }
-  &:hover + .icon  {
-    display: block;
+  .main-box:hover .icon {
+    //.icon {
+      display: block;
+    //}
   }
 }
 footer {
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
   height: 5rem;
@@ -111,7 +124,7 @@ footer {
     margin: 1rem 2rem;
     text-decoration: none;
     color: $color;
-    background-color: #FF9900;
+    background-color: #f5c97b;
 
   }
 }
