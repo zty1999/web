@@ -4,7 +4,7 @@ html {
   overflow: hidden;
   background-color: #eff0f4;
 }
-aside li a,.main-block-count,footer {
+.main-block-count,footer {
   display: flex;
   align-items: center;
 }
@@ -54,6 +54,8 @@ aside {
     font-size: 1rem;
   }
   a {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
     color: $back-color;

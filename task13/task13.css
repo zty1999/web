@@ -3,7 +3,7 @@ html {
   overflow: hidden;
   background-color: #eff0f4; }
 
-aside li a, .main-block-count, footer {
+.main-block-count, footer {
   display: flex;
   align-items: center; }
 
@@ -42,6 +42,8 @@ aside {
     line-height: 3rem;
     font-size: 1rem; }
   aside a {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
     color: #29bde0;
