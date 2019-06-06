@@ -45,9 +45,6 @@ header {
       background: url("img/2-header4.png") no-repeat 0 0;
       background-size: 100% 100%;
     }
-    source {
-
-    }
   }
   .line {
     padding-left: 3rem;
@@ -69,34 +66,29 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
-  //justify-content: space-between;
-  //justify-content: center;
   justify-content: space-around;
-  //width: 100vw;
   margin: 8rem auto 5rem;
   .main-box {
-
-    //box-sizing: border-box;
-      width: 18vw;
-      height: 18vw;
-      margin: 5% 3%;
-      border: 2px solid white;
-      .box-name {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 70%;
-        background-color: #f5c97b;
-      }
-      .box-number {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 30%;
-        color: white;
-        background-color: #83b09a;
-      }
-
+    width: 24%;
+    height: 25vw;
+    max-height: 187.2px;
+    margin: 5% 3%;
+    border: 2px solid white;
+    .box-name {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 70%;
+       background-color: #f5c97b;
+     }
+     .box-number {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 30%;
+       color: white;
+       background-color: #83b09a;
+     }
   }
   .icon {
     display: none;
@@ -106,9 +98,7 @@ main {
     height: 4vw;
   }
   .main-box:hover .icon {
-    //.icon {
-      display: block;
-    //}
+    display: block;
   }
 }
 footer {
