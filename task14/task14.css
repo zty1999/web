@@ -1,0 +1,26 @@
+body {
+  margin: 0; }
+
+.hd, .hd-file {
+  display: flex;
+  align-items: center; }
+
+header .hd {
+  justify-content: space-between;
+  color: #28a745; }
+  header .hd div {
+    padding: 5px 0; }
+    header .hd div img {
+      vertical-align: middle; }
+header .hd-file {
+  justify-content: flex-end;
+  padding: 5px 0; }
+  header .hd-file .hd-file-btn {
+    display: none; }
+@media screen and (max-width: 768px) {
+  header .hd {
+    display: none; }
+  header .hd-file-btn {
+    display: block; } }
+
+/*# sourceMappingURL=task14.css.map */

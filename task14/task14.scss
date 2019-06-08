@@ -1,0 +1,48 @@
+@charset "UTF-8";
+//使sass文件内可添加中文注释
+$color2: #28a745;
+
+body {
+  margin: 0;
+}
+.hd,.hd-file {
+  display: flex;
+  align-items: center;
+}
+header {
+  .hd {
+    justify-content: space-between;
+    color: $color2;
+    > span {
+
+    }
+     div {
+       padding: 5px 0;
+      //@extend .ht;
+      //padding: 0;
+      img {
+        vertical-align: middle;
+        //margin: auto 0;
+        //top: 50%;
+        //transform: translateY(-50%);
+      }
+    }
+  }
+
+  .hd-file {
+    justify-content: flex-end;
+    padding: 5px 0;
+    .hd-file-btn {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .hd {
+      display: none;
+    }
+    .hd-file-btn {
+      display: block;
+    }
+
+  }
+}
