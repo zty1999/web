@@ -59,7 +59,7 @@ header .hd-file {
   .navbar-collapse, .navbar-nav {
     display: none; }
 
-  .navbar-collapse:checked .navbar-nav {
+  .navbar-toggler:checked .navbar-nav {
     display: block; } }
 
 /*# sourceMappingURL=task14.css.map */

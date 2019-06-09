@@ -87,7 +87,7 @@ header {
   .navbar-collapse,.navbar-nav {
     display: none;
   }
-  .navbar-collapse:checked .navbar-nav {
-    display: block;
+  .navbar-toggler:checked .navbar-nav {
+  display: block;
   }
 }
