@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*使sass文件内可添加中文注释*/
 
-/*Bootstrap的网格系统使用一系列容器，行和列来布局和对齐内容。它采用flexbox构建，完全响应。-->*/
+/*Bootstrap的网格系统使用一系列容器，行和列来布局和对齐内容。它采用flex-box构建，完全响应。-->*/
 
 .container {
     /*中心和水平填充站点内容*/
@@ -45,7 +45,7 @@
 
 .row {
     display: -ms-flexbox;    /* 兼容IE10 */
-    display: flex; /*使容器具有flexbox属性*/
+    display: flex; /*使容器具有flex-box属性*/
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; /*列宽超出时自动换行*/
     margin-left: -15px;

@@ -21,7 +21,7 @@ header .hd-file {
   header .hd-text {
     display: none; }
   header .hd-file {
-    display: block; } }
+    display: flex; } }
 
 .navigation {
   width: 100%;
@@ -34,12 +34,32 @@ header .hd-file {
     margin: 0; }
     .navigation .navbar img {
       height: 52px; }
+    .navigation .navbar .navbar-collapse {
+      display: flex;
+      text-align: center; }
+      .navigation .navbar .navbar-collapse .navbar-nav {
+        flex: 1;
+        justify-content: flex-end;
+        list-style: none; }
+        .navigation .navbar .navbar-collapse .navbar-nav .nav-item {
+          margin: 0 .5rem; }
+          .navigation .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+            text-decoration: none;
+            color: #dae0e5;
+            border: 3px solid transparent; }
+          .navigation .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+            text-decoration: none;
+            border: none;
+            border-bottom: 3px solid #dae0e5 !important; }
 
 @media screen and (max-width: 768px) {
   .navbar-toggler {
     display: flex; }
 
-  .navbar-collapse {
-    display: none; } }
+  .navbar-collapse, .navbar-nav {
+    display: none; }
+
+  .navbar-collapse:checked .navbar-nav {
+    display: block; } }
 
 /*# sourceMappingURL=task14.css.map */
