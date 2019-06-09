@@ -1,26 +1,45 @@
-body {
-  margin: 0; }
+body, ul, li {
+  margin: 0;
+  padding: 0; }
 
-.hd, .hd-file {
+header .hd-text {
   display: flex;
-  align-items: center; }
-
-header .hd {
+  align-items: center;
   justify-content: space-between;
-  color: #28a745; }
-  header .hd div {
+  color: #1c7430; }
+  header .hd-text div {
     padding: 5px 0; }
-    header .hd div img {
+    header .hd-text div img {
       vertical-align: middle; }
 header .hd-file {
+  display: none;
   justify-content: flex-end;
-  padding: 5px 0; }
+  color: #1c7430; }
   header .hd-file .hd-file-btn {
-    display: none; }
+    padding: 5px 0; }
 @media screen and (max-width: 768px) {
-  header .hd {
+  header .hd-text {
     display: none; }
-  header .hd-file-btn {
+  header .hd-file {
     display: block; } }
+
+.navigation {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #1c7430; }
+  .navigation .navbar {
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+    .navigation .navbar img {
+      height: 52px; }
+
+@media screen and (max-width: 768px) {
+  .navbar-toggler {
+    display: flex; }
+
+  .navbar-collapse {
+    display: none; } }
 
 /*# sourceMappingURL=task14.css.map */

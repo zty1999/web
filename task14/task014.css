@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+header .hd-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #1c7430; }
+  header .hd-text div {
+    padding: 5px 0; }
+    header .hd-text div img {
+      vertical-align: middle; }
+
+/*# sourceMappingURL=task014.css.map */

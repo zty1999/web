@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;AAIV,eAAS;EACP,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;EAC9B,KAAK,EAAE,OAAO;EAEd,mBAAI;IACF,OAAO,EAAE,KAAK;IAEd,uBAAI;MACF,cAAc,EAAE,MAAM",
+"sources": ["task014.scss"],
+"names": [],
+"file": "task014.css"
+}

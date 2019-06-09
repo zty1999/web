@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+
+  .hd-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1c7430;
+
+    div {
+      padding: 5px 0;
+
+      img {
+        vertical-align: middle;
+      }
+    }
+
+  }
+  //
+  //.hd-file {
+  //  display: none;
+  //  justify-content: flex-end;
+  //  color: #1c7430;
+  //
+  //  .hd-file-btn {
+  //    padding: 5px 0;
+  //  }
+  }
+//
+//  @media screen and (max-width: 768px) {
+//    .hd-text {
+//      display: none;
+//    }
+//    .hd-file {
+//      //display: flex;
+//      display: block;
+//    }
+//  }
+//}

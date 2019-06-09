@@ -2,47 +2,89 @@
 //使sass文件内可添加中文注释
 $color2: #28a745;
 
-body {
+body,ul,li {
   margin: 0;
+  padding: 0;
 }
-.hd,.hd-file {
-  display: flex;
-  align-items: center;
-}
-header {
-  .hd {
-    justify-content: space-between;
-    color: $color2;
-    > span {
 
-    }
-     div {
-       padding: 5px 0;
-      //@extend .ht;
-      //padding: 0;
+header {
+
+  .hd-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1c7430;
+    div {
+      padding: 5px 0;
       img {
         vertical-align: middle;
-        //margin: auto 0;
-        //top: 50%;
-        //transform: translateY(-50%);
       }
     }
-  }
 
+  }
   .hd-file {
+    display: none;
     justify-content: flex-end;
-    padding: 5px 0;
+    color: #1c7430;
     .hd-file-btn {
-      display: none;
+        padding: 5px 0;
     }
   }
   @media screen and (max-width: 768px) {
-    .hd {
+    .hd-text {
       display: none;
     }
-    .hd-file-btn {
+    .hd-file {
+      //display: flex;
       display: block;
     }
 
+  }
+}
+//
+.navigation {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #1c7430;
+  .navbar {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    img {
+      height: 52px;
+    }
+//    .navbar-collapse {
+//      display: flex;
+//      //justify-content: center;
+//      text-align: center;
+//      .navbar-nav {
+//        flex: 1;
+//        justify-content: flex-end;
+//        list-style: none;
+//        .nav-item {
+//          margin: 0 .5rem;
+//          .nav-link {
+//            text-decoration: none;
+//            color: #dae0e5;
+//            border: 3px solid transparent;
+//          }
+//          .nav-link:hover {
+//            text-decoration: none;
+//            border: none;
+//            border-bottom: 3px solid #dae0e5 !important;
+//          }
+//        }
+//      }
+//    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .navbar-toggler {
+    display: flex;
+  }
+  .navbar-collapse {
+    display: none;
   }
 }
