@@ -25,14 +25,14 @@ body, ul, li {
 
   .hd-btn {
     display: flex; } }
-.navigation {
+.box {
   background-color: #28a745; }
-  .navigation nav {
+  .box nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap; }
-    .navigation nav #nav-menu {
+    .box nav #nav-menu {
       display: none; }
 
 @media screen and (min-width: 780px) {
@@ -54,6 +54,10 @@ body, ul, li {
   #menu {
     display: none; } }
 @media screen and (max-width: 780px) {
+  nav {
+    display: block;
+    background-color: #28a745; }
+
   .list {
     display: none;
     list-style: none; }

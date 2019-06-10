@@ -39,8 +39,9 @@ body,ul,li {
   }
 }
 
-.navigation {
+ .box {
   background-color: $color2;
+
   nav {
     display: flex;
     align-items: center;
@@ -80,6 +81,10 @@ body,ul,li {
   }
 }
 @media screen and (max-width: 780px) {
+  nav {
+    display: block;
+    background-color: $color2;
+  }
   .list {
     display: none;
     list-style: none;
