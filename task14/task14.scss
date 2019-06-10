@@ -23,8 +23,11 @@ body,ul,li {
   display: none;
   @extend .hd;
   justify-content: flex-end;
-  margin: 3px 0;
+
   color: $color2;
+  span {
+    margin: 3px 0;
+  }
 }
 @media screen and (max-width: 768px){
   .hd {

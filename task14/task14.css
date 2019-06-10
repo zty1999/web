@@ -15,8 +15,9 @@ body, ul, li {
 .hd-btn {
   display: none;
   justify-content: flex-end;
-  margin: 3px 0;
   color: #28a745; }
+  .hd-btn span {
+    margin: 3px 0; }
 
 @media screen and (max-width: 768px) {
   .hd, .hd-btn {
