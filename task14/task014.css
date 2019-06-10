@@ -1,5 +1,6 @@
-/*.nav-head {*/
-/*  background-color: #26a26f; }*/
+.nav-head {
+  background-color: #26a26f; }
+
 @media screen and (min-width: 780px) {
   .nav-head {
     display: flex;
@@ -54,7 +55,5 @@
 
 .list-item:hover {
   border-bottom: 2px solid #fff; }
-
-/*# sourceMappingURL=task14-1.css.map */
 
 /*# sourceMappingURL=task014.css.map */
