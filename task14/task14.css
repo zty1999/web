@@ -28,42 +28,39 @@ body, ul, li {
 
   .hd-btn {
     display: flex; } }
-.box {
+.navbar {
   background-color: #28a745; }
-  .box nav {
+  .navbar nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap; }
-    .box nav #nav-menu {
+    .navbar nav #nav-menu {
       display: none; }
 
-@media screen and (min-width: 780px) {
-  .list {
-    display: flex;
-    list-style: none; }
-    .list .nav-link {
-      display: inline-block;
-      height: 60px;
-      line-height: 60px;
-      padding: 0 10px;
-      color: #dae0e5;
-      text-decoration: none;
-      text-align: center;
-      border-bottom: 3px solid transparent; }
-    .list .nav-link:hover, .list .nav-link:visited {
-      border-bottom: 3px solid #dae0e5; }
+.list {
+  display: flex;
+  list-style: none; }
+  .list .nav-link {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 10px;
+    color: #dae0e5;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 3px solid transparent; }
+  .list .nav-link:hover, .list .nav-link:visited {
+    border-bottom: 3px solid #dae0e5; }
 
-  #menu {
-    display: none; } }
+#menu {
+  display: none; }
+
 @media screen and (max-width: 780px) {
-  nav {
-    display: block;
-    background-color: #28a745; }
-
   .list {
     display: none;
-    list-style: none; }
+    list-style: none;
+    width: 100%; }
     .list .nav-link {
       display: block;
       height: 60px;
@@ -76,15 +73,13 @@ body, ul, li {
       border-bottom: 3px solid #dae0e5; }
 
   #menu {
-    display: block;
-    float: right; }
+    display: block; }
 
   #nav-menu:checked ~ .list {
     display: block; }
 
   #nav-menu-control {
     display: block;
-    font-family: Courier New;
     width: 5rem;
     font-size: 4em;
     line-height: 3rem;
