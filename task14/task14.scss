@@ -8,6 +8,7 @@ body,ul,li {
 *,*:before,*:after {
   box-sizing: border-box;
 }
+
 .hd {
   display: flex;
   align-items: center;
@@ -18,9 +19,10 @@ body,ul,li {
   }
   img {
     vertical-align: middle;
-    padding: 3px 0;
+    margin: 3px 0;
   }
 }
+
 .hd-btn {
   display: none;
   @extend .hd;
@@ -50,39 +52,36 @@ body,ul,li {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-
     #nav-menu {
       display: none;
     }
   }
 }
-//@media screen and (min-width: 780px) {
-  .list {
-    display: flex;
-    list-style: none;
-    .nav-link {
-      display: inline-block;
-      height: 60px;
-      line-height: 60px;
-      padding: 0 10px;
-      color: #dae0e5;
-      text-decoration: none;
-      text-align: center;
-      border-bottom: 3px solid transparent;
-    }
-    .nav-link:hover, .nav-link:visited {
-      border-bottom: 3px solid #dae0e5;
-    }
+.list {
+  display: flex;
+  list-style: none;
+  .nav-link {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 10px;
+    color: #dae0e5;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 3px solid transparent;
   }
-  #menu {
-    display: none;
+  .nav-link:hover, .nav-link:visited {
+    border-bottom: 3px solid #dae0e5;
   }
-//}
+}
+#menu {
+  display: none;
+}
 @media screen and (max-width: 780px) {
   .list {
     display: none;
     list-style: none;
-    width: 100%;
+
     .nav-link {
       display: block;
       height: 60px;
@@ -101,10 +100,11 @@ body,ul,li {
   }
   #nav-menu:checked ~ .list {
     display: block;
+    width: 100%;
   }
   #nav-menu-control {
     display: block;
-    //font-family: Courier New;
+    font-family: Courier New;
     width: 5rem;
     font-size: 4em;
     line-height: 3rem;

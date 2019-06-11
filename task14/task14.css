@@ -13,7 +13,7 @@ body, ul, li {
     color: #28a745; }
   .hd img, .hd-btn img {
     vertical-align: middle;
-    padding: 3px 0; }
+    margin: 3px 0; }
 
 .hd-btn {
   display: none;
@@ -59,8 +59,7 @@ body, ul, li {
 @media screen and (max-width: 780px) {
   .list {
     display: none;
-    list-style: none;
-    width: 100%; }
+    list-style: none; }
     .list .nav-link {
       display: block;
       height: 60px;
@@ -76,10 +75,12 @@ body, ul, li {
     display: block; }
 
   #nav-menu:checked ~ .list {
-    display: block; }
+    display: block;
+    width: 100%; }
 
   #nav-menu-control {
     display: block;
+    font-family: Courier New;
     width: 5rem;
     font-size: 4em;
     line-height: 3rem;
