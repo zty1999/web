@@ -26,155 +26,173 @@
 
 
 
-ul,li {
+body,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
-
-
-#pick1,#pick2,#pick3 {
-  display: none;
-}
-.box {
-  position: absolute;
-  top: 90%;
+.viewport {
   width: 100%;
-  text-align: center;
-  //transform: translateX(-50%);
 
-  label {
-    display: inline-block;
-    width: 1rem;
-    height: 1rem;
-    margin: 3px;
-    border-radius: 50%;
-    border: 1px solid #dae0e5;
+  > #pick1,
+  > #pick2,
+  > #pick3 {
+    display: none;
   }
-}
-#wrap {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
 
-.slider {
-  width: 300%;
-  margin-left: 0;
-  display: flex;
-  height: 20rem;
+  > #wrap {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
 
-  li {
-    width: 33.3333%;
-
-    img {
-      display: inline-block;
-      width: 100%;
+    > .slider {
+      width: 300%;
+      margin-left: 0;
+      display: flex;
       height: 20rem;
+      list-style: none;
 
+      > li {
+        width: 33.3333%;
+
+        > img {
+          display: inline-block;
+          width: 100%;
+          height: 20rem;
+        }
+      }
+    }
+
+    > #box {
+      position: absolute;
+      top: 90%;
+      width: 100%;
+      text-align: center;
+      //transform: translateX(-50%);
+      > label {
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        margin: 3px;
+        border-radius: 50%;
+        border: 1px solid #dae0e5;
+      }
+    }
+
+    > #arrow1 {
+      position: absolute;
+      left: 5%;
+      top: 50%;
+      transform: translate(-50%, -50%) rotate(-225deg);
+      width: 1rem;
+      height: 1rem;
+      border-top: 5px solid #dae0e5;
+      border-right: 5px solid #dae0e5;
+      cursor: pointer;
+    }
+
+    > #arrow2 {
+      display: none;
+      position: absolute;
+      left: 95%;
+      top: 50%;
+      transform: translate(-50%, -50%) rotate(45deg);
+      width: 1rem;
+      height: 1rem;
+      border-top: 5px solid #dae0e5;
+      border-right: 5px solid #dae0e5;
+      cursor: pointer;
+    }
+
+    > #arrow3 {
+      display: none;
+      position: absolute;
+      left: 95%;
+      top: 50%;
+      transform: translate(-50%, -50%) rotate(45deg);
+      width: 1rem;
+      height: 1rem;
+      border-top: 5px solid #dae0e5;
+      border-right: 5px solid #dae0e5;
+      cursor: pointer;
     }
   }
 
-}
-#arrow1 {
-  position: absolute;
-  left: 5%;
-  top: 50%;
-  transform: translate(-50%, -50%) rotate(-133deg);
-  width: 1rem;
-  height: 1rem;
-  border-top: 5px solid #dae0e5;
-  border-right: 5px solid #dae0e5;
-  cursor: pointer;
-}
-#arrow2 {
-  display: none;
-  position: absolute;
-  left: 95%;
-  top: 50%;
-  transform: translate(-50%, -50%) rotate(45deg);
-  width: 1rem;
-  height: 1rem;
-  border-top: 5px solid #dae0e5;
-  border-right: 5px solid #dae0e5;
-  cursor: pointer;
-}
-#arrow3 {
-  display: none;
-  position: absolute;
-  left: 95%;
-  top: 50%;
-  transform: translate(-50%, -50%) rotate(45deg);
-  width: 1rem;
-  height: 1rem;
-  border-top: 5px solid #dae0e5;
-  border-right: 5px solid #dae0e5;
-  cursor: pointer;
-}
+  #box1:hover,
+  #box2:hover,
+  #box3:hover {
+    background-color: #dae0e5;
+  }
 
-#box1:hover, #box2:hover, #box3:hover {
-  background-color: #dae0e5;
-}
-#pick1:checked ~ #wrap .slider {
-  margin-left: 0;
-}
-#pick1:checked ~ .box #box1 {
-  background-color: #dae0e5;
-}
-#pick2:checked ~ .box #box2 {
-  background-color: #dae0e5;
-}
-#pick3:checked ~ .box #box3 {
-  background-color: #dae0e5;
-}
-#pick2:checked ~ #wrap .slider {
-  margin-left: -100%;
-}
+  #pick1:checked ~ #wrap #box #box1 {
+    background-color: #dae0e5;
+  }
 
-#pick3:checked ~ #wrap .slider {
-  margin-left: -200%;
-}
+  #pick2:checked ~ #wrap #box #box2 {
+    background-color: #dae0e5;
+  }
 
-#pick1:checked ~ #wrap #arrow2 {
-  display: block;
-  cursor: pointer;
-  left: 95%;
-}
-#pick1:checked ~ #wrap #arrow3{
-  display: block;
-  left: 5%;
-  cursor: pointer;
-}
-#pick2:checked ~ #wrap #arrow1 {
-  display: block;
-  cursor: pointer;
-}
-#pick2:checked ~ #wrap #arrow3 {
-  left: 95%;
-  display: block;
-  cursor: pointer;
-  transform: rotate(45deg);
-}
-#pick3:checked ~ #wrap #arrow2 {
-  display: block;
-  cursor: pointer;
-  left: 5%;
-  transform: rotate(-225deg);
-}
-#pick3:checked ~ #wrap #arrow1 {
-  display: block;
-  cursor: pointer;
-  left: 95%;
-  transform: rotate(45deg);
-}
-
-.viewport {
-  width: 100%;
-}
+  #pick3:checked ~ #wrap #box #box3 {
+    background-color: #dae0e5;
+  }
 
 
-ul {
-  list-style: none;
+  #pick1:checked ~ #wrap .slider {
+    margin-left: 0;
+  }
+
+  #pick2:checked ~ #wrap .slider {
+    margin-left: -100%;
+  }
+
+  #pick3:checked ~ #wrap .slider {
+    margin-left: -200%;
+  }
+
+
+  #pick1:checked ~ #wrap #arrow1 {
+    display: none;
+  }
+
+  #pick1:checked ~ #wrap #arrow2 {
+    display: block;
+    cursor: pointer;
+    left: 95%;
+  }
+
+  #pick1:checked ~ #wrap #arrow3 {
+    display: block;
+    left: 5%;
+    transform: translate(-50%, -50%) rotate(-133deg);
+    cursor: pointer;
+  }
+
+  #pick2:checked ~ #wrap #arrow1 {
+    display: block;
+    transform: translate(-50%, -50%) rotate(-133deg);
+    cursor: pointer;
+  }
+
+  #pick2:checked ~ #wrap #arrow3 {
+    left: 95%;
+    display: block;
+    cursor: pointer;
+    transform: rotate(45deg);
+  }
+
+  #pick3:checked ~ #wrap #arrow2 {
+    display: block;
+    cursor: pointer;
+    left: 5%;
+    transform: translate(-50%, -50%) rotate(-133deg);
+  }
+
+  #pick3:checked ~ #wrap #arrow1 {
+    display: block;
+    cursor: pointer;
+    left: 95%;
+    transform: rotate(45deg);
+  }
 }
-
-
-
+//通过使input在checked状态下其他控制按钮位置的隐藏显现切换不同input元素checked状态下控件的位置。

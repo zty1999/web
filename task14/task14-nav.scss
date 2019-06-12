@@ -12,71 +12,82 @@ body,ul,li {
 
 .navbar {
   background-color: $color2;
-  nav {
+
+  > .navigation > .row > .col > nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    #nav-menu {
+
+    > #nav-menu {
+      display: none;
+
+      @media screen and (max-width: 780px) {
+        display: block;
+        :checked ~ .list {
+          display: block;
+          width: 100%;
+        }
+      }
+      > #nav-menu-control {
+        display: block;
+        font-family: Courier New;
+        width: 5rem;
+        font-size: 4em;
+        line-height: 3rem;
+        text-align: center;
+        color: $colord;
+        cursor: pointer;
+        padding-top: 5px;
+      }
+    }
+
+    > #menu {
       display: none;
     }
-  }
-}
-.list {
-  display: flex;
-  list-style: none;
-  .nav-link {
-    display: inline-block;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 10px;
-    color: $colord;
-    text-decoration: none;
-    text-align: center;
-    border-bottom: 3px solid transparent;
-  }
-  .nav-link:hover, .nav-link:visited {
-    border-bottom: 3px solid $colord;
-  }
-}
-#menu {
-  display: none;
-}
-@media screen and (max-width: 780px) {
-  .list {
-    display: none;
-    list-style: none;
 
-    .nav-link {
-      display: block;
-      height: 60px;
-      line-height: 60px;
-      padding: 0 10px;
-      color: $colord;
-      text-decoration: none;
-      text-align: center;
-    }
-    .nav-link:hover, .nav-link:visited {
-      border-bottom: 3px solid $colord;
+    > .list {
+      display: flex;
+      list-style: none;
+
+      @media screen and (max-width: 780px) {
+        display: none;
+        list-style: none;
+      }
+      > .list-item > .nav-link {
+        display: inline-block;
+        height: 60px;
+        line-height: 60px;
+        padding: 0 10px;
+        color: $colord;
+        text-decoration: none;
+        text-align: center;
+        border-bottom: 3px solid transparent;
+
+        &:hover, &:visited {
+          border-bottom: 3px solid $colord;
+        }
+
+        @media screen and (max-width: 780px) {
+          display: block;
+          height: 60px;
+          line-height: 60px;
+          padding: 0 10px;
+          color: $colord;
+          text-decoration: none;
+          text-align: center;
+        }
+      }
     }
   }
-  #menu {
-    display: block;
-  }
-  #nav-menu:checked ~ .list {
-    display: block;
-    width: 100%;
-  }
-  #nav-menu-control {
-    display: block;
-    font-family: Courier New;
-    width: 5rem;
-    font-size: 4em;
-    line-height: 3rem;
-    text-align: center;
-    color: $colord;
-    cursor: pointer;
-    padding-top: 5px;
-  }
-
 }
+
+
+
+
+
+
+
+
+
+
