@@ -1,6 +1,7 @@
 @charset "UTF-8";
 //使sass文件内可添加中文注释
-$color2: #28a745;
+$color2: #26a26f;
+$colord: #dae0e5;
 body,ul,li {
   margin: 0;
   padding: 0;
@@ -9,109 +10,5 @@ body,ul,li {
   box-sizing: border-box;
 }
 
-.hd {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  .hd-text {
-    color: $color2;
-
-  }
-  img {
-    vertical-align: middle;
-    margin: 3px 0;
-  }
-}
-
-.hd-btn {
-  display: none;
-  @extend .hd;
-  justify-content: flex-end;
-
-  color: $color2;
-  span {
-    margin: 3px 0;
-  }
-}
-@media screen and (max-width: 768px){
-  .hd {
-    display: none;
-
-  }
-  .hd-btn {
-    display: flex;
-  }
-}
 
 
-
-.navbar {
-  background-color: $color2;
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    #nav-menu {
-      display: none;
-    }
-  }
-}
-.list {
-  display: flex;
-  list-style: none;
-  .nav-link {
-    display: inline-block;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 10px;
-    color: #dae0e5;
-    text-decoration: none;
-    text-align: center;
-    border-bottom: 3px solid transparent;
-  }
-  .nav-link:hover, .nav-link:visited {
-    border-bottom: 3px solid #dae0e5;
-  }
-}
-#menu {
-  display: none;
-}
-@media screen and (max-width: 780px) {
-  .list {
-    display: none;
-    list-style: none;
-
-    .nav-link {
-      display: block;
-      height: 60px;
-      line-height: 60px;
-      padding: 0 10px;
-      color: #dae0e5;
-      text-decoration: none;
-      text-align: center;
-    }
-    .nav-link:hover, .nav-link:visited {
-      border-bottom: 3px solid #dae0e5;
-    }
-  }
-  #menu {
-    display: block;
-  }
-  #nav-menu:checked ~ .list {
-    display: block;
-    width: 100%;
-  }
-  #nav-menu-control {
-    display: block;
-    font-family: Courier New;
-    width: 5rem;
-    font-size: 4em;
-    line-height: 3rem;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-    padding-top: 5px;
-  }
-
-}

@@ -6,7 +6,10 @@
     <link rel="stylesheet" href="bootstrap.css" />
 <!--    <link rel="stylesheet" href="../task8/css/bootstrap.css">-->
     <title>首页</title>
-    <link rel="stylesheet" href="task14.css"/>
+    <link rel="stylesheet" href="task14-hd.css">
+    <link rel="stylesheet" href="task14-nav.css"/>
+    <link rel="stylesheet" href="task14-carousel.css">
+    <link rel="stylesheet" href="task14.css">
 
 </head>
 <body>
@@ -54,12 +57,49 @@
         </div>
     </div>
 </header>
-
-
-
-
 <main>
+<!--自动切换无法控制-->
+<!--    <div id="frame">-->
+<!--        <div class="boxs">-->
+<!--        <div id="box1" class="num"></div>-->
+<!--        <div id="box2" class="num"></div>-->
+<!--        <div id="box3" class="num"></div>-->
+<!--        </div>-->
+<!--    </div>-->
 
+
+
+<!--    <div class="carousel">-->
+
+<!--        <div class="wrap">-->
+
+
+            <div class="viewport">
+                <input type="radio" checked="checked" name="slide" id="pick1" value="0">
+                <input type="radio" name="slide" id="pick2" value="1">
+                <input type="checkbox" name="slide" id="pick3" value="1">
+                <div id="wrap">
+
+
+                <ul class="slider">
+                    <li><img src="img/1-beijing.png"/></li>
+                    <li><img src="img/1-beijing2.png"/></li>
+                    <li><img src="img/1-beijing3.png"/></li>
+                </ul>
+                <div class="box">
+                    <label id="box1" for="pick1" ></label>
+                    <label id="box2" for="pick2" ></label>
+                    <label id="box3" for="pick3" ></label>
+                </div>
+
+                    <label id="arrow1" for="pick1"></label>
+                    <label id="arrow2" for="pick2"></label>
+                    <label id="arrow3" for="pick3"></label>
+
+                </div>
+            </div>
+<!--        </div>-->
+<!--    </div>-->
 </main>
 </body>
 </html>

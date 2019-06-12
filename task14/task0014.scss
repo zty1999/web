@@ -1,78 +1,52 @@
-
-.nav-head{
-   background-color: #26a26f;
- }
-@media screen and (min-width: 780px){
-  .nav-head{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+body,ul,li {
+  margin: 0;
+  padding: 0;
+}
+head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c7430;
+  #nav-menu {
+    display:none;
   }
-}
-#nav-menu{
-  display: none;
-}
-#menu{
-  display: none;
-}
-@media screen and (max-width: 780px)
-{
-  #menu{
-    float: right;
-    display: block;
+  #menu {
+    display: none;
+  }
+  .list {
+    display: flex;
+    list-style: none;
+    .nav-link {
+      display: block;
+      height: 60px;
+      line-height: 60px;
+      padding: 0 10px;
+      text-align: center;
+      text-decoration: none;
+      color: #dae0e5;
+      border-bottom: 3px solid transparent;
+    }
+    .nav-link:hover,.nav-link:visited {
+      border-bottom: 3px solid #dae0e5;
+    }
   }
 }
 @media screen and (max-width: 780px){
-  #nav-menu:checked ~ .list{
-    display: block;
-  }
-}
-//#nav-menu:checked ~#nav-head{
-//  padding-left: 220px;
-//}
-#nav-menu-control {
-  display: block;
-  font-family: Courier New;
-  width: 5rem;
-  font-size: 4em;
-  line-height: 3rem;
-  text-align: center;
-  color: #fff;
-  cursor: pointer;
-  padding-top: 5px;
-}
-//@media screen and (min-width: 780px){
-//  nav-menu-control{
-//    display: block;
-//  }
-//}
-.list{
-  text-align: center;
-  padding: 0;
-}
-@media screen  and (max-width: 780px){
-  .list{
+  .list {
     display: none;
   }
-}
-@media screen and (min-width: 780px){
-  .list {
-    display: flex;
-    margin: 0;
+  #menu {
+    display: block;
   }
-}
-.nav-link{
-  text-decoration: none;
-  line-height: 60px;
-}
-.list-item {
-  height: 60px;
-  line-height: 60px;
-  color: #fff;
-  padding: 0 10px;
-  list-style: none;
-}
-.list-item:hover{
-  border-bottom: 2px solid #fff;
+  #nav-menu:checked ~ .list {
+    display: block;
+    width: 100%;
+  }
+  #nav-menu-control {
+    width: 5rem;
+    line-height: 3rem;
+    font-size: 4rem;
+    padding-top: 5px;
+    color: #dae0e5;
+  }
 }

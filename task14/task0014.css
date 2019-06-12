@@ -1,59 +1,47 @@
-.nav-head {
-  background-color: #26a26f; }
-
-@media screen and (min-width: 780px) {
-  .nav-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap; } }
-#nav-menu {
-  display: none; }
-
-#menu {
-  display: none; }
-
-@media screen and (max-width: 780px) {
-  #menu {
-    float: right;
-    display: block; } }
-@media screen and (max-width: 780px) {
-  #nav-menu:checked ~ .list {
-    display: block; } }
-#nav-menu-control {
-  display: block;
-  font-family: Courier New;
-  width: 5rem;
-  font-size: 4em;
-  line-height: 3rem;
-  text-align: center;
-  color: #fff;
-  cursor: pointer;
-  padding-top: 5px; }
-
-.list {
-  text-align: center;
+body, ul, li {
+  margin: 0;
   padding: 0; }
 
+head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c7430; }
+  head #nav-menu {
+    display: none; }
+  head #menu {
+    display: none; }
+  head .list {
+    display: flex;
+    list-style: none; }
+    head .list .nav-link {
+      display: block;
+      height: 60px;
+      line-height: 60px;
+      padding: 0 10px;
+      text-align: center;
+      text-decoration: none;
+      color: #dae0e5;
+      border-bottom: 3px solid transparent; }
+    head .list .nav-link:hover, head .list .nav-link:visited {
+      border-bottom: 3px solid #dae0e5; }
+
 @media screen and (max-width: 780px) {
   .list {
-    display: none; } }
-@media screen and (min-width: 780px) {
-  .list {
-    display: flex;
-    margin: 0; } }
-.nav-link {
-  text-decoration: none;
-  line-height: 60px; }
+    display: none; }
 
-.list-item {
-  height: 60px;
-  line-height: 60px;
-  color: #fff;
-  padding: 0 10px;
-  list-style: none; }
+  #menu {
+    display: block; }
 
-.list-item:hover {
-  border-bottom: 2px solid #fff; }
+  #nav-menu:checked ~ .list {
+    display: block;
+    width: 100%; }
+
+  #nav-menu-control {
+    width: 5rem;
+    line-height: 3rem;
+    font-size: 4rem;
+    padding-top: 5px;
+    color: #dae0e5; } }
 
 /*# sourceMappingURL=task0014.css.map */

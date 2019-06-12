@@ -5,31 +5,8 @@ body, ul, li {
 *, *:before, *:after {
   box-sizing: border-box; }
 
-.hd, .hd-btn {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
-  .hd .hd-text, .hd-btn .hd-text {
-    color: #28a745; }
-  .hd img, .hd-btn img {
-    vertical-align: middle;
-    margin: 3px 0; }
-
-.hd-btn {
-  display: none;
-  justify-content: flex-end;
-  color: #28a745; }
-  .hd-btn span {
-    margin: 3px 0; }
-
-@media screen and (max-width: 768px) {
-  .hd, .hd-btn {
-    display: none; }
-
-  .hd-btn {
-    display: flex; } }
 .navbar {
-  background-color: #28a745; }
+  background-color: #26a26f; }
   .navbar nav {
     display: flex;
     align-items: center;
@@ -85,8 +62,8 @@ body, ul, li {
     font-size: 4em;
     line-height: 3rem;
     text-align: center;
-    color: #fff;
+    color: #dae0e5;
     cursor: pointer;
     padding-top: 5px; } }
 
-/*# sourceMappingURL=task14.css.map */
+/*# sourceMappingURL=task14-nav.css.map */

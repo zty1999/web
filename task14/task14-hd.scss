@@ -1,0 +1,37 @@
+@charset "UTF-8";
+//使sass文件内可添加中文注释
+$color2: #26a26f;
+$colord: #dae0e5;
+.hd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .hd-text {
+    color: $color2;
+
+  }
+  img {
+    vertical-align: middle;
+    margin: 3px 0;
+  }
+}
+
+.hd-btn {
+  display: none;
+  @extend .hd;
+  justify-content: flex-end;
+
+  color: $color2;
+  span {
+    margin: 3px 0;
+  }
+}
+@media screen and (max-width: 768px){
+  .hd {
+    display: none;
+
+  }
+  .hd-btn {
+    display: flex;
+  }
+}

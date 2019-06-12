@@ -1,0 +1,25 @@
+.hd, .hd-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .hd .hd-text, .hd-btn .hd-text {
+    color: #26a26f; }
+  .hd img, .hd-btn img {
+    vertical-align: middle;
+    margin: 3px 0; }
+
+.hd-btn {
+  display: none;
+  justify-content: flex-end;
+  color: #26a26f; }
+  .hd-btn span {
+    margin: 3px 0; }
+
+@media screen and (max-width: 768px) {
+  .hd, .hd-btn {
+    display: none; }
+
+  .hd-btn {
+    display: flex; } }
+
+/*# sourceMappingURL=task14-hd.css.map */

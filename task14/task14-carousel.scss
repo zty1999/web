@@ -1,0 +1,179 @@
+@charset "UTF-8";
+////自动切换无法控制
+//
+//#frame {
+//  position: relative;
+//  width: 100%;
+//  height: 20rem;
+//  overflow: hidden;
+//  animation: imgMove 5s linear infinite;
+//}
+//@keyframes imgMove {
+//  0%, 30% {
+//    background: url("../task8/1-beijing.png") no-repeat 0 0;
+//    background-size: 100% 100%;
+//  }
+//  35%, 60% {
+//    background: url("../task8/1-beijing2.png") no-repeat 0 0;
+//    background-size: 100% 100%;
+//  }
+//  65%, 100% {
+//    background: url("../task8/1-beijing3.png") no-repeat 0 0;
+//    background-size: 100% 100%;
+//  }
+//}
+
+
+
+
+ul,li {
+  margin: 0;
+  padding: 0;
+}
+
+
+#pick1,#pick2,#pick3 {
+  display: none;
+}
+.box {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  //
+  //
+  label {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin: 3px;
+    border-radius: 50%;
+    border: 1px solid #dae0e5;
+  }
+}
+#wrap {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  width: 300%;
+  margin-left: 0;
+  display: flex;
+  height: 20rem;
+
+  li {
+    width: 33.3333%;
+
+    img {
+      display: inline-block;
+      width: 100%;
+      height: 20rem;
+
+    }
+  }
+
+}
+#arrow1 {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-133deg);
+  width: 1rem;
+  height: 1rem;
+  border-top: 5px solid #dae0e5;
+  border-right: 5px solid #dae0e5;
+  cursor: pointer;
+}
+#arrow2 {
+  display: none;
+  position: absolute;
+  left: 95%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 1rem;
+  height: 1rem;
+  border-top: 5px solid #dae0e5;
+  border-right: 5px solid #dae0e5;
+  cursor: pointer;
+}
+#arrow3 {
+  display: none;
+  position: absolute;
+  left: 95%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(133deg);
+  width: 1rem;
+  height: 1rem;
+  border-top: 5px solid #dae0e5;
+  border-right: 5px solid #dae0e5;
+  cursor: pointer;
+}
+
+#box1:hover, #box2:hover, #box3:hover {
+  background-color: #dae0e5;
+}
+#pick1:checked ~ #wrap .slider {
+  margin-left: 0;
+}
+#pick1:checked ~ .box #box1 {
+  background-color: #dae0e5;
+}
+#pick2:checked ~ .box #box2 {
+  background-color: #dae0e5;
+}
+#pick3:checked ~ .box #box3 {
+  background-color: #dae0e5;
+}
+#pick2:checked ~ #wrap .slider {
+  margin-left: -100%;
+}
+
+#pick3:checked ~ #wrap .slider {
+  margin-left: -200%;
+}
+
+#pick1:checked ~ #wrap #arrow2 {
+  display: block;
+  cursor: pointer;
+  left: 90%;
+}
+#pick1:checked ~ #wrap #arrow3{
+  display: block;
+  cursor: pointer;
+}
+#pick2:checked ~ #wrap #arrow1 {
+  display: block;
+  cursor: pointer;
+}
+#pick2:checked ~ #wrap #arrow3 {
+  left: 95%;
+  display: block;
+  cursor: pointer;
+  transform: rotate(45deg);
+}
+#pick3:checked ~ #wrap #arrow2 {
+  display: block;
+  cursor: pointer;
+  left: 5%;
+  transform: rotate(-133deg);
+}
+#pick3:checked ~ #wrap #arrow1 {
+  display: block;
+  cursor: pointer;
+  left: 95%;
+  transform: rotate(45deg);
+}
+
+.viewport {
+  width: 100%;
+}
+
+
+ul {
+  list-style: none;
+}
+
+
+
