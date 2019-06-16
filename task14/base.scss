@@ -1,0 +1,19 @@
+@charset "UTF-8";
+//使sass文件内可添加中文注释
+$color2: #26a26f;
+$colord: #dae0e5;
+$colorb: #b3b3b3;
+body,ul,li {
+  margin: 0;
+  padding: 0;
+}
+header,main,footer {
+  display: block;
+}
+*,*:before,*:after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}

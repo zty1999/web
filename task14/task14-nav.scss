@@ -21,38 +21,39 @@ body,ul,li {
 
     > #nav-menu {
       display: none;
-
-      @media screen and (max-width: 780px) {
-        display: block;
-        :checked ~ .list {
-          display: block;
-          width: 100%;
-        }
-      }
-      > #nav-menu-control {
-        display: block;
-        font-family: Courier New;
-        width: 5rem;
-        font-size: 4em;
-        line-height: 3rem;
-        text-align: center;
-        color: $colord;
-        cursor: pointer;
-        padding-top: 5px;
-      }
     }
 
     > #menu {
       display: none;
+      @media screen and (max-width: 780px) {
+        display: block;
+        &:checked ~ .list {
+          display: block;
+          width: 100%;
+        }
+        > #nav-menu-control {
+          display: block;
+          font-family: Courier New;
+          width: 5rem;
+          font-size: 4rem;
+          line-height: 3rem;
+          text-align: center;
+          color: $colord;
+          cursor: pointer;
+          padding-top: 5px;
+        }
+      }
     }
-
+    > input:checked ~ .list {
+      display: block;
+      width: 100%;
+    }
     > .list {
       display: flex;
       list-style: none;
 
       @media screen and (max-width: 780px) {
         display: none;
-        list-style: none;
       }
       > .list-item > .nav-link {
         display: inline-block;

@@ -1,0 +1,108 @@
+body, ul, li {
+  margin: 0;
+  padding: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.task14-body > .content {
+  padding-top: 6vw; }
+  .task14-body > .content > .count > aside {
+    padding-top: 3rem;
+    text-align: center;
+    color: #b3b3b3; }
+    .task14-body > .content > .count > aside > h4 {
+      color: black; }
+    .task14-body > .content > .count > aside > div {
+      padding: 1rem 0; }
+  .task14-body > .content > .content-title > h3 {
+    margin: 5rem 0;
+    text-align: center; }
+  .task14-body > .content > .content-text > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .task14-body > .content > .content-text > div > div {
+      width: 2.5rem;
+      height: 2.5rem;
+      line-height: 2.5rem;
+      text-align: center;
+      border-radius: 50%;
+      color: #26a26f;
+      background-color: white;
+      border: 0.3px solid #b3b3b3; }
+    .task14-body > .content > .content-text > div > span {
+      flex: 1;
+      padding: 2rem;
+      color: #b3b3b3; }
+  .task14-body > .content > .content-card > input {
+    display: none; }
+  .task14-body > .content > .content-card > .card-wrap {
+    position: relative;
+    width: 100%;
+    padding-bottom: 5%;
+    overflow: hidden; }
+    .task14-body > .content > .content-card > .card-wrap > .card-block {
+      display: flex;
+      width: 300%;
+      margin-left: 0; }
+      .task14-body > .content > .content-card > .card-wrap > .card-block > .card-block-item {
+        width: 33.3333%;
+        display: flex;
+        flex-wrap: wrap; }
+        @media screen and (max-width: 768px) {
+          .task14-body > .content > .content-card > .card-wrap > .card-block > .card-block-item > .card-box {
+            width: 60%; } }
+        @media screen and (max-width: 576px) {
+          .task14-body > .content > .content-card > .card-wrap > .card-block > .card-block-item > .card-box {
+            width: 100%; } }
+        .task14-body > .content > .content-card > .card-wrap > .card-block > .card-block-item > .card-box > .card {
+          padding: 2rem;
+          margin: 1rem 0; }
+          .task14-body > .content > .content-card > .card-wrap > .card-block > .card-block-item > .card-box > .card > img {
+            margin: 0 auto 2rem; }
+          .task14-body > .content > .content-card > .card-wrap > .card-block > .card-block-item > .card-box > .card > .card-title {
+            text-align: center; }
+          .task14-body > .content > .content-card > .card-wrap > .card-block > .card-block-item > .card-box > .card > .card-text {
+            color: #b3b3b3; }
+    .task14-body > .content > .content-card > .card-wrap > .cycle {
+      position: absolute;
+      top: 95%;
+      display: flex;
+      justify-content: center;
+      width: 100%; }
+      .task14-body > .content > .content-card > .card-wrap > .cycle > label {
+        width: 1rem;
+        height: 1rem;
+        margin: 5px;
+        border-radius: 50%;
+        background-color: #b3b3b3; }
+  .task14-body > .content > .content-card #card-slide2:checked ~ .card-wrap .card-block {
+    margin-left: -100%; }
+  .task14-body > .content > .content-branding {
+    margin-bottom: 3rem; }
+    .task14-body > .content > .content-branding > .branding {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem auto; }
+      .task14-body > .content > .content-branding > .branding > img {
+        width: 160px;
+        height: 140px;
+        flex-shrink: 1; }
+  .task14-body > .content .friendlink {
+    text-align: center; }
+    .task14-body > .content .friendlink > ul {
+      display: flex;
+      justify-content: center;
+      padding: .5rem 0;
+      font-size: 14px; }
+      .task14-body > .content .friendlink > ul > .friendlink-item {
+        display: list-item;
+        text-decoration: none;
+        color: #b3b3b3;
+        white-space: nowrap; }
+        .task14-body > .content .friendlink > ul > .friendlink-item :hover {
+          color: #b3b3b3; }
+
+/*# sourceMappingURL=task14.css.map */

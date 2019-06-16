@@ -1,0 +1,52 @@
+@charset "UTF-8";
+//使sass文件内可添加中文注释
+$color2: #26a26f;
+$colord: #dae0e5;
+$colorb: #b3b3b3;
+footer {
+  //height: 8rem;
+  width: 100%;
+  font-size: 14px;
+  color: $colord;
+  background-color: $color2;
+
+  > .container {
+
+    > .row > .message-jnshu {
+      > span {
+        display: block;
+        margin: 2rem 0;
+      }
+
+      > a {
+        display: inline-block;
+        margin-bottom: 2rem;
+        text-decoration: none;
+        color: $colord;
+      }
+    }
+
+    >.row > .item-siteinfo {
+      @extend .message-jnshu;
+    }
+
+    >.row > .tag {
+      justify-content: right;
+      //text-align: right;
+      span {
+        display: block;
+        padding: 2rem 0 .2rem;
+      }
+    }
+  }
+
+  > span {
+     width: 100%;
+     text-align: center;
+     display: block;
+     border-top: 1px solid $colord;
+  }
+}
+
+
+

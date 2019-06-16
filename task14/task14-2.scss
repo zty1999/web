@@ -1,0 +1,208 @@
+$color2: #26a26f;
+$colord: #dae0e5;
+$colorb: #b3b3b3;
+
+.task14-subpage-profassional {
+
+
+  .tag > .col {
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid;
+
+    > a {
+      text-decoration: none;
+      color: $color2;
+    }
+  }
+  .direction {
+    border-bottom: 1px solid;
+
+    > .col > div {
+
+      padding: 1rem 0;
+
+      a {
+        padding: 0 .5rem;
+        color: black;
+        &:hover {
+          background-color: $color2;
+        }
+      }
+    }
+  }
+
+  .content-title {
+    border-bottom: 1px solid;
+
+  }
+
+  .content-card {
+
+    .card-body {
+
+      .wrapper {
+        display: grid;
+        grid-template-rows: 10rem 3rem 3rem 2rem 2rem 2rem 3rem 3rem;
+        grid-template-columns: repeat(10, 10%);
+        //grid-template-areas: 'img div '
+        //                       'span span '
+        //                       'span span '
+        //                        'span div';
+
+        border: 1px solid;
+
+        > img {
+          grid-column-start: 1;
+          grid-column-end: 6;
+          width: 80%;
+          margin: 10px;
+        }
+        > .card-text {
+          grid-column-start: 6;
+          grid-column-end: 11;
+
+          h3 {
+            text-align: center;
+          }
+
+          p {
+            font-size: .8rem;
+          }
+
+        }
+        .subtitle {
+          grid-column-start: 1;
+          grid-column-end: 6;
+          line-height: 3rem;
+          padding: 0 10px;
+          font-size: .8rem;
+          border-top: 1px solid;
+          border-right: 1px solid;
+          //> img {
+          //vertical-align: middle;
+        //}
+
+          a {
+            color: red;
+          }
+        }
+
+        .summary-one {
+          grid-column-start: 6;
+          grid-column-end: 11;
+          padding: 15px 10px;
+          font-size: .8rem;
+          border-top: 1px solid;
+          //> span {
+          //  margin: 16px 0;
+          //}
+          //> img {
+          //  vertical-align: middle;
+          //}
+        }
+
+        .summary-two {
+          grid-column-start: 6;
+          grid-column-end: 11;
+          padding: 15px 10px;
+          font-size: .8rem;
+          border-top: 1px solid;
+
+          > a {
+            color: red;
+          }
+        }
+
+        .payroll {
+          grid-row-start: 4;
+          grid-row-end: 7;
+          grid-column-start: 1;
+          grid-column-end: 5;
+          line-height: 6rem;
+          text-align: center;
+          padding: 0 10px;
+          border-top: 1px solid;
+          border-right: 1px solid;
+        }
+
+        .payroll-summary {
+          grid-column-start: 5;
+          grid-column-end: 11;
+          grid-row-start: 4;
+          grid-row-end: 5;
+          line-height: 2rem;
+          padding: 0 10px;
+          font-size: .8rem;
+          border-top: 1px solid;
+
+          a {
+            float: right;
+
+          }
+        }
+
+        .payroll-summary-two {
+          grid-column-start: 5;
+          grid-column-end: 11;
+          grid-row-start: 5;
+          grid-row-end: 6;
+          line-height: 2rem;
+          padding: 0 10px;
+          font-size: .8rem;
+          border-top: 1px solid;
+
+          a {
+          float: right;
+
+        }
+        }
+
+        .payroll-summary-three {
+          grid-column-start: 5;
+          grid-column-end: 11;
+          grid-row-start: 6;
+          grid-row-end: 7;
+          line-height: 2rem;
+          padding: 0 10px;
+          font-size: .8rem;
+          border-top: 1px solid;
+
+          a {
+            float: right;
+          }
+        }
+
+        .status {
+          grid-column-start: 1;
+          grid-column-end: 11;
+          grid-row-start: 7;
+          grid-row-end: 8;
+          line-height: 3rem;
+          padding: 0 10px;
+          border-top: 1px solid;
+
+          span {
+            color: red;
+          }
+        }
+
+        .message {
+          grid-column-start: 1;
+          grid-column-end: 11;
+          grid-row-start: 8;
+          grid-row-end: 9;
+          //line-height: 3rem;
+          min-height: 3rem;
+          padding: 5px 10px;
+          font-size: .8rem;
+          border-top: 1px solid;
+
+          > span {
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+}

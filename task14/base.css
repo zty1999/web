@@ -1,0 +1,15 @@
+body, ul, li {
+  margin: 0;
+  padding: 0; }
+
+header, main, footer {
+  display: block; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  display: inline-block; }
+
+/*# sourceMappingURL=base.css.map */
