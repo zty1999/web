@@ -105,7 +105,7 @@ li {
     left: 95%;
     display: block;
     cursor: pointer;
-    transform: rotate(45deg); }
+    transform: translate(-50%, -50%) rotate(45deg); }
   .viewport #pick3:checked ~ #wrap #arrow2 {
     display: block;
     cursor: pointer;
@@ -115,6 +115,6 @@ li {
     display: block;
     cursor: pointer;
     left: 95%;
-    transform: rotate(45deg); }
+    transform: translate(-50%, -50%) rotate(45deg); }
 
 /*# sourceMappingURL=task14-carousel.css.map */

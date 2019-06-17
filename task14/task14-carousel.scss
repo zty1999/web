@@ -178,7 +178,7 @@ li {
     left: 95%;
     display: block;
     cursor: pointer;
-    transform: rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
   }
 
   #pick3:checked ~ #wrap #arrow2 {
@@ -192,7 +192,7 @@ li {
     display: block;
     cursor: pointer;
     left: 95%;
-    transform: rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
   }
 }
 //通过使input在checked状态下其他控制按钮位置的隐藏显现切换不同input元素checked状态下控件的位置。
