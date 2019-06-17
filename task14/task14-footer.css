@@ -11,7 +11,7 @@ footer {
     margin-bottom: 2rem;
     text-decoration: none;
     color: #dae0e5; }
-    footer > .container > .row > .message-jnshu > a:visited, footer > .container > .row > .item-siteinfo > a:visited, footer > .container > .row > .message-jnshu > a:active, footer > .container > .row > .item-siteinfo > a:active {
+    footer > .container > .row > .message-jnshu > a:hover, footer > .container > .row > .item-siteinfo > a:hover, footer > .container > .row > .message-jnshu > a:visited, footer > .container > .row > .item-siteinfo > a:visited, footer > .container > .row > .message-jnshu > a:active, footer > .container > .row > .item-siteinfo > a:active {
       text-decoration: underline; }
   footer > .container > .row > .tag {
     justify-content: right;

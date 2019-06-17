@@ -23,7 +23,7 @@ footer {
         margin-bottom: 2rem;
         text-decoration: none;
         color: $colord;
-        &:visited, &:active {
+        &:hover, &:visited, &:active {
           text-decoration: underline;
         }
       }

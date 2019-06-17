@@ -109,7 +109,8 @@ body, ul, li {
           text-decoration: none;
           color: #b3b3b3;
           white-space: nowrap; }
-          .task14-body > .content .friendlink > ul > .friendlink-item :hover {
+          .task14-body > .content .friendlink > ul > .friendlink-item:hover {
+            text-decoration: underline;
             color: #b3b3b3; }
           .task14-body > .content .friendlink > ul > .friendlink-item:visited, .task14-body > .content .friendlink > ul > .friendlink-item:active {
             text-decoration: underline; }

@@ -191,7 +191,8 @@ body,ul,li {
           color: $colorb;
           white-space: nowrap;
 
-          :hover {
+          &:hover {
+            text-decoration: underline;
             color: $colorb;
           }
           &:visited, &:active {
