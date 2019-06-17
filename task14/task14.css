@@ -111,5 +111,7 @@ body, ul, li {
           white-space: nowrap; }
           .task14-body > .content .friendlink > ul > .friendlink-item :hover {
             color: #b3b3b3; }
+          .task14-body > .content .friendlink > ul > .friendlink-item:visited, .task14-body > .content .friendlink > ul > .friendlink-item:active {
+            text-decoration: underline; }
 
 /*# sourceMappingURL=task14.css.map */

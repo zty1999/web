@@ -194,6 +194,9 @@ body,ul,li {
           :hover {
             color: $colorb;
           }
+          &:visited, &:active {
+            text-decoration: underline;
+          }
         }
       }
     }

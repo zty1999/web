@@ -8,8 +8,4 @@ header, main, footer {
 *, *:before, *:after {
   box-sizing: border-box; }
 
-a {
-  text-decoration: none;
-  display: inline-block; }
-
 /*# sourceMappingURL=base.css.map */

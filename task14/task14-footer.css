@@ -7,12 +7,15 @@ footer {
     display: block;
     margin: 2rem 0; }
   footer > .container > .row > .message-jnshu > a, footer > .container > .row > .item-siteinfo > a {
-    display: inline-block;
+    display: inline;
     margin-bottom: 2rem;
     text-decoration: none;
     color: #dae0e5; }
+    footer > .container > .row > .message-jnshu > a:visited, footer > .container > .row > .item-siteinfo > a:visited, footer > .container > .row > .message-jnshu > a:active, footer > .container > .row > .item-siteinfo > a:active {
+      text-decoration: underline; }
   footer > .container > .row > .tag {
-    justify-content: right; }
+    justify-content: right;
+    padding-bottom: 2rem; }
     footer > .container > .row > .tag span {
       display: block;
       padding: 2rem 0 .2rem; }

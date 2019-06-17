@@ -39,7 +39,7 @@ body {
             margin-right: 1rem;
             border-radius: 50%;
             border: 1px solid #FF9900; }
-          .task14-3-body .container .content .main-left .aside ul .aside-item a {
+          .task14-3-body .container .content .main-left .aside ul .aside-item > a {
             text-decoration: none;
             color: #26a26f; }
   .task14-3-body .container .content .main-right {

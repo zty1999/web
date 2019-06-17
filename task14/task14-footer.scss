@@ -19,10 +19,13 @@ footer {
       }
 
       > a {
-        display: inline-block;
+        display: inline;
         margin-bottom: 2rem;
         text-decoration: none;
         color: $colord;
+        &:visited, &:active {
+          text-decoration: underline;
+        }
       }
     }
 
@@ -32,6 +35,7 @@ footer {
 
     >.row > .tag {
       justify-content: right;
+      padding-bottom: 2rem;
       //text-align: right;
       span {
         display: block;

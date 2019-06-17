@@ -59,9 +59,9 @@ body {
                 border-radius: 50%;
                 border: 1px solid #FF9900;
               }
-              a {
+              > a {
                 text-decoration: none;
-                color: $color2
+                color: $color2;
               }
             }
           }
