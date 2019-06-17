@@ -15,161 +15,185 @@ body,ul,li {
 }
 
 
-.task14-body > .content {
-  padding-top: 6vw;
-  > .count > aside {
-    padding-top: 3rem;
-    text-align: center;
-    color: $colorb;
+.task14-body {
+  background-color: #fafafa;
 
-    > h4 {
-      color: black;
-    }
+  > .content {
+    padding-top: 6vw;
 
-    > div {
-      padding: 1rem 0;
-    }
-  }
+    > .count > aside {
+      padding-top: 3rem;
+      text-align: center;
+      color: $colorb;
 
-  > .content-title > h3 {
-    margin: 5rem 0;
-    text-align: center;
-  }
-  > .content-text {
-
-    > div {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      > h4 {
+        color: black;
+      }
 
       > div {
-        width: 2.5rem;
-        height: 2.5rem;
-        line-height: 2.5rem;
-        text-align: center;
-        border-radius: 50%;
-        color: $color2;
-        background-color: white;
-        border: .3px solid $colorb;
-      }
-
-      > span {
-        flex: 1;
-        padding: 2rem;
-        color: $colorb;
+        padding: 1rem 0;
       }
     }
-  }
-  > .content-card {
 
-    > input {
-      display: none;
+    > .content-title > h3 {
+      margin: 5rem 0;
+      text-align: center;
     }
 
-    > .card-wrap {
-      //display: flex;
-      //flex-wrap: nowrap;
-      position: relative;
-      width: 100%;
-      padding-bottom: 5%;
-      overflow: hidden;
-      > .card-block {
+    > .content-text {
+
+      > div {
         display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        > div {
+          width: 2.5rem;
+          height: 2.5rem;
+          line-height: 2.5rem;
+          text-align: center;
+          border-radius: 50%;
+          color: $color2;
+          background-color: white;
+          border: .3px solid $colorb;
+        }
+
+        > span {
+          flex: 1;
+          padding: 2rem;
+          color: $colorb;
+        }
+      }
+    }
+
+    > .content-card {
+
+      > input {
+        display: none;
+      }
+
+      > .card-wrap {
+        //display: flex;
         //flex-wrap: nowrap;
-        width: 300%;
-        margin-left: 0;
+        position: relative;
+        width: 100%;
+        padding-bottom: 5%;
+        overflow: hidden;
 
-        > .card-block-item {
-          width: 33.3333%;
+        > .card-block {
           display: flex;
-          flex-wrap: wrap;
+          //flex-wrap: nowrap;
+          width: 300%;
+          margin-left: 0;
 
-          > .card-box {
-            //margin: 1rem 0;
-            //width: 33.3333333%;
-            @media screen and (max-width: 768px) {
-              width: 60%;
-            }
-            @media screen and (max-width: 576px) {
-              width: 100%;
-            }
-            > .card {
-              padding: 2rem;
-              margin: 1rem 0;
+          > .card-block-item {
+            width: 33.3333%;
+            display: flex;
+            flex-wrap: wrap;
 
-              > img {
-                margin: 0 auto 2rem;
+            > .card-box {
+              //margin: 1rem 0;
+              //width: 33.3333333%;
+              @media screen and (max-width: 768px) {
+                width: 60%;
+              }
+              @media screen and (max-width: 576px) {
+                width: 100%;
               }
 
-              > .card-title {
-                text-align: center;
-              }
+              > .card {
+                padding: 2rem;
+                margin: 1rem 0;
 
-              > .card-text {
-                color: $colorb;
+                > img {
+                  margin: 0 auto 2rem;
+                }
+
+                > .card-title {
+                  text-align: center;
+                }
+
+                > .card-text {
+                  color: $colorb;
+                }
               }
             }
           }
         }
-      }
-      > .cycle {
-        position: absolute;
-        top: 95%;
-        display: flex;
-        justify-content: center;
-        width: 100%;
 
-        > label {
-          width: 1rem;
-          height: 1rem;
-          margin: 5px;
-          border-radius: 50%;
-          background-color: $colorb;
+        > .cycle {
+          position: absolute;
+          top: 95%;
+          display: flex;
+          justify-content: center;
+          width: 100%;
+
+          > label {
+            width: 1rem;
+            height: 1rem;
+            margin: 5px;
+            border-radius: 50%;
+            border: 1px solid #dae0e5;
+
+          }
+        }
+      }
+
+      #card-slide2:checked ~ .card-wrap .card-block {
+        margin-left: -100%;
+      }
+
+      #cycle1,
+      #cycle2,
+      #cycle3 {
+        &:hover {
+          background-color: $colord;
+          //background-color: #1c7430;
+        }
+      }
+    }
+
+    > .content-branding {
+      margin-bottom: 3rem;
+
+      > .branding {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem auto;
+
+        > img {
+
+          width: 140px;
+          height: 140px;
+          //flex-shrink: 1;
+
+          &:hover {
+            box-shadow: 0 0 6px 3px #b3b3b3;
+          }
 
         }
       }
     }
-    #card-slide2:checked ~ .card-wrap .card-block {
-      margin-left: -100%;
-    }
-  }
-  > .content-branding {
-    margin-bottom: 3rem;
-    > .branding {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 1rem auto;
 
-      > img {
+    .friendlink {
+      text-align: center;
 
-        width: 160px;
-        height: 140px;
-        //flex-shrink: 1;
-        &:hover {
-          box-shadow: 0 0 6px 3px #b3b3b3;
-      }
+      > ul {
+        display: flex;
+        justify-content: center;
+        padding: .5rem 0;
+        font-size: 14px;
 
-      }
-    }
-  }
-  .friendlink {
-    text-align: center;
-
-    > ul {
-      display: flex;
-      justify-content: center;
-      padding: .5rem 0;
-      font-size: 14px;
-
-      > .friendlink-item {
-        display: list-item;
-        text-decoration: none;
-        color: $colorb;
-        white-space: nowrap;
-
-        :hover {
+        > .friendlink-item {
+          display: list-item;
+          text-decoration: none;
           color: $colorb;
+          white-space: nowrap;
+
+          :hover {
+            color: $colorb;
+          }
         }
       }
     }
