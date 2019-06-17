@@ -15,6 +15,7 @@ $colorb: #b3b3b3;
       color: $color2;
     }
   }
+
   .direction {
     border-bottom: 1px solid;
 
@@ -25,6 +26,7 @@ $colorb: #b3b3b3;
       a {
         padding: 0 .5rem;
         color: black;
+
         &:hover {
           background-color: $color2;
         }
@@ -42,6 +44,7 @@ $colorb: #b3b3b3;
     .card-body {
 
       .wrapper {
+        position: relative;
         display: grid;
         grid-template-rows: 10rem 3rem 3rem 2rem 2rem 2rem 3rem 3rem;
         grid-template-columns: repeat(10, 10%);
@@ -58,6 +61,7 @@ $colorb: #b3b3b3;
           width: 80%;
           margin: 10px;
         }
+
         > .card-text {
           grid-column-start: 6;
           grid-column-end: 11;
@@ -67,10 +71,13 @@ $colorb: #b3b3b3;
           }
 
           p {
+            word-break: break-all;
             font-size: .8rem;
+
           }
 
         }
+
         .subtitle {
           grid-column-start: 1;
           grid-column-end: 6;
@@ -81,7 +88,7 @@ $colorb: #b3b3b3;
           border-right: 1px solid;
           //> img {
           //vertical-align: middle;
-        //}
+          //}
 
           a {
             color: red;
@@ -153,9 +160,9 @@ $colorb: #b3b3b3;
           border-top: 1px solid;
 
           a {
-          float: right;
+            float: right;
 
-        }
+          }
         }
 
         .payroll-summary-three {
@@ -202,7 +209,46 @@ $colorb: #b3b3b3;
             margin: auto;
           }
         }
+        .demo {
+          display: none;
+          position: absolute;
+          height: 100%;
+          top: 0;
+          text-align: center;
+          color: $colord;
+          opacity: 1;
+          -webkit-animation: cartoon 2s;
+          background: url("../task8/image/u=1420534138,2413426954&fm=26&gp=0.jpg") no-repeat 0 0;
+          background-size: 100% 100%;
+
+          > span {
+            display: block;
+            padding: 20px 10px;
+          }
+
+
+        }
+        &:hover {
+
+          .demo {
+            display: block;
+            @keyframes cartoon {
+              0% {
+
+              }
+              50% {
+                border-radius: 50%;
+              }
+              100% {
+                -webkit-transform: rotateY(360deg);
+                border-radius: 0;
+              }
+            }
+          }
+        }
       }
+
+
     }
   }
 }

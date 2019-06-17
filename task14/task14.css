@@ -88,8 +88,9 @@ body, ul, li {
       margin: 1rem auto; }
       .task14-body > .content > .content-branding > .branding > img {
         width: 160px;
-        height: 140px;
-        flex-shrink: 1; }
+        height: 140px; }
+        .task14-body > .content > .content-branding > .branding > img:hover {
+          box-shadow: 0 0 6px 3px #b3b3b3; }
   .task14-body > .content .friendlink {
     text-align: center; }
     .task14-body > .content .friendlink > ul {

@@ -145,7 +145,11 @@ body,ul,li {
 
         width: 160px;
         height: 140px;
-        flex-shrink: 1;
+        //flex-shrink: 1;
+        &:hover {
+          box-shadow: 0 0 6px 3px #b3b3b3;
+      }
+
       }
     }
   }

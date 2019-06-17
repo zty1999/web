@@ -17,6 +17,7 @@
 .task14-subpage-profassional .content-title {
   border-bottom: 1px solid; }
 .task14-subpage-profassional .content-card .card-body .wrapper {
+  position: relative;
   display: grid;
   grid-template-rows: 10rem 3rem 3rem 2rem 2rem 2rem 3rem 3rem;
   grid-template-columns: repeat(10, 10%);
@@ -32,6 +33,7 @@
     .task14-subpage-profassional .content-card .card-body .wrapper > .card-text h3 {
       text-align: center; }
     .task14-subpage-profassional .content-card .card-body .wrapper > .card-text p {
+      word-break: break-all;
       font-size: .8rem; }
   .task14-subpage-profassional .content-card .card-body .wrapper .subtitle {
     grid-column-start: 1;
@@ -121,5 +123,27 @@
     border-top: 1px solid; }
     .task14-subpage-profassional .content-card .card-body .wrapper .message > span {
       margin: auto; }
+  .task14-subpage-profassional .content-card .card-body .wrapper .demo {
+    display: none;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    text-align: center;
+    color: #dae0e5;
+    opacity: 1;
+    -webkit-animation: cartoon 2s;
+    background: url("../task8/image/u=1420534138,2413426954&fm=26&gp=0.jpg") no-repeat 0 0;
+    background-size: 100% 100%; }
+    .task14-subpage-profassional .content-card .card-body .wrapper .demo > span {
+      display: block;
+      padding: 20px 10px; }
+  .task14-subpage-profassional .content-card .card-body .wrapper:hover .demo {
+    display: block; }
+@keyframes cartoon {
+  50% {
+    border-radius: 50%; }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    border-radius: 0; } }
 
 /*# sourceMappingURL=task14-2.css.map */
