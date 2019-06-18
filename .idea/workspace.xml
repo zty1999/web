@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8039ed7-3f19-4450-8dd5-80e3feac860c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/task1/task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/task1/task1.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.47878787">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/task14/task14.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="293" column="14" lean-forward="true" selection-start-line="293" selection-start-column="14" selection-end-line="293" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/task1/task1.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="247">
+                  <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>er-dfdddfjj</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/task13/task.sass" />
+        <option value="$PROJECT_DIR$/task13/demo.css" />
+        <option value="$PROJECT_DIR$/task13/demo.scss" />
+        <option value="$PROJECT_DIR$/task13/task013.css.map" />
+        <option value="$PROJECT_DIR$/task13/task013.css" />
+        <option value="$PROJECT_DIR$/task13/task13.css.map" />
+        <option value="$PROJECT_DIR$/task13/task0013.scss" />
+        <option value="$PROJECT_DIR$/task13/task013.scss" />
+        <option value="$PROJECT_DIR$/task13/task13.html" />
+        <option value="$PROJECT_DIR$/task13/task013.html" />
+        <option value="$PROJECT_DIR$/task13/task0013.html" />
+        <option value="$PROJECT_DIR$/task13/task13.scss" />
+        <option value="$PROJECT_DIR$/task14/task14-bootstrap.css" />
+        <option value="$PROJECT_DIR$/task14/task14-bootstrap.html.scss" />
+        <option value="$PROJECT_DIR$/task14/task14-bootstrap.html.css" />
+        <option value="$PROJECT_DIR$/task14/task14-bootstrap.html.css.map" />
+        <option value="$PROJECT_DIR$/task14/task14-bootstrap.scss" />
+        <option value="$PROJECT_DIR$/task14/task014.html.scss" />
+        <option value="$PROJECT_DIR$/task14/task014.html.css" />
+        <option value="$PROJECT_DIR$/task14/task014.html.css.map" />
+        <option value="$PROJECT_DIR$/task8/task8.html" />
+        <option value="$PROJECT_DIR$/task8/task8.css" />
+        <option value="$USER_HOME$/Documents/Tencent Files/1685470954/FileRecv/task14-1.css" />
+        <option value="$USER_HOME$/Documents/Tencent Files/1685470954/FileRecv/task14-1.html" />
+        <option value="$PROJECT_DIR$/task14/task14.css.map" />
+        <option value="$PROJECT_DIR$/task14/task14.css" />
+        <option value="$PROJECT_DIR$/task14/task14-header.scss" />
+        <option value="$PROJECT_DIR$/task14/task0014.html" />
+        <option value="$PROJECT_DIR$/task14/task14-1.scss" />
+        <option value="$PROJECT_DIR$/task14/task14-1.html" />
+        <option value="$PROJECT_DIR$/task8/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/task14/task14-hd.scss" />
+        <option value="$PROJECT_DIR$/task14/task014.html" />
+        <option value="$PROJECT_DIR$/task14/task014.scss" />
+        <option value="$PROJECT_DIR$/task14/bootstrap.css" />
+        <option value="$PROJECT_DIR$/task14/task14-3.html" />
+        <option value="$PROJECT_DIR$/task14/task14-nav.scss" />
+        <option value="$PROJECT_DIR$/task14/task14-2.html" />
+        <option value="$PROJECT_DIR$/task14/task14-carousel.scss" />
+        <option value="$PROJECT_DIR$/task14/task0014.scss" />
+        <option value="$PROJECT_DIR$/task15/task15-1.scss" />
+        <option value="$PROJECT_DIR$/task15/task15-2.html" />
+        <option value="$PROJECT_DIR$/task15/task15-2.scss" />
+        <option value="$PROJECT_DIR$/task15/task15-1.html" />
+        <option value="$PROJECT_DIR$/task14/base.scss" />
+        <option value="$PROJECT_DIR$/task14/task14.html" />
+        <option value="$PROJECT_DIR$/task14/task14-3.scss" />
+        <option value="$PROJECT_DIR$/task14/task14-2.scss" />
+        <option value="$PROJECT_DIR$/task14/task14-footer.scss" />
+        <option value="$PROJECT_DIR$/task14/task14.scss" />
+        <option value="$PROJECT_DIR$/task1/task1.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="870" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="CSS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\web\CSS\CSS" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="CSS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\web\CSS\CSS" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="task8" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CSS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\web\CSS\CSS" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="task8" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="image" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CSS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\web\CSS\CSS" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="task14" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8039ed7-3f19-4450-8dd5-80e3feac860c" name="Default Changelist" comment="" />
+      <created>1559634189748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559634189748</updated>
+      <workItem from="1559634190797" duration="7207000" />
+      <workItem from="1559642761638" duration="14182000" />
+      <workItem from="1559697047314" duration="37396000" />
+      <workItem from="1559782152975" duration="21601000" />
+      <workItem from="1559806121359" duration="5262000" />
+      <workItem from="1559872215691" duration="1374000" />
+      <workItem from="1559891319303" duration="45947000" />
+      <workItem from="1560068158383" duration="37012000" />
+      <workItem from="1560171039033" duration="31903000" />
+      <workItem from="1560300691952" duration="7033000" />
+      <workItem from="1560321871933" duration="12680000" />
+      <workItem from="1560424599489" duration="11882000" />
+      <workItem from="1560473640637" duration="48783000" />
+      <workItem from="1560733531104" duration="15607000" />
+    </task>
+    <task id="LOCAL-00008" summary="task13">
+      <created>1559717527247</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559717527247</updated>
+    </task>
+    <task id="LOCAL-00009" summary="task13">
+      <created>1559719044683</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559719044683</updated>
+    </task>
+    <task id="LOCAL-00010" summary="task13">
+      <created>1559719454618</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559719454618</updated>
+    </task>
+    <task id="LOCAL-00011" summary="task13">
+      <created>1559721221708</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559721221708</updated>
+    </task>
+    <task id="LOCAL-00012" summary="task13">
+      <created>1559721371162</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559721371162</updated>
+    </task>
+    <task id="LOCAL-00013" summary="task13">
+      <created>1559734240157</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559734240157</updated>
+    </task>
+    <task id="LOCAL-00014" summary="task13">
+      <created>1559738422985</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559738422985</updated>
+    </task>
+    <task id="LOCAL-00015" summary="task13">
+      <created>1559738489418</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559738489418</updated>
+    </task>
+    <task id="LOCAL-00016" summary="task13">
+      <created>1559746614046</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1559746614046</updated>
+    </task>
+    <task id="LOCAL-00017" summary="task13">
+      <created>1559792071985</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1559792071985</updated>
+    </task>
+    <task id="LOCAL-00018" summary="task13">
+      <created>1559792342153</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559792342153</updated>
+    </task>
+    <task id="LOCAL-00019" summary="task13">
+      <created>1559804924627</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1559804924627</updated>
+    </task>
+    <task id="LOCAL-00020" summary="task13">
+      <created>1559805096165</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1559805096165</updated>
+    </task>
+    <task id="LOCAL-00021" summary="task13">
+      <created>1559805138830</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1559805138830</updated>
+    </task>
+    <task id="LOCAL-00022" summary="task13">
+      <created>1559805152576</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1559805152576</updated>
+    </task>
+    <task id="LOCAL-00023" summary="task13">
+      <created>1559805354699</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1559805354699</updated>
+    </task>
+    <task id="LOCAL-00024" summary="task13">
+      <created>1559807610243</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1559807610243</updated>
+    </task>
+    <task id="LOCAL-00025" summary="task13">
+      <created>1559808130395</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1559808130395</updated>
+    </task>
+    <task id="LOCAL-00026" summary="task13">
+      <created>1559973751587</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1559973751587</updated>
+    </task>
+    <task id="LOCAL-00027" summary="task13">
+      <created>1560082697133</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1560082697134</updated>
+    </task>
+    <task id="LOCAL-00028" summary="task13">
+      <created>1560084512828</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1560084512828</updated>
+    </task>
+    <task id="LOCAL-00029" summary="task13">
+      <created>1560084678014</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1560084678014</updated>
+    </task>
+    <task id="LOCAL-00030" summary="task13">
+      <created>1560084688535</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1560084688535</updated>
+    </task>
+    <task id="LOCAL-00031" summary="task13">
+      <created>1560166504904</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1560166504904</updated>
+    </task>
+    <task id="LOCAL-00032" summary="task13">
+      <created>1560166762259</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1560166762259</updated>
+    </task>
+    <task id="LOCAL-00033" summary="task13">
+      <created>1560166792189</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1560166792190</updated>
+    </task>
+    <task id="LOCAL-00034" summary="task13">
+      <created>1560167276760</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1560167276761</updated>
+    </task>
+    <task id="LOCAL-00035" summary="task13">
+      <created>1560167296746</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1560167296746</updated>
+    </task>
+    <task id="LOCAL-00036" summary="task13">
+      <created>1560167665127</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1560167665127</updated>
+    </task>
+    <task id="LOCAL-00037" summary="task13">
+      <created>1560169619896</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1560169619896</updated>
+    </task>
+    <task id="LOCAL-00038" summary="task13">
+      <created>1560169808235</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1560169808235</updated>
+    </task>
+    <task id="LOCAL-00039" summary="task13">
+      <created>1560169917714</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1560169917714</updated>
+    </task>
+    <task id="LOCAL-00040" summary="task13">
+      <created>1560215633049</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1560215633050</updated>
+    </task>
+    <task id="LOCAL-00041" summary="task13">
+      <created>1560215903091</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1560215903092</updated>
+    </task>
+    <task id="LOCAL-00042" summary="task13">
+      <created>1560216548299</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1560216548299</updated>
+    </task>
+    <task id="LOCAL-00043" summary="task13">
+      <created>1560322013608</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1560322013608</updated>
+    </task>
+    <task id="LOCAL-00044" summary="task13">
+      <created>1560322997765</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1560322997765</updated>
+    </task>
+    <task id="LOCAL-00045" summary="task13">
+      <created>1560323346917</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1560323346917</updated>
+    </task>
+    <task id="LOCAL-00046" summary="task13">
+      <created>1560327417126</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1560327417126</updated>
+    </task>
+    <task id="LOCAL-00047" summary="task13">
+      <created>1560689702959</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1560689702959</updated>
+    </task>
+    <task id="LOCAL-00048" summary="task13">
+      <created>1560737425195</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1560737425195</updated>
+    </task>
+    <task id="LOCAL-00049" summary="task13">
+      <created>1560737483225</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1560737483225</updated>
+    </task>
+    <task id="LOCAL-00050" summary="task13">
+      <created>1560737508554</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1560737508555</updated>
+    </task>
+    <task id="LOCAL-00051" summary="task13">
+      <created>1560737649414</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1560737649414</updated>
+    </task>
+    <task id="LOCAL-00052" summary="task13">
+      <created>1560738706175</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1560738706175</updated>
+    </task>
+    <task id="LOCAL-00053" summary="task13">
+      <created>1560738907599</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1560738907599</updated>
+    </task>
+    <task id="LOCAL-00054" summary="task13">
+      <created>1560747892973</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1560747892973</updated>
+    </task>
+    <task id="LOCAL-00055" summary="task13">
+      <created>1560750871813</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1560750871813</updated>
+    </task>
+    <task id="LOCAL-00056" summary="task13">
+      <created>1560762301935</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1560762301935</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="297869000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23712021" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28895184" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" type="SLIDING" weight="0.32577905" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23712021" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28895184" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" type="SLIDING" weight="0.32577905" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="task13" />
+    <option name="LAST_COMMIT_MESSAGE" value="task13" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1685470954/FileRecv/task-1401.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4487">
+          <caret line="4683" column="26" lean-forward="true" selection-start-line="4443" selection-end-line="4686" selection-end-column="1" />
+          <folding>
+            <element signature="e#75129#75329#2" expanded="true" />
+            <element signature="e#75559#75708#2" expanded="true" />
+            <element signature="e#76271#76417#2" expanded="true" />
+            <element signature="e#76773#76939#1" expanded="true" />
+            <element signature="e#90065#90308#2" expanded="true" />
+            <element signature="e#91320#91569#2" expanded="true" />
+            <element signature="e#123025#123215#2" expanded="true" />
+            <element signature="e#123270#123460#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task7/task7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/www.jnshu.com.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/技能树.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/1-gongzhonghao.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task14-1.html" />
+    <entry file="file://$PROJECT_DIR$/task14/task014.css" />
+    <entry file="file://$PROJECT_DIR$/task14/task014.html" />
+    <entry file="file://$PROJECT_DIR$/task14/task014.scss" />
+    <entry file="file://$PROJECT_DIR$/task8/1-man.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/image/2-beijing.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task14-nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task14-hd.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1685470954/FileRecv/task-bootstrap-14.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="1233" column="1" lean-forward="true" selection-start-line="1233" selection-start-column="1" selection-end-line="1233" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task14-3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35796">
+          <caret line="1884" column="29" lean-forward="true" selection-start-line="1884" selection-start-column="29" selection-end-line="1884" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task14-2.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/image/main-box-image.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/image/u=1420534138,2413426954&amp;fm=26&amp;gp=0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/task08.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="170" column="46" selection-start-line="170" selection-start-column="46" selection-end-line="171" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task0014.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task0014.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task0014.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="6" column="72" lean-forward="true" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task15/task15-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task15/task15-1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task14-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="116" column="57" lean-forward="true" selection-start-line="116" selection-start-column="57" selection-end-line="116" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task15/task15-2.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/icon-4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/qq-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/task08.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/task8.logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/icon-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/icon-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/icon-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/task8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="115" column="44" selection-start-line="115" selection-start-column="44" selection-end-line="115" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task10/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="5" column="154387" selection-start-line="5" selection-start-column="154387" selection-end-line="5" selection-end-column="154387" />
+          <folding>
+            <element signature="e#25768#26002#2" expanded="true" />
+            <element signature="e#26806#26959#1" expanded="true" />
+            <element signature="e#26999#27233#1" expanded="true" />
+            <element signature="e#30239#30515#2" expanded="true" />
+            <element signature="e#31347#31500#1" expanded="true" />
+            <element signature="e#31540#31816#1" expanded="true" />
+            <element signature="e#61072#61259#2" expanded="true" />
+            <element signature="e#61488#61624#2" expanded="true" />
+            <element signature="e#62027#62160#2" expanded="true" />
+            <element signature="e#63642#63795#1" expanded="true" />
+            <element signature="e#75788#76018#2" expanded="true" />
+            <element signature="e#76885#77121#2" expanded="true" />
+            <element signature="e#106714#106891#2" expanded="true" />
+            <element signature="e#106937#107114#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task10/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="9941" lean-forward="true" selection-start-line="9941" selection-end-line="9941" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task14-nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="74" column="20" lean-forward="true" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task14-hd.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8/task8.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task14-carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3268">
+          <caret line="172" column="47" lean-forward="true" selection-start-line="172" selection-start-column="47" selection-end-line="172" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task15/task15-1.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task14-3.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313">
+          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task14-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-802">
+          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task14-footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task14.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="191" column="22" lean-forward="true" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task14-2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task14/task14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="293" column="14" lean-forward="true" selection-start-line="293" selection-start-column="14" selection-end-line="293" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1/task1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
