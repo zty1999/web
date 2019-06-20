@@ -137,3 +137,51 @@ function end() {
 //     document.getElementById("start").disabled=false; //启用开始按钮
 // }
 //
+
+function randomColor(){//for循环
+    var color="#";
+    for(var i=0;i<6;i++){
+        color += (Math.random()*16 | 0).toString(16);//+=:例子x+=y等同于x=x+y，即累加。
+    }
+    return color;//输出颜色的十六进制
+}
+
+
+function randomarry() {
+    var arr = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+    for (var i=0; i<arr.length; i++) {
+        var randomnum = Math.floor(Math.random() * 9);
+        var random = arr[i];
+        arr[randomnum] = arr[i];
+        arr[randomnum] = random;//随机选取盒子
+
+    }
+}
+function resetColor() {
+    for (var i = 0; i < z.length; i++) {
+        z[i].style.backgroundColor = "rgb(251, 180, 53)";//每次获取随机颜色后恢复默认颜色
+    }
+}
+// function resetColor() {
+//     for (var i= 0; i < box.length; i++) {
+//         box[i].style.background = "orange";
+//     }
+// }
+var time;
+function begin() {
+    time = setInterval(function () {
+        resetColor();
+
+        var randomarry1 = randomarry(1,3);
+        for (var w = 0; 1<2; w++) {//给随机盒子配上随机色
+            var color = randomColor();
+            z[randomarry1].style.backgroundColor = color;
+            // w = z[random[1]].style.backgroundColor = color();
+            // w = z[random[2]].style.backgroundColor = color();
+        }
+
+    },1000);
+
+}
+
+
