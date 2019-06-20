@@ -1,0 +1,147 @@
+*,*:before,*:after {
+  box-sizing: border-box;
+}
+
+$back-color: #29bde0;
+$color: white;
+html {
+  background-color: white;
+}
+body {
+  background-color: #efefef;
+}
+body,header,footer {
+  min-width: 320px;
+  max-width: 780px;
+  margin: 0 auto;
+  width: 100%;
+}
+header,footer  {
+  display: flex;
+  align-items: center;
+}
+header {
+  width: 100%;
+  justify-content: space-between;
+  //padding: .5rem 1rem;
+  color: $color;
+  font-size: 20px;
+  background-color: $back-color;
+  #back {
+    padding: 0 22px 0 1rem;
+  }
+  #help {
+    padding: .5rem 1rem .5rem 0;
+  }
+}
+main {
+  //margin: auto;
+  margin: 10px;
+  //border: 1px solid #dae0e5;
+  .main-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #dae0e5;
+
+    .player {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 20%;
+      //height: 6rem;
+      font-size: 20px;
+
+    }
+
+    .count {
+      flex: 1;
+
+      .user {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+
+        //border: 1px solid #dae0e5;
+        .killer {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 50%;
+          height: 14rem;
+          color: #b3b3b3;
+          border-bottom: 1px solid #dae0e5;
+          border-left: 1px solid #dae0e5;
+          div {
+            width: .5rem;
+            height: .5rem;
+            background-color: #FF9900;
+            margin-right: 5px;
+          }
+        }
+
+        .people {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex: 1;
+          height: 14rem;
+          color: #b3b3b3;
+          border-bottom: 1px solid #dae0e5;
+
+          div {
+            width: .5rem;
+            height: .5rem;
+            margin-right: 5px;
+            background-color: #FF9900;
+
+          }
+        }
+      }
+
+      .settings {
+        padding: .5rem 0;
+        text-align: center;
+        color: $back-color;
+        border-left: 1px solid #dae0e5;
+
+      }
+    }
+  }
+  .main-bottom {
+    margin: .5rem 0;
+    background-color: white;
+    .input-box {
+      display: flex;
+      margin: 0 1rem;
+      border-bottom: 1px solid #dae0e5;
+
+      > span {
+        text-align: center;
+        height: 3rem;
+        line-height: 3rem;
+        width: 30%;
+
+      }
+      input {
+        outline: none;
+        border: none;
+        line-height: 3rem;
+      }
+      #ghost {
+
+         width: 70%;
+        //height: 3rem;
+
+      }
+      #water-people {
+        flex: 1;
+      }
+    }
+
+  }
+}
