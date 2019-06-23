@@ -1,7 +1,15 @@
 *,*:before,*:after {
   box-sizing: border-box;
 }
+input {
+  outline: none;
+  border: none;
+}
 
+button {
+  outline: none;
+  border: none;
+}
 $back-color: #29bde0;
 $color: white;
 html {
@@ -28,10 +36,12 @@ header {
   font-size: 20px;
   background-color: $back-color;
   #back {
-    padding: 0 22px 0 1rem;
+    height: 35px;
+    margin: 0 22px 0 1rem;
   }
   #help {
-    padding: .5rem 1rem .5rem 0;
+    height: 35px;
+    margin: .5rem 1rem .5rem 0;
   }
 }
 main {
@@ -127,21 +137,62 @@ main {
         width: 30%;
 
       }
-      input {
-        outline: none;
-        border: none;
-        line-height: 3rem;
-      }
-      #ghost {
 
+      #ghost {
+        line-height: 3rem;
          width: 70%;
         //height: 3rem;
 
       }
       #water-people {
         flex: 1;
+        line-height: 3rem;
       }
     }
-
   }
+  .block {
+    height: 8rem;
+    text-align: center;
+    background-color: $color;
+    padding-top: 1rem;
+    .number-of-players {
+      height: 3rem;
+      line-height: 3rem;
+      >span {
+
+        font-weight: 700;
+        > input {
+        width: 1.5rem;
+        height: 1.5rem;
+        vertical-align: middle;
+        text-align: center;
+          font-size: 18px;
+          color: #f5c97b;
+          //background-color: #f5c97b;
+        }
+
+      }
+      > a {
+        line-height: 3rem;
+        font-size: 14px;
+        color: #f5c97b;
+      }
+    }
+    .slider > #range {
+      width: 100%;
+      padding: 0 2rem;
+    }
+  }
+}
+footer {
+  > input {
+    height: 4rem;
+    line-height: 4rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: #f5c97b;
+  }
+
 }

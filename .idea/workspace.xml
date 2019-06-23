@@ -2,34 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8039ed7-3f19-4450-8dd5-80e3feac860c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/task-1/task-001.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-1/task-001.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-1/task-001.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-1/task-001.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-1/task-001.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-1/task-1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-1/task-1.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-1/task-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-1/task-1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-1/task-1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/img/circled-help.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/img/js-02.js.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/img/pencil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/task-002.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/task-02.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/task-02.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/task-02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/task-02.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/task-02.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/task-2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/task-2.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/task-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/task-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/task-2.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/task-2/task-2-3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task1/task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/task1/task1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/task-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task-1/task-001.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-1/task-001.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task-2/task-02.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-2/task-02.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task-2/task-02.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-2/task-02.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task-2/task-02.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-2/task-02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task-2/task-02.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-2/task-02.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task-2/task-02.scss" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-2/task-02.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task-2/task-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-2/task-2.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,66 +22,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.9">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/task-1/task-1.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="836">
-                  <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/task-1/task-1.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="57">
-                  <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/task-2/task-02.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="703">
-                  <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-                  <folding>
-                    <element signature="e#702#708#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/task-2/task-2.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="horizontal" split-proportion="0.6216216">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/js/task-2/task-02.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="395">
+                      <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+                      <folding>
+                        <element signature="e#702#708#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/js/task-2/task-02.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="300">
+                      <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/task-1/task-001.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/task-1/task-001.js">
+            <entry file="file://$PROJECT_DIR$/js/task-2/task-02.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="532">
-                  <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+                <state relative-caret-position="395">
+                  <caret line="181" column="18" lean-forward="true" selection-start-line="181" selection-start-column="18" selection-end-line="181" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -114,9 +76,9 @@
       <list>
         <option value="Sass File" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -131,8 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/task14/task14-header.scss" />
-        <option value="$PROJECT_DIR$/task14/task0014.html" />
         <option value="$PROJECT_DIR$/task14/task14-1.scss" />
         <option value="$PROJECT_DIR$/task14/task14-1.html" />
         <option value="$PROJECT_DIR$/task8/css/bootstrap.css" />
@@ -167,7 +127,6 @@
         <option value="$PROJECT_DIR$/js/task-2.html" />
         <option value="$PROJECT_DIR$/js/task-2/task-002.html" />
         <option value="$PROJECT_DIR$/js/task-2/task-2.js" />
-        <option value="$PROJECT_DIR$/js/task-2/task-02.js" />
         <option value="$PROJECT_DIR$/js/task-1/task-02.html.scss" />
         <option value="$PROJECT_DIR$/js/task-1/task-02.html.css" />
         <option value="$PROJECT_DIR$/js/task-1/task-02.html.css.map" />
@@ -177,11 +136,14 @@
         <option value="$PROJECT_DIR$/js/task-1/task-001.scss" />
         <option value="$PROJECT_DIR$/js/task-1/task-001.html" />
         <option value="$PROJECT_DIR$/js/task-1/task-1.html" />
-        <option value="$PROJECT_DIR$/js/task-2/task-02.scss" />
-        <option value="$PROJECT_DIR$/js/task-2/task-02.html" />
-        <option value="$PROJECT_DIR$/js/task-2/task-2.html" />
         <option value="$PROJECT_DIR$/js/task-1/task-1.js" />
         <option value="$PROJECT_DIR$/js/task-1/task-001.js" />
+        <option value="$PROJECT_DIR$/js/task-2/task-2.html" />
+        <option value="$PROJECT_DIR$/js/task-2/task2-3.html" />
+        <option value="$PROJECT_DIR$/js/task-2/task-2-3.html" />
+        <option value="$PROJECT_DIR$/js/task-2/task-02.scss" />
+        <option value="$PROJECT_DIR$/js/task-2/task-02.html" />
+        <option value="$PROJECT_DIR$/js/task-2/task-02.js" />
       </list>
     </option>
   </component>
@@ -205,54 +167,6 @@
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="task3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="task7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="task11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="task12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="task13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="task13" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="task14" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
@@ -391,21 +305,8 @@
       <workItem from="1560733531104" duration="15607000" />
       <workItem from="1560834319549" duration="16611000" />
       <workItem from="1560907546864" duration="23777000" />
-      <workItem from="1560992848726" duration="17771000" />
-    </task>
-    <task id="LOCAL-00008" summary="task13">
-      <created>1559717527247</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1559717527247</updated>
-    </task>
-    <task id="LOCAL-00009" summary="task13">
-      <created>1559719044683</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1559719044683</updated>
+      <workItem from="1560992848726" duration="32248000" />
+      <workItem from="1561079077240" duration="19070000" />
     </task>
     <task id="LOCAL-00010" summary="task13">
       <created>1559719454618</created>
@@ -736,14 +637,28 @@
       <option name="project" value="LOCAL" />
       <updated>1560762301935</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="task13">
+      <created>1561022852642</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1561022852643</updated>
+    </task>
+    <task id="LOCAL-00058" summary="task13">
+      <created>1561039310228</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1561039310228</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356028000" />
+    <option name="totallyTimeSpent" value="389575000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10303831" />
@@ -794,7 +709,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="task13" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task8/task8.css" />
     <entry file="file://$PROJECT_DIR$/task14/task14-carousel.scss" />
     <entry file="file://$PROJECT_DIR$/task15/task15-1.scss" />
     <entry file="file://$PROJECT_DIR$/task14/task14-3.scss" />
@@ -887,13 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/task-2/task-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/css-图片/js2/玩家配比_files/js-02.js.下载">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -964,44 +871,6 @@
         <state relative-caret-position="-1710" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/task-2/task-02.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="120" column="39" lean-forward="true" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/task-2/task-02.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/task-2/task-02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-          <folding>
-            <element signature="e#702#708#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/task-2/task-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/task-1/task-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/task-1/task-001.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1009,24 +878,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/task-1/task-001.html">
+    <entry file="file://$PROJECT_DIR$/js/task-1/task-001.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+          <caret column="7" lean-forward="true" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task-1/task-001.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task-2/task-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task-2/task-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/task-1/task-1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="285">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/task-1/task-001.js">
+    <entry file="file://$PROJECT_DIR$/js/task-1/task-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        <state relative-caret-position="76">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task-2/task-2-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task-2/task-02.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="181" column="18" lean-forward="true" selection-start-line="181" selection-start-column="18" selection-end-line="181" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task-2/task-02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          <folding>
+            <element signature="e#702#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task-2/task-02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -7,13 +7,8 @@ function  randomColor() {
     var color = "#";
     for (var i=0; i<6; i++) {
         color += (Math.random() * 16 | 0).toString(16);
-
-        // while (color ="#" + "FBB435") {
-        //     return randomColor();
-        // }
     }
     return color;
-
 }
 var arr = [0,1,2,3,4,5,6,7,8];
 //随机盒子
