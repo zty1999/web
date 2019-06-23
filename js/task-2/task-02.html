@@ -19,36 +19,48 @@
         <div class="player">玩<br/>家<br/>配<br/>比</div>
         <div class="count">
             <div class="user">
-                <div class="killer"><div></div><span>杀手&nbsp;<a id="killer">1</a>&nbsp;人</span></div>
-                <div class="people"><div></div><span>平民&nbsp;<a id="people">3</a>&nbsp;人</span></div>
+                <div class="killer"><p></p><span>杀手&nbsp;<a id="killer" >1</a>&nbsp;人</span></div>
+                <div class="people"><p></p><span>平民&nbsp;<a id="people" >3</a>&nbsp;人</span></div>
             </div>
-            <div class="settings"><span>点击设置</span><img src="img/pencil.png" height="14" width="14"/></div>
+            <div class="settings"><span id="settings">点击设置</span><img src="img/pencil.png" height="14" width="14"/></div>
         </div>
     </div>
     <div class="main-bottom">
-        <form class="input-box" id="user-form" method="post">
+        <div class="input-box"  >
             <span>幽灵词组:</span>
             <input id="ghost" type="text" maxlength="10" onkeyup="value=value.replace(/[\d]/g,'')" placeholder="限制输入10个字以内,不可为数字" autofocus required="required" >
-        </form>
+        </div>
         <div class="input-box">
             <span>水民词组:</span>
-            <input id="water-people" form="user-form" type="text" formaction="task-2-3.html" maxlength="10" onkeyup="value=value.replace(/[\d]/g,'')" placeholder="限制输入10个字以内" required="required" onsubmit="deal()">
+            <input id="water-people" type="text"  maxlength="10" onkeyup="value=value.replace(/[\d]/g,'')" placeholder="限制输入10个字以内,不可为数字" required="required" >
         </div>
 
     </div>
     <div class="block">
         <div class="number-of-players">
-            <span>本轮玩家人数  <input type="text" id="player" form="user-form" maxlength="2" min="4" max="18"value="4" onkeyup="this.value=this.value.replace(/\D/g,'')" required >人 </span>
+            <span>本轮玩家人数<input type="text" id="player" maxlength="2" value="4" onkeyup="this.value=this.value.replace(/\D/g,'')" required onblur="on_change()">人 </span>
             <a>（玩家人数为4-18）</a>
         </div>
         <div class="slider">
-            <input id="range" form="range" type="range" min="4" max="18"/>
+            <button class="btn-sub" id="btnSub" onclick="less()" >-</button>
+            <input id="range"  type="range" min="4" max="18" step="1" value="4" oninput="move_change()"/>
+            <button class="btn-add" id="btnAdd"  onclick="plus()">+</button><!--加value的按钮-->
         </div>
     </div>
 </main>
+
+
 <footer>
-    <input type="submit" form="user-form" name="tijiao" onclick="deal()"/>
+    <input type="submit" name="tijiao" value="请发牌" onclick="deal()"/>
 </footer>
+
 <script src="task-02.js"></script>
+<script>
+    var change = function($input) {
+            /*内容可自行定义*/
+            console.log("123");
+        }
+        </script>
 </body>
+
 </html>

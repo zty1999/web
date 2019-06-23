@@ -2,9 +2,192 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
     <title>Title</title>
+
+    <style>
+        #tip{
+            position: absolute;
+            top: 30px;
+            left: 0;
+            right: 0;
+            width: 200px;
+            height: 160px;
+            margin: auto;
+            border: 1px solid gray;
+            background-color: cornsilk;
+        }
+        #tip div{
+            position: relative;
+            width: 100%;
+            height: 80px;
+            border-bottom: 1px solid gray;
+        }
+        .out{
+            position: relative;
+            left: 16%;
+            display: inline-block;
+            border: 2px solid royalblue;
+            margin-top: 20px;
+            width: 130px;
+            height: 20px;
+            background-color: lightgoldenrodyellow;
+        }
+        .in{
+            display: block;
+            height: 20px;
+            line-height: 20px;
+            text-align: right;
+            color: white;
+            width: 50%;
+            background-image: linear-gradient(to right,powderblue 0%,#336699 50%,red 100%);
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        input[type="range"] {
+            position: relative;
+            left: 19%;
+            top: 5px;
+            box-shadow: 0 1px 0 0px #424242, 0 1px 0 #060607 inset, 0px 2px 10px 0px black inset, 1px 0px 2px rgba(0, 0, 0, 0.4) inset, 0 0px 1px rgba(0, 0, 0, 0.6) inset;
+            background-color: lightskyblue;
+            border-radius: 15px;
+            width: 60%;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            height:15px;
+        }
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            height: 20px;
+            width: 10px;
+            background-color: coral;
+            border-radius: 15px;
+            -webkit-box-shadow: 0 -1px 1px black inset;
+            -moz-box-shadow: 0 -1px 1px black inset;
+            box-shadow: 0 -1px 1px black inset;
+        }
+        input[type="range"]:before{
+            content: attr(value);
+            color: white;
+            border-radius: 5px 0 0 5px;
+            background-color: lightskyblue;
+        }
+        input[type="range"]:after{
+            content: attr(max);
+            color: white;
+            border-radius:0 5px 5px 0;
+            background-color: lightskyblue;
+        }
+        .b{
+            display: inline-block;
+            width: 22px;
+            padding: 0;
+        }
+        #outer2{left: 5px}
+        #btn1{
+            position: relative;
+            left: 5px;
+        }
+        #btn2{
+            position: relative;
+            left: 5px;
+        }
+    </style>
+
 </head>
 <body>
-<p>这是页面内容</p>
+
+<form id="tip">
+    <div>
+      <span id="outer1" class="out">
+        <span id="inner1" class="in">50</span>
+      </span>
+        <input id="range" class="ran" type="range" min="0" max="100" step="1" value="50">
+    </div>
+    <div id="d2">
+        <input id="btn1" class="b" type="button" value="<">
+        <span id="outer2" class="out">
+        <span id="inner2" class="in">50</span>
+      </span>
+        <input id="btn2" class="b" type="button" value=">">
+    </div>
+    按住按钮0.5秒, 会持续变化!
+</form>
+<script>
+    window.onload = function(){
+        //原生组件range
+        var inner = document.getElementById('inner1');
+        var range = document.getElementById('range');
+        range.onclick = function(){
+            inner.innerHTML = range.value;
+            inner.style.width = range.value+'%';
+        };
+        range.onmousemove = function(){
+            inner.innerHTML = range.value;
+            inner.style.width = range.value+'%';
+        };
+        //自定义组件
+        var outer2 = document.getElementById('outer2');
+        var inner2 = document.getElementById('inner2');
+        var btn1 = document.getElementById('btn1');
+        var btn2 = document.getElementById('btn2');
+        var id,id1;
+        var value = parseInt(inner2.innerHTML);
+        var a = parseFloat(window.getComputedStyle(outer2,null).width)/100;
+        //减---
+        btn1.onmousedown = function(){
+            id1 = setTimeout(function change(){
+                if(value>0) {
+                    value--;
+                    inner2.innerHTML = value;
+                    inner2.style.width = (value) * a + 'px';
+                    id = setTimeout(function(){
+                        clearTimeout(id);
+                        change();
+                    },16.7);
+                }else{clearTimeout(id);}
+            },500);
+        };
+        btn1.onmouseup = function(){clearTimeout(id1);clearTimeout(id)};
+        btn1.onclick = function(){
+            console.log('a:'+a+','+'value:'+value);
+            if(value>0){
+                value--;
+                inner2.innerHTML = value;
+                inner2.style.width = (value)*a+'px';
+            }
+        };
+        //加+++
+        btn2.onmousedown = function(){
+            id1 = setTimeout(function change(){
+                if(value<100) {
+                    value++;
+                    inner2.innerHTML = value;
+                    inner2.style.width = value * a + 'px';
+                    id = setTimeout(function(){
+                        clearTimeout(id);
+                        change();
+                    },16.7);
+                }else{clearTimeout(id);}
+            },500);
+        };
+        btn2.onmouseup = function(){clearTimeout(id1);clearTimeout(id)};
+        btn2.onclick = function(){
+            if(value<100){
+                value++;
+                inner2.innerHTML = value;
+                inner2.style.width = value*a+'px';
+            }
+        }
+    }
+</script>
+
+
+
 </body>
 </html>

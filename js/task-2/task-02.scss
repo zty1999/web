@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,*:before,*:after {
   box-sizing: border-box;
 }
@@ -5,7 +6,9 @@ input {
   outline: none;
   border: none;
 }
-
+a {
+  display: inline-block;
+}
 button {
   outline: none;
   border: none;
@@ -69,14 +72,13 @@ main {
 
     .count {
       flex: 1;
-
+      font-size: 18px;
       .user {
         display: flex;
         align-items: center;
         justify-content: space-around;
-
-
         //border: 1px solid #dae0e5;
+
         .killer {
           display: flex;
           justify-content: center;
@@ -86,11 +88,9 @@ main {
           color: #b3b3b3;
           border-bottom: 1px solid #dae0e5;
           border-left: 1px solid #dae0e5;
-          div {
-            width: .5rem;
-            height: .5rem;
-            background-color: #FF9900;
-            margin-right: 5px;
+          span {
+            height: 1.5rem;
+            line-height: 1.5rem;
           }
         }
 
@@ -102,15 +102,28 @@ main {
           height: 14rem;
           color: #b3b3b3;
           border-bottom: 1px solid #dae0e5;
-
-          div {
-            width: .5rem;
-            height: .5rem;
-            margin-right: 5px;
-            background-color: #FF9900;
-
+          span {
+            height: 1.5rem;
+            line-height: 1.5rem;
           }
         }
+
+        p {
+          width: .5rem;
+          height: .5rem;
+          font-size: 0;
+           background-color: #FF9900;
+           margin-right: 5px;
+         }
+
+        a {
+          width: 18px;
+          height: 18px;
+
+          text-align: center;
+
+          color: #FF9900;
+          }
       }
 
       .settings {
@@ -152,23 +165,23 @@ main {
   }
   .block {
     height: 8rem;
-    text-align: center;
+    //text-align: center;
     background-color: $color;
     padding-top: 1rem;
     .number-of-players {
       height: 3rem;
       line-height: 3rem;
       >span {
-
+        padding-left: 2rem;
         font-weight: 700;
         > input {
-        width: 1.5rem;
+        width: 2.5rem;
         height: 1.5rem;
         vertical-align: middle;
         text-align: center;
           font-size: 18px;
           color: #f5c97b;
-          //background-color: #f5c97b;
+          background-color: #fff;
         }
 
       }
@@ -178,12 +191,66 @@ main {
         color: #f5c97b;
       }
     }
-    .slider > #range {
-      width: 100%;
-      padding: 0 2rem;
+    .slider {
+      display: flex;
+      margin: 1rem 0;
+
+      input[type=range] {
+        -webkit-appearance: none;
+        width: 80%;
+        border-radius: 10px; /*这个属性设置使填充进度条时的图形为圆角*/
+
+        background-size: 0 100%;
+        &:focus {
+          outline: none;
+        }
+      }
+      input[type=range]::-webkit-slider-thumb {//滑动条的滑块部分
+        -webkit-appearance: none;
+        width: 60px;
+        height: 42px;
+        margin-top: -16px;
+        border: 1px solid #f5c97b;
+        border-radius: 10px;
+        background-color: white;
+      }
+      input[type=range]::-webkit-slider-runnable-track {//滑动条的滑轨部分
+        height: 10px;
+        background-color: #f5c97b;
+        border-radius: 10px; /*将轨道设为圆角的*/
+        //box-shadow: 0 1px 1px #def3f8, inset 0 .125em .125em #0d1112; /*轨道内置阴影效果*/
+      }
+      //input[type=range]::-ms-fill-lower {//::-ms-fill-lower这是ie兼容range的属性写法下面那个同理
+      //  /*进度条已填充的部分*/
+      //  height: 22px;
+      //  border-radius: 10px;
+      //  /*background: black;*/
+      //  background: linear-gradient(to right, #059CFA, white 100%, white);
+      //}
+      //
+      //input[type=range]::-ms-fill-upper {
+      //  /*进度条未填充的部分*/
+      //  height: 22px;
+      //  border-radius: 10px;
+      //  background: red;
+      //}
+
+      > button {
+        width: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+
+        outline: none;
+        border: 1px solid #dae0e5;
+        background-color: white;
+        color: #FF9900;
+        margin: 0 2rem;
+
+      }
     }
   }
 }
+
 footer {
   > input {
     height: 4rem;
