@@ -2,6 +2,10 @@
 *, *:before, *:after {
   box-sizing: border-box; }
 
+* {
+  margin: 0;
+  padding: 0; }
+
 input {
   outline: none;
   border: none; }
@@ -94,11 +98,12 @@ main {
           font-size: 0;
           background-color: #FF9900;
           margin-right: 5px; }
-        main .main-top .count .user a {
-          width: 18px;
+        main .main-top .count .user input {
+          width: 2rem;
           height: 18px;
           text-align: center;
-          color: #FF9900; }
+          color: #FF9900;
+          font-size: 18px; }
       main .main-top .count .settings {
         padding: .5rem 0;
         text-align: center;
@@ -138,12 +143,12 @@ main {
           vertical-align: middle;
           text-align: center;
           font-size: 18px;
-          color: #f5c97b;
+          color: #FF9900;
           background-color: #fff; }
       main .block .number-of-players > a {
         line-height: 3rem;
         font-size: 14px;
-        color: #f5c97b; }
+        color: #FF9900; }
     main .block .slider {
       display: flex;
       margin: 1rem 0; }
@@ -157,15 +162,15 @@ main {
           outline: none; }
       main .block .slider input[type=range]::-webkit-slider-thumb {
         -webkit-appearance: none;
-        width: 60px;
-        height: 42px;
-        margin-top: -16px;
-        border: 1px solid #f5c97b;
-        border-radius: 10px;
-        background-color: white; }
+        width: 50px;
+        height: 36px;
+        margin-top: -13px;
+        border-radius: 5px;
+        background: url("https://chrun0.github.io/css/web/js/js-2/img2/asss.png") no-repeat 0 0;
+        background-size: 100% 100%; }
       main .block .slider input[type=range]::-webkit-slider-runnable-track {
         height: 10px;
-        background-color: #f5c97b;
+        background-color: #FF9900;
         border-radius: 10px;
         /*将轨道设为圆角的*/ }
       main .block .slider > button {
@@ -185,6 +190,6 @@ footer > input {
   text-align: center;
   color: white;
   font-size: 20px;
-  background-color: #f5c97b; }
+  background-color: #FF9900; }
 
 /*# sourceMappingURL=task-02.css.map */

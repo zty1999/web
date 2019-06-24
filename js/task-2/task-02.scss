@@ -2,6 +2,11 @@
 *,*:before,*:after {
   box-sizing: border-box;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
 input {
   outline: none;
   border: none;
@@ -116,13 +121,12 @@ main {
            margin-right: 5px;
          }
 
-        a {
-          width: 18px;
+        input {
+          width: 2rem;
           height: 18px;
-
           text-align: center;
-
           color: #FF9900;
+          font-size: 18px;
           }
       }
 
@@ -180,7 +184,7 @@ main {
         vertical-align: middle;
         text-align: center;
           font-size: 18px;
-          color: #f5c97b;
+          color: #FF9900;
           background-color: #fff;
         }
 
@@ -188,7 +192,7 @@ main {
       > a {
         line-height: 3rem;
         font-size: 14px;
-        color: #f5c97b;
+        color: #FF9900;
       }
     }
     .slider {
@@ -207,16 +211,18 @@ main {
       }
       input[type=range]::-webkit-slider-thumb {//滑动条的滑块部分
         -webkit-appearance: none;
-        width: 60px;
-        height: 42px;
-        margin-top: -16px;
-        border: 1px solid #f5c97b;
-        border-radius: 10px;
-        background-color: white;
+        width: 50px;
+        height: 36px;
+        margin-top: -13px;
+        //border: 1px solid #f5c97b;
+        border-radius: 5px;
+        background: url("https://chrun0.github.io/css/web/js/js-2/img2/asss.png") no-repeat 0 0;
+        background-size: 100% 100%;
+        //background-color: white;
       }
       input[type=range]::-webkit-slider-runnable-track {//滑动条的滑轨部分
         height: 10px;
-        background-color: #f5c97b;
+        background-color: #FF9900;
         border-radius: 10px; /*将轨道设为圆角的*/
         //box-shadow: 0 1px 1px #def3f8, inset 0 .125em .125em #0d1112; /*轨道内置阴影效果*/
       }
@@ -259,7 +265,7 @@ footer {
     text-align: center;
     color: white;
     font-size: 20px;
-    background-color: #f5c97b;
+    background-color: #FF9900;
   }
 
 }

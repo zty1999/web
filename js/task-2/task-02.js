@@ -7,16 +7,17 @@ var z = document.getElementById('ghost');//为幽灵词组输入框设置变量
 var y = document.getElementById('water-people');//为水民词组输入框设置变量
 
 function deal() {//点击请发牌
-    if (z.value !== "" && y.value !== "") {//value不为空
-        window.location.assign('task-2-3.html')//如果两个词组输入框的值都不为空跳转至下一页面
-    } else {
-        alert('请输入词组');//否则弹出警告框
-    }
+    shuffle();
+    // if (z.value !== "" && y.value !== "") {//value不为空
+        window.location.assign('task-002.html')//如果两个词组输入框的值都不为空跳转至下一页面
+    // } else {
+        // alert('请输入词组');//否则弹出警告框
+    // }
 }
 
 
-var playerNum = document.getElementById('player');
-var rangeBlock = document.getElementById("range");
+var playerNum = document.getElementById('player');//为滑动条上方输入框设置变量
+var rangeBlock = document.getElementById("range");//为滑动条设置变量
 
 function on_change() {
     if (playerNum.value>= 4 && playerNum.value <=18) {
@@ -27,7 +28,7 @@ function on_change() {
         alert('人数为4—18,请重新选择');
         rangeBlock.value = 4;
         playerNum.value = 4;
-        //人数超出范围则弹出警告框并重置滑动条和框的值为6
+        //人数超出范围则弹出警告框并重置滑动条和框的值为4
     }
 }
 
@@ -53,6 +54,30 @@ function plus() {
 function move_change() {
     playerNum.value = rangeBlock.value;
     //把滑动条的值赋给框
+    // var myArray = new Array(1,2,3,4,5);
+    //
+    // var whatArray = new Array(3,4,5,6,7,8,9,10,11,12,13);
+    // var arr = new Array(5);
+    // arr[0] = "1";
+    // arr[1] = "2";
+    // arr[2] = "3";
+    // arr[3] = "4";
+    // arr[4] = "5";
+    // var arr2 = new Array(11);
+    // arr2[0] = "3";
+    // arr2[1] = "4";
+    // arr2[2] = "5";
+    // arr2[3] = "6";
+    // arr2[4] = "7";
+    // arr2[5] = "8";
+    // arr2[6] = "9";
+    // arr2[7] = "10";
+    // arr2[8] = "11";
+    // arr2[9] = "12";
+    // arr2[10] = "13";
+    // document.write(arr.concat(arr2));
+
+
     var arr = rangeBlock.value,
         kill,
         peoPle;
@@ -76,12 +101,106 @@ function move_change() {
         kill = "4";
 
     }
-    else if (arr <=18) {
-        kill = "5";
+     else if (arr <=18) {
+         kill = "5";
 
-    }
-    peoPle = arr - kill;
-    document.getElementById("killer").innerHTML = kill;
-    document.getElementById("people").innerHTML = peoPle;
+     }
+     peoPle = arr - kill;
+     document.getElementById("killer").value = kill;
+     document.getElementById("people").value = peoPle;
 
 }
+
+function getNumArray() {
+    var arr = document.getElementById("player").value;//获取总人数值
+    var numArray = new Array(parseFloat(arr)).fill("平民");//创建长度为总人数值，全部为平民的数组
+    var killerArray = numArray.slice(0),count=parseFloat("killer");//开始得到有杀手的数组，count为杀人数
+    for (i=0;i < count;i++) {//将杀手换进数组，得到杀人数组
+        killerArray[i] = "杀手";
+    }
+    var shuffle = killerArray.slice(0), l = killerArray.length, temp,index;//开始打乱数组
+    for (l>=0;l--;) {//打乱l次后输出结果
+        index = Math.floor((l+1) * Math.random());
+        temp = shuffle[index];
+        shuffle[index] = shuffle[l];
+        shuffle[l] = temp;
+    }
+    return shuffle;
+}
+
+
+
+// function shuffle() {
+//        h = new Array (parseInt('peoPle')).fill(5);
+//        k = new Array  (parseInt("kill")).fill(13);
+//      var _arr = k.concat(h);
+// function shuffleArray(_array) {
+//     for (var i = _array.length; i--; ) {
+//         var j = Math.floor(Math.random() * (i + 1));
+//         var temp = _array[i];
+//         _array[i] = _array[j];
+//         _array[j] = temp;
+//     }
+//     return _array;
+//
+// }
+//
+// return shuffleArray(arr);
+//
+// }
+
+// Array.prototype.shuffle = function shuffle() {
+//
+//     var input = this;
+//
+//     for (var i = input.length - 1; i >= 0; i--) {
+//
+//         var randomIndex = Math.floor(Math.random() * (i + 1));
+//
+//         var itemAtIndex = input[randomIndex];
+//
+//         input[randomIndex] = input[i];
+//
+//         input[i] = itemAtIndex;
+//
+//     }
+//
+//     return input;
+//
+// }
+//
+// var tempArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] ;
+//
+// tempArray.shuffle();
+// and the result is... alert(tempArray);
+
+
+
+
+
+
+
+
+// function setting() {//点击（点击设置）后杀手，平民人数输入框可修改
+//     document.getElementById('settings').style.color = '#b3b3b3';
+//  document.getElementById('killer').attributes.readonly = false;
+//
+// //无效，还需寻找方案
+//
+// }
+
+
+
+// document.onkeydown=function(event){
+//       var e = event || window.event || arguments.callee.caller.arguments[0];
+//        if(e && e.keyCode===27){ // 按 Esc
+//                //要做的事情
+//              }
+//        if(e && e.keyCode===113){ // 按 F2
+//                 //要做的事情
+//               }
+//          if(e && e.keyCode===13){ // enter 键
+//                  //要做的事情
+//
+//             }
+//     };

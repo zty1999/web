@@ -10,19 +10,18 @@
 </head>
 <body>
 <header>
-
     <img id="back" src="img/js-02.js.png" /><span>参数设置</span>
-    <img id="help" src="img/circled-help.png" />
+    <img id="help" src="img/circled-help.png"/>
 </header>
 <main>
     <div class="main-top">
         <div class="player">玩<br/>家<br/>配<br/>比</div>
         <div class="count">
             <div class="user">
-                <div class="killer"><p></p><span>杀手&nbsp;<a id="killer" >1</a>&nbsp;人</span></div>
-                <div class="people"><p></p><span>平民&nbsp;<a id="people" >3</a>&nbsp;人</span></div>
+                <div class="killer"><p></p><span>杀手<input id="killer" type="text" value="1" readonly="readonly"/>人</span></div>
+                <div class="people"><p></p><span>平民<input id="people" type="text" value="3" readonly="readonly"/>人</span></div>
             </div>
-            <div class="settings"><span id="settings">点击设置</span><img src="img/pencil.png" height="14" width="14"/></div>
+            <div class="settings"><span id="settings" onclick="setting()">点击设置</span><img src="img/pencil.png" height="14" width="14"/></div>
         </div>
     </div>
     <div class="main-bottom">
@@ -43,7 +42,7 @@
         </div>
         <div class="slider">
             <button class="btn-sub" id="btnSub" onclick="less()" >-</button>
-            <input id="range"  type="range" min="4" max="18" step="1" value="4" oninput="move_change()"/>
+            <input id="range"  type="range" min="4" max="18" step="1" value="4" oninput="move_change();getNumArray()"/>
             <button class="btn-add" id="btnAdd"  onclick="plus()">+</button><!--加value的按钮-->
         </div>
     </div>
