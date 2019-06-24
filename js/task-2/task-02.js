@@ -33,49 +33,29 @@ function on_change() {
 }
 
 function less() {
-    rangeBlock.value--;//点击按钮，值自减
-    if (rangeBlock.value < 4) {
+    playerNum.value--;//点击按钮，值自减
+    if (playerNum.value < 4) {
         alert("人数太少无法开局");
+        playerNum.value = 4;
     }
     else {
         playerNum.value = rangeBlock.value;
     }
 }
 function plus() {
-    rangeBlock.value++;//点击按钮值自增
+    playerNum.value++;//点击按钮值自增
 
-    if (rangeBlock.value > 18) {
+    if (playerNum.value > 18) {
         alert("人数太多了分批开局吧");
+        playerNum.value = 18;
     }
     else {
-        playerNum.value = rangeBlock.value;
+        rangeBlock.value  =  playerNum.value;
     }
 }
 function move_change() {
     playerNum.value = rangeBlock.value;
     //把滑动条的值赋给框
-    // var myArray = new Array(1,2,3,4,5);
-    //
-    // var whatArray = new Array(3,4,5,6,7,8,9,10,11,12,13);
-    // var arr = new Array(5);
-    // arr[0] = "1";
-    // arr[1] = "2";
-    // arr[2] = "3";
-    // arr[3] = "4";
-    // arr[4] = "5";
-    // var arr2 = new Array(11);
-    // arr2[0] = "3";
-    // arr2[1] = "4";
-    // arr2[2] = "5";
-    // arr2[3] = "6";
-    // arr2[4] = "7";
-    // arr2[5] = "8";
-    // arr2[6] = "9";
-    // arr2[7] = "10";
-    // arr2[8] = "11";
-    // arr2[9] = "12";
-    // arr2[10] = "13";
-    // document.write(arr.concat(arr2));
 
 
     var arr = rangeBlock.value,

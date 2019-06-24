@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8039ed7-3f19-4450-8dd5-80e3feac860c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/task-2/img/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/img/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/img/draw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/task-002.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/task-2/task-002.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/task-1/task-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-1/task-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/task-2/task-002.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-2/task-002.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/task-2/task-02.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-2/task-02.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/task-2/task-02.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-2/task-02.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/task-2/task-02.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-2/task-02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/task-2/task-02.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-2/task-02.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/task-2/task-02.scss" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-2/task-02.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/task-2/task-2-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/task-2/range.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44294167">
+    <splitter split-orientation="horizontal" split-proportion="0.52155536">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -51,8 +39,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/task-2/task-02.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-216">
-                  <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+                <state relative-caret-position="183">
+                  <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
                 </state>
               </provider>
             </entry>
@@ -82,8 +70,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/task-2/task-02.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="116" column="63" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
+                <state relative-caret-position="200">
+                  <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
                 </state>
               </provider>
             </entry>
@@ -162,8 +150,8 @@
         <option value="$PROJECT_DIR$/js/task-2/task-002.js" />
         <option value="$PROJECT_DIR$/js/task-2/task-002.html" />
         <option value="$PROJECT_DIR$/js/task-2/task-002.scss" />
-        <option value="$PROJECT_DIR$/js/task-2/task-02.html" />
         <option value="$PROJECT_DIR$/js/task-2/task-02.scss" />
+        <option value="$PROJECT_DIR$/js/task-2/task-02.html" />
         <option value="$PROJECT_DIR$/js/task-2/task-02.js" />
       </list>
     </option>
@@ -328,14 +316,7 @@
       <workItem from="1560907546864" duration="23777000" />
       <workItem from="1560992848726" duration="32248000" />
       <workItem from="1561079077240" duration="44041000" />
-      <workItem from="1561337312526" duration="17074000" />
-    </task>
-    <task id="LOCAL-00012" summary="task13">
-      <created>1559721371162</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1559721371162</updated>
+      <workItem from="1561337312526" duration="17876000" />
     </task>
     <task id="LOCAL-00013" summary="task13">
       <created>1559734240157</created>
@@ -673,11 +654,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561291267762</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="task13">
+      <created>1561364807641</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1561364807642</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="431620000" />
+    <option name="totallyTimeSpent" value="432422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -978,15 +966,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/task-2/task-02.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="183">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/task-2/task-02.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="116" column="63" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
+        <state relative-caret-position="200">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
