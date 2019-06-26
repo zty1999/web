@@ -60,9 +60,7 @@ body main {
     body main .img-lookbox img {
       width: 15rem;
       max-height: 50%;
-      max-width: 50%;
-      margin-top: 15%;
-      vertical-align: middle; }
+      max-width: 50%; }
     body main .img-lookbox .img-hidebox {
       width: 100%;
       display: none; }

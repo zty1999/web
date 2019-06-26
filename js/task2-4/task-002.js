@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 // sessionStorage.setItem("z",JSON.stringify(z.value));
 // sessionStorage.setItem("y",JSON.stringify(y.value));
 var arr =JSON.parse(sessionStorage.getItem("shuffleArr"));//获得储存值
@@ -39,9 +39,10 @@ document.getElementById('back').onclick = function () {
 
 
 $(document).ready(function () {
-   $("button").click(function () {
+   $("button").click(function Number() {
+       var i;
+           for (i = 0; i < arr.length; i++) {
 
-       for (var i = 0; i < arr.length; i++) {
            if ( i % 2 === 0){//i为偶数，
                $("#lookidentity").hide();
                $(".img-hidebox").show();
@@ -65,7 +66,7 @@ $(document).ready(function () {
                // return i;
            }
                //
-            else if (i%2 !== 0) {//i为奇数
+           else if (i%2 !== 0) {//i为奇数
                $("#num").text(i + 1);
                $("#lookidentity").show();
                $(".img-hidebox").hide();
@@ -73,11 +74,13 @@ $(document).ready(function () {
                $(".identity").hide();
                $(".content").text("");
            }
-            console.log(i);
-           // return i;
+           console.log(i);
+
+               return i;
 
        }
 
    });
 
 });
+

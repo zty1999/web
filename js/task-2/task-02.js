@@ -6,14 +6,6 @@ document.getElementById('back').onclick = function () {
 var z = document.getElementById('ghost');//为幽灵词组输入框设置变量
 var y = document.getElementById('water-people');//为水民词组输入框设置变量
 
-function deal() {//点击请发牌
-    shuffle();
-    // if (z.value !== "" && y.value !== "") {//value不为空
-        window.location.assign('task-002.html')//如果两个词组输入框的值都不为空跳转至下一页面
-    // } else {
-        // alert('请输入词组');//否则弹出警告框
-    // }
-}
 
 
 var playerNum = document.getElementById('player');//为滑动条上方输入框设置变量
@@ -107,6 +99,24 @@ function getNumArray() {
     }
     return shuffle;
 }
+
+
+
+
+function deal() {//点击请发牌
+    getNumArray();
+
+    // if (z.value !== "" && y.value !== "") {//value不为空
+        sessionStorage.setItem("shuffleArr",JSON.stringify(getNumArray()));
+        sessionStorage.setItem("z",JSON.stringify(document.getElementById("ghost").value));
+        sessionStorage.setItem("y",JSON.stringify(document.getElementById("water-people").value));
+
+        window.location.assign('task-002.html')//如果两个词组输入框的值都不为空跳转至下一页面
+    // } else {
+    //     alert('请输入词组');//否则弹出警告框
+    // }
+}
+
 
 
 

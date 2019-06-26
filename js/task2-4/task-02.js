@@ -139,21 +139,18 @@ function getNumArray() {//打乱数组分配给杀手和平民
         shuffle[l] = temp;
     }
     console.log(shuffle);
-
-
-
     return shuffle;
 }
 
 
-var z = document.getElementById('ghost').value;//为幽灵词组输入框设置变量
-var y = document.getElementById('water-people').value;//为水民词组输入框设置变量
+
 
 
 
 function deal() {//点击请发牌
     getNumArray();
-
+    var z = document.getElementById('ghost').value;//为幽灵词组输入框设置变量
+    var y = document.getElementById('water-people').value;//为水民词组输入框设置变量
     if (z.value !== "" && y.value !== "") {//value不为空
         sessionStorage.setItem("shuffleArr",JSON.stringify(getNumArray()));
         sessionStorage.setItem("z",JSON.stringify(document.getElementById("ghost").value));
