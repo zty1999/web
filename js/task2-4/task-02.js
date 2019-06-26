@@ -141,9 +141,7 @@ function getNumArray() {//打乱数组分配给杀手和平民
     console.log(shuffle);
 
 
-    sessionStorage.setItem("shuffleArr",JSON.stringify(getNumArray()));
-    sessionStorage.setItem("z",JSON.stringify(document.getElementById("ghost").value));
-    sessionStorage.setItem("y",JSON.stringify(document.getElementById("water-people").value));
+
     return shuffle;
 }
 
@@ -157,7 +155,9 @@ function deal() {//点击请发牌
     getNumArray();
 
     if (z.value !== "" && y.value !== "") {//value不为空
-
+        sessionStorage.setItem("shuffleArr",JSON.stringify(getNumArray()));
+        sessionStorage.setItem("z",JSON.stringify(document.getElementById("ghost").value));
+        sessionStorage.setItem("y",JSON.stringify(document.getElementById("water-people").value));
 
         window.location.assign('task-002.html')//如果两个词组输入框的值都不为空跳转至下一页面
     } else {
