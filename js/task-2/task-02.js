@@ -33,21 +33,21 @@ function on_change() {
 }
 
 function less() {
-    playerNum.value--;//点击按钮，值自减
+    playerNum.value--;//点击按钮，文本输入框值自减
     if (playerNum.value < 4) {
         alert("人数太少无法开局");
-        playerNum.value = 4;
+        playerNum.value = 4;//值重置为4
     }
     else {
-        playerNum.value = rangeBlock.value;
+        playerNum.value = rangeBlock.value;//文本输入框赋值给滑动条
     }
 }
 function plus() {
-    playerNum.value++;//点击按钮值自增
+    playerNum.value++;//点击按钮文本输入框值自增
 
     if (playerNum.value > 18) {
         alert("人数太多了分批开局吧");
-        playerNum.value = 18;
+        playerNum.value = 18;//值重置为18
     }
     else {
         rangeBlock.value  =  playerNum.value;
@@ -58,7 +58,7 @@ function move_change() {
     //把滑动条的值赋给框
 
 
-    var arr = rangeBlock.value,
+    var arr = rangeBlock.value,//声明滑动条的值为数组
         kill,
         peoPle;
 
@@ -85,7 +85,7 @@ function move_change() {
          kill = "5";
 
      }
-     peoPle = arr - kill;
+     peoPle = arr - kill;//水民人数值为数组总长度减去kill的长度
      document.getElementById("killer").value = kill;
      document.getElementById("people").value = peoPle;
 

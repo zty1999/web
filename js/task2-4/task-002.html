@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Title</title>
     <link rel="stylesheet" href="task-002.css">
-
+    <script src="../jquery-3.4.1.js"></script>
 </head>
 <body>
 <header>
@@ -16,16 +16,22 @@
 </header>
 <main>
     <p id="num" class="num">1</p>
-    <div class="img-block">
-        <img id="imgone" src="img/draw.png" height="301" width="301"/>
+    <div class="img-lookbox">
 
-        <img id="imgtwo" src="img/check.png" height="222" width="222"/>
+
+        <img id="lookidentity" src="img/draw.png" />
+
+        <div class="img-hidebox">
+        <img id="hideidentity" src="img/check.png"/>
+        <div class="identity"></div>
+        <p class="content"></p>
     </div>
-
-
+    </div>
 </main>
+
+
 <footer>
-    <button id="transmit" onclick="transMit()">查看一号身份</button>
+    <button >查看一号身份</button>
 </footer>
 <script src="task-002.js"></script>
 </body>

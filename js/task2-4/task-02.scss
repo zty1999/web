@@ -1,0 +1,278 @@
+@charset "UTF-8";
+*,*:before,*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+a {
+  display: inline-block;
+}
+button {
+  outline: none;
+  border: none;
+}
+$back-color: #29bde0;
+$color: white;
+html {
+  background-color: white;
+}
+body {
+  background-color: #efefef;
+}
+body,header,footer {
+  min-width: 320px;
+  max-width: 780px;
+  margin: 0 auto;
+  width: 100%;
+}
+header,footer  {
+  display: flex;
+  align-items: center;
+}
+header {
+  width: 100%;
+  justify-content: space-between;
+  //padding: .5rem 1rem;
+  color: $color;
+  font-size: 20px;
+  background-color: $back-color;
+  #back {
+    height: 35px;
+    margin: 0 22px 0 1rem;
+  }
+  #help {
+    height: 35px;
+    margin: .5rem 1rem .5rem 0;
+  }
+}
+main {
+  //margin: auto;
+  margin: 10px;
+  //border: 1px solid #dae0e5;
+  .main-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #dae0e5;
+
+    .player {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 20%;
+      //height: 6rem;
+      font-size: 20px;
+
+    }
+
+    .count {
+      flex: 1;
+      font-size: 18px;
+      .user {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        //border: 1px solid #dae0e5;
+
+        .killer {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 50%;
+          height: 14rem;
+          color: #b3b3b3;
+          border-bottom: 1px solid #dae0e5;
+          border-left: 1px solid #dae0e5;
+          span {
+            height: 1.5rem;
+            line-height: 1.5rem;
+          }
+        }
+
+        .people {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex: 1;
+          height: 14rem;
+          color: #b3b3b3;
+          border-bottom: 1px solid #dae0e5;
+          span {
+            height: 1.5rem;
+            line-height: 1.5rem;
+          }
+        }
+
+        p {
+          width: .5rem;
+          height: .5rem;
+          font-size: 0;
+           background-color: #FF9900;
+           margin-right: 5px;
+         }
+
+        input {
+          width: 2rem;
+          height: 18px;
+          text-align: center;
+          color: #FF9900;
+          font-size: 18px;
+          }
+      }
+
+      .settings {
+        padding: .5rem 0;
+        text-align: center;
+        color: $back-color;
+        border-left: 1px solid #dae0e5;
+
+      }
+    }
+  }
+  .main-bottom {
+    margin: .5rem 0;
+    background-color: white;
+    .input-box {
+      display: flex;
+      margin: 0 1rem;
+      border-bottom: 1px solid #dae0e5;
+
+      > span {
+        text-align: center;
+        height: 3rem;
+        line-height: 3rem;
+        width: 30%;
+
+      }
+
+      #ghost {
+        line-height: 3rem;
+         width: 70%;
+        //height: 3rem;
+
+      }
+      #water-people {
+        flex: 1;
+        line-height: 3rem;
+      }
+    }
+  }
+  .block {
+    height: 8rem;
+    //text-align: center;
+    background-color: $color;
+    padding-top: 1rem;
+    .number-of-players {
+      height: 3rem;
+      line-height: 3rem;
+      >span {
+        padding-left: 2rem;
+        font-weight: 700;
+        > input {
+        width: 2.5rem;
+        height: 1.5rem;
+        vertical-align: middle;
+        text-align: center;
+          font-size: 18px;
+          color: #FF9900;
+          background-color: #fff;
+        }
+
+      }
+      > a {
+        line-height: 3rem;
+        font-size: 14px;
+        color: #FF9900;
+      }
+    }
+    .slider {
+      display: flex;
+      align-items: center;
+      margin: 1rem 0;
+
+      input[type=range] {
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        width: 80%;
+        height: 1rem;
+        border-radius: 10px; /*这个属性设置使填充进度条时的图形为圆角*/
+        background-color: #FF9900;
+        background-size: 0 100%;
+        &:focus {
+          outline: none;
+        }
+
+      }
+      input[type=range]::-webkit-slider-thumb {//滑动条的滑块部分
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        width: 50px;
+      height: 36px;
+      //margin-top: -13px;
+      //border: 1px solid #f5c97b;
+      border-radius: 5px;
+      background: url("https://chrun0.github.io/css/web/js/js-2/img2/asss.png") no-repeat 0 0;
+      background-size: 100% 100%;
+      //background-color: white;
+    }
+    input[type=range]::-webkit-slider-runnable-track {//滑动条的滑轨部分
+      //height: 10px;
+      //background-color: #FF9900;
+      border-radius: 10px; /*将轨道设为圆角的*/
+      //box-shadow: 0 1px 1px #def3f8, inset 0 .125em .125em #0d1112; /*轨道内置阴影效果*/
+    }
+      //input[type=range]::-ms-fill-lower {//::-ms-fill-lower这是ie兼容range的属性写法下面那个同理
+      //  /*进度条已填充的部分*/
+      //  height: 22px;
+      //  border-radius: 10px;
+      //  /*background: black;*/
+      //  background: linear-gradient(to right, #059CFA, white 100%, white);
+      //}
+      //
+      //input[type=range]::-ms-fill-upper {
+      //  /*进度条未填充的部分*/
+      //  height: 22px;
+      //  border-radius: 10px;
+      //  background: white;
+      //}
+
+      > button {
+        width: 1.5rem;
+        height: 1.5rem;
+        line-height: 1rem;
+        font-size: 25px;
+        outline: none;
+        border: 1px solid #dae0e5;
+        background-color: white;
+        color: #FF9900;
+        margin: 0 2rem;
+
+      }
+    }
+  }
+}
+
+footer {
+  > input {
+    height: 4rem;
+    line-height: 4rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: #FF9900;
+  }
+
+}
