@@ -120,6 +120,9 @@ function plus() {
 // }
 
 
+
+
+
 function getNumArray() {//打乱数组分配给杀手和平民
     var arr = document.getElementById("player").value;//获取总人数值
     var numArray = new Array(parseFloat(arr)).fill("平民");//创建长度为总人数值，全部为平民的数组
@@ -136,22 +139,24 @@ function getNumArray() {//打乱数组分配给杀手和平民
         shuffle[l] = temp;
     }
     console.log(shuffle);
+
+
+    sessionStorage.setItem("shuffleArr",JSON.stringify(getNumArray()));
+    sessionStorage.setItem("z",JSON.stringify(document.getElementById("ghost").value));
+    sessionStorage.setItem("y",JSON.stringify(document.getElementById("water-people").value));
     return shuffle;
 }
 
 
+var z = document.getElementById('ghost').value;//为幽灵词组输入框设置变量
+var y = document.getElementById('water-people').value;//为水民词组输入框设置变量
 
 
 
 function deal() {//点击请发牌
     getNumArray();
-    var z = document.getElementById('ghost').value;//为幽灵词组输入框设置变量
-    var y = document.getElementById('water-people').value;//为水民词组输入框设置变量
 
     if (z.value !== "" && y.value !== "") {//value不为空
-        sessionStorage.setItem("z",JSON.stringify(document.getElementById("ghost").value));
-        sessionStorage.setItem("y",JSON.stringify(document.getElementById("water-people").value));
-        sessionStorage.setItem("shuffleArr",JSON.stringify(getNumArray()));
 
 
         window.location.assign('task-002.html')//如果两个词组输入框的值都不为空跳转至下一页面
