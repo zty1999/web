@@ -37,47 +37,59 @@ document.getElementById('back').onclick = function () {
 //
 // });
 
-var i = 0;
+var i = 0;//判断点击次数的变量
 $(document).ready(function () {
-    // var m = 0;//判断点击次数的变量
+
    $("button").click(function Number() {
-      // m = m + 1;
-       i= i+1;
+
+       i= i+1;//每点击一次i+1
       console.log(i);
-        var l=0;l=l+1;
-           if (i%2 === 0) {//i为偶数，
-               $("#num").text(i);
-               $("#lookidentity").show();
-               $(".img-hidebox").hide();
-               $("#hideidentity").hide();
-               $(".identity").hide();
-               $(".content").text("");
-               $("button").text("查看"+ i + "号身份");
-           }
-               //
-           else  {//i为奇数
-               $("#lookidentity").hide();
-               $(".img-hidebox").show();
-               $("#hideidentity").show();
-               $(".identity").show();
-               $("#num").text(l);
-               if (arr[i] === "杀手") {
-                   // document.getElementsByClassName("identity").innerHTML = "你是" + arr[i] + ",  词组" + g ;
-                   $(".identity").text("你是" + arr[i] + ", 词组" + g);
-                   $(".content").text("保护自己身份，并猜出他人的词");
-               }
-               if (arr[i] === "平民") {
 
-                   // document.getElementsByClassName("identity").innerHTML = "你是" + arr[i] + ",  词组" + d ;
-                   $(".identity").text("你是" + arr[i] + ", 词组" + d);
-                   $(".content").text("保护自己身份，并猜出他人的词");
-               }
-               // var k = i+1;
-               $("button").text("隐藏身份并传递给" + i + "号");
+       var l = Math.ceil(i/2);//控制页面内各数据变化的变量，因为当i=1，i=2时，#num.text都为1；所以要有小数存在向上或向下取整。
+       // 使用Math。ceil（）向上取整，当i=1时1/2=0.5，取整为1；当i=2时2/2=1；得到点击两次的情况下两数相等。
+      if (i<arr.length*2-1) {
+//因为每点击两次页面完成一次数据的传递，所以要乘以2；因为最开始的初始页面无需点击所以减1；
 
-               // return i;
-           }
+            if (i % 2 === 0) {//i为偶数，
 
+                $("#num").text(l+1);
+                $("#lookidentity").show();
+                $(".img-hidebox").hide();
+                $("#hideidentity").hide();
+                $(".identity").hide();
+                $(".content").text("");
+                $("button").text("查看" + (l+1) + "号身份");
+            }
+            else {//i为奇数
+                console.log(l);
+                $("#lookidentity").hide();
+                $(".img-hidebox").show();
+                $("#hideidentity").show();
+                $(".identity").show();
+                $("#num").text(l );
+                if (arr[i] === "杀手") {
+                    // document.getElementsByClassName("identity").innerHTML = "你是" + arr[i] + ",  词组" + g ;
+                    $(".identity").text("你是" + arr[i] + ", 词组" + g);
+                    $(".content").text("保护自己身份，并猜出他人的词");
+                }
+                if (arr[i] === "平民") {
+
+                    // document.getElementsByClassName("identity").innerHTML = "你是" + arr[i] + ",  词组" + d ;
+                    $(".identity").text("你是" + arr[i] + ", 词组" + d);
+                    $(".content").text("保护自己身份，并猜出他人的词");
+                }
+                $("button").text("隐藏身份并传递给" + (l+1) + "号");
+            }
+      }
+      else {
+          if (i === arr.length*2-1) {
+              $("button").text("法官页面");
+          }
+          else {
+              window.location.assign("task-0002.html");
+          }
+
+      }
    });
        // i = i + 1;
        // console.log(i);
