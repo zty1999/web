@@ -37,18 +37,30 @@ document.getElementById('back').onclick = function () {
 //
 // });
 
-
+var i = 0;
 $(document).ready(function () {
+    // var m = 0;//判断点击次数的变量
    $("button").click(function Number() {
-       var i;
-           for (i = 0; i < arr.length; i++) {
-
-           if ( i % 2 === 0){//i为偶数，
+      // m = m + 1;
+       i= i+1;
+      console.log(i);
+        var l=0;l=l+1;
+           if (i%2 === 0) {//i为偶数，
+               $("#num").text(i);
+               $("#lookidentity").show();
+               $(".img-hidebox").hide();
+               $("#hideidentity").hide();
+               $(".identity").hide();
+               $(".content").text("");
+               $("button").text("查看"+ i + "号身份");
+           }
+               //
+           else  {//i为奇数
                $("#lookidentity").hide();
                $(".img-hidebox").show();
                $("#hideidentity").show();
                $(".identity").show();
-               $("#num").text(i+1);
+               $("#num").text(l);
                if (arr[i] === "杀手") {
                    // document.getElementsByClassName("identity").innerHTML = "你是" + arr[i] + ",  词组" + g ;
                    $(".identity").text("你是" + arr[i] + ", 词组" + g);
@@ -60,27 +72,19 @@ $(document).ready(function () {
                    $(".identity").text("你是" + arr[i] + ", 词组" + d);
                    $(".content").text("保护自己身份，并猜出他人的词");
                }
-               var m = i+2;
-               $("button").text("隐藏身份并传递给" + m + "号");
+               // var k = i+1;
+               $("button").text("隐藏身份并传递给" + i + "号");
 
                // return i;
            }
-               //
-           else if (i%2 !== 0) {//i为奇数
-               $("#num").text(i + 1);
-               $("#lookidentity").show();
-               $(".img-hidebox").hide();
-               $("#hideidentity").hide();
-               $(".identity").hide();
-               $(".content").text("");
-           }
-           console.log(i);
-
-               return i;
-
-       }
 
    });
+       // i = i + 1;
+       // console.log(i);
+       //         return i;
+
+
+
 
 });
 
