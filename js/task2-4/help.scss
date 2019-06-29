@@ -1,0 +1,23 @@
+@charset "UTF-8";
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+html {
+
+}
+
+body {
+
+}
+
+header, footer {
+  display: flex;
+}
+
+

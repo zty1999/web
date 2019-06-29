@@ -1,0 +1,162 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+button {
+  outline: none;
+  border: none; }
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  -webkit-text-size-adjust: 100%; }
+  body header {
+    width: 100%; }
+    body header .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 2.6rem; }
+    body header .header-top-text {
+      font-size: 1.2rem;
+      color: #26a26f; }
+    body header .header-top-image {
+      display: flex;
+      justify-content: flex-end; }
+    body header .header-top-image-left {
+      height: 1.8rem;
+      padding: 0 .2rem; }
+    body header .header-top-image-middle {
+      height: 1.8rem;
+      padding: 0 .2rem; }
+    body header .header-top-image-right {
+      height: 1.8rem;
+      padding: 0 .2rem; }
+    body header .header-box {
+      display: none;
+      height: 2rem; }
+    body header .header-box-btn {
+      float: right;
+      line-height: 2rem;
+      border: none;
+      background-color: transparent;
+      outline: none; }
+    body header .header-top-link {
+      color: #26a26f;
+      text-decoration: none; }
+    body header .header-top-link:hover {
+      text-decoration: none;
+      color: #26a26f; }
+    @media screen and (max-width: 780px) {
+      body header .header-box {
+        display: block; }
+      body header .header-top {
+        display: none; } }
+    body header .header-bottom {
+      background-color: #191919; }
+    body header .navbar {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+      body header .navbar .navar-brand img {
+        width: 3rem;
+        height: 2rem; }
+    body header .text-bot {
+      text-align: center;
+      justify-content: flex-end; }
+    body header .nav-link {
+      padding: 0;
+      height: 10vh;
+      line-height: 10vh;
+      text-align: center;
+      font-size: 1rem; }
+      body header .nav-link .nav-item :hover {
+        display: block;
+        font-size: 1rem;
+        border-bottom: 2px solid #f0f0f0; }
+      body header .nav-link .try-builder {
+        width: 3rem;
+        height: 10vh;
+        line-height: 10vh; }
+  body main .carousel-slide .carousel-indicators li {
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    margin: .25rem; }
+  body main .carousel-slide .carousel-control-prev-icon {
+    width: 1rem;
+    height: 1rem; }
+  body main .carousel-slide .carousel-control-next-icon {
+    width: 1rem;
+    height: 1rem; }
+  body main .skills .row {
+    padding-top: 4rem; }
+    body main .skills .row .col {
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle; }
+      body main .skills .row .col .h1 {
+        height: 2rem;
+        margin-top: 1.5rem;
+        font-size: 1.6rem;
+        font-weight: 700;
+        white-space: nowrap; }
+      body main .skills .row .col .h6 {
+        max-height: 5rem;
+        margin: .5rem 0;
+        color: #bababa; }
+      body main .skills .row .col .icon {
+        height: 4rem; }
+  body main .novi h1 {
+    text-align: center; }
+  body main .novi .icon {
+    display: inline-block; }
+  body main .novi .novi-title {
+    flex: 1;
+    padding-left: 2rem; }
+  body main .template {
+    margin-top: 3rem;
+    text-align: center; }
+    body main .template hr {
+      color: #61bc63; }
+    body main .template h3 > span {
+      color: #61bc63; }
+  body main .theme {
+    margin: 2rem 0;
+    text-decoration: none; }
+    body main .theme .theme-item {
+      margin: 1rem .5rem; }
+      body main .theme .theme-item img {
+        width: 100%; }
+      body main .theme .theme-item .theme-item-text {
+        padding: 1rem 0;
+        text-align: center;
+        color: black;
+        font-size: 1.2rem;
+        font-weight: 700; }
+      body main .theme .theme-item:hover {
+        margin-top: -.5rem;
+        color: #61bc63;
+        text-decoration: none; }
+        body main .theme .theme-item:hover img {
+          margin-top: -.5rem; }
+        body main .theme .theme-item:hover .theme-item-text {
+          margin-top: .5rem; }
+      body main .theme .theme-item :visited {
+        color: #61bc63;
+        text-decoration: none; }
+      body main .theme .theme-item :active {
+        color: #61bc63;
+        text-decoration: none; }
+  body main .page-tag {
+    padding: 20vh;
+    text-align: center;
+    background-color: #f5f5f5; }
+    body main .page-tag h2 > span {
+      color: #61bc63; }
+    body main .page-tag p {
+      color: #9d9d9d; }
+
+/*# sourceMappingURL=home_page.css.map */

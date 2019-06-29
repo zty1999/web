@@ -5250,7 +5250,7 @@ var Tooltip = function ($$$1) {
           $element.text($$$1(content).text());
         }
       } else {
-        $element[html ? 'html' : 'text'](content);
+        $element[html ? 'vote.html' : 'text'](content);
       }
     };
 

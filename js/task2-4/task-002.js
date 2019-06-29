@@ -1,4 +1,4 @@
-// 'use strict';
+'use strict';
 // sessionStorage.setItem("z",JSON.stringify(z.value));
 // sessionStorage.setItem("y",JSON.stringify(y.value));
 var arr =JSON.parse(sessionStorage.getItem("shuffleArr"));//获得储存值

@@ -1,0 +1,124 @@
+@charset "UTF-8";
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+html {
+
+}
+body,header,footer,main {
+  min-width: 320px;
+  max-width: 780px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+header, footer,main {
+  background-color: #29bde0;
+}
+
+
+body {
+  header {
+    position: fixed;
+    top: 0;
+
+    .h-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 3rem;
+      line-height: 3rem;
+      font-size: 1.2rem;
+      text-align: center;
+      color: white;
+      border-bottom: 1px solid white;
+
+      img {
+        height: 2rem;
+        margin: .5rem 1rem;
+      }
+    }
+
+    .h-tips {
+      font-size: .8rem;
+      .h-tips-vote{
+        padding: .5rem 4rem;
+        background-color: #b9e9f5;
+      }
+      .h-tips-allow {
+        width: .5rem;
+        margin-left: 4rem;
+        border-top: .5rem solid #b9e9f5;
+        border-right: .5rem solid transparent;
+        border-left: .5rem solid transparent;
+      }
+      .h-tips-click {
+        padding-left: 4rem;
+        background-color: #29bde0;
+      }
+
+
+    }
+  }
+  main {
+    display: flex;
+    flex-flow: wrap;
+    padding-top: 1rem;
+    margin: 6.2rem 0 5rem 0;
+    .look-box {
+      position: relative;
+      float: left;
+      width: 20.6%;
+      height: 9rem;
+      margin: 6%;
+      border: 2px solid #f0f0f0;
+      .identBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 70%;
+        //text-align: center;
+        font-size: 1.2rem;
+        background-color: #f5c97b;
+      }
+      .numBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 30%;
+        font-size: 1rem;
+        color: white;
+        background-color: #83b09a;
+      }
+      .icon {
+        display: none;
+        position: absolute;
+        bottom: -3rem;
+        left: 4rem;
+        width: 2rem;
+        height: 2rem;
+      }
+
+    }
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    .f-btn {
+      width: 70%;
+      height: 3rem;
+      line-height: 3rem;
+      margin: 1rem 15%;
+      border-radius: 10px;
+      background-color: #fbb435;
+    }
+  }
+}
