@@ -153,13 +153,13 @@ body {
       body main .theme .theme-item:active {
         color: #61bc63;
         text-decoration: none; }
-  body main .page-tag {
+  body main .tag-customer {
     padding: 20vh;
     text-align: center;
     background-color: #f5f5f5; }
-    body main .page-tag span {
+    body main .tag-customer span {
       color: #61bc63; }
-    body main .page-tag p {
+    body main .tag-customer p {
       color: #9d9d9d; }
   body main .page-layouts h2 {
     margin-top: 20vh;
@@ -256,19 +256,20 @@ body {
     color: #ffffff;
     background: -webkit-linear-gradient(left, #5cbcd3 0%, #68bfaf 30%, #7ac270 100%); }
     body main .page-prompt .page-prompt-content {
-      padding: 6vh; }
-      body main .page-prompt .page-prompt-content h2 {
-        font-size: 1.6rem; }
+      padding: 8vh; }
       body main .page-prompt .page-prompt-content .prompt-btn {
-        padding: 2rem;
+        padding: 1rem;
         color: #ffffff;
         border: 3px solid #ffffff;
-        border-radius: 10px; }
+        border-radius: 10px;
+        background-color: #71c090;
+        text-decoration: none; }
         body main .page-prompt .page-prompt-content .prompt-btn .prompt-icon {
-          width: 3rem;
-          height: 3rem; }
+          width: 2rem;
+          height: 2rem; }
         body main .page-prompt .page-prompt-content .prompt-btn:hover {
-          color: #525254; }
+          color: #525254;
+          text-decoration: none; }
   body main .custom-reviews {
     margin: 10vh 0; }
     body main .custom-reviews .custom-reviews-star {
@@ -286,5 +287,179 @@ body {
       padding-top: 10vh; }
     body main .feature-slide h3 > span {
       color: #61bc63; }
+  body main .page-sliderSale {
+    padding: 10vh;
+    text-align: center; }
+    body main .page-sliderSale h2 {
+      margin-bottom: 3rem; }
+      body main .page-sliderSale h2 > span {
+        color: #dd1f00; }
+    body main .page-sliderSale .sliderSale-photo {
+      margin: 0 auto; }
+  body main .retina {
+    padding: 10vh;
+    background-color: #f5f5f5; }
+    body main .retina .retina-text > h2 {
+      margin-top: 5rem; }
+      body main .retina .retina-text > h2 > span {
+        color: #dd1f00; }
+    body main .retina .retina-text > p {
+      padding: 2rem;
+      color: #212529; }
+    body main .retina .retina-photo {
+      margin: 0 auto; }
+      body main .retina .retina-photo img {
+        width: 100%; }
+  body main .noImitation {
+    padding: 10vh;
+    text-align: center;
+    color: #ffffff;
+    background: url("img/landing-104-1920x1348.jpg") no-repeat 0 0;
+    background-size: 100% 100%; }
+    body main .noImitation h2 {
+      padding: 2rem; }
+    body main .noImitation p {
+      padding-bottom: 4rem; }
+    body main .noImitation span {
+      display: block;
+      padding: 1rem 0; }
+  body main .portfolio-templates h2 {
+    padding-top: 5rem; }
+  body main .portfolio-templates p {
+    padding-top: 3rem;
+    color: #212529; }
+  body main .portfolio-templates .template-photo {
+    padding-top: 2rem;
+    height: 30rem;
+    position: relative;
+    overflow: hidden; }
+    body main .portfolio-templates .template-photo .portfolio-templates-one {
+      position: absolute;
+      top: 10%;
+      left: 25%; }
+    body main .portfolio-templates .template-photo .portfolio-templates-two {
+      position: absolute;
+      top: 38%;
+      left: 0; }
+    body main .portfolio-templates .template-photo .portfolio-templates-three {
+      position: absolute;
+      top: 60%;
+      left: 30%; }
+    body main .portfolio-templates .template-photo .portfolio-templates-four {
+      position: absolute;
+      top: 50%;
+      left: 50%; }
+  body main .wordPress {
+    padding: 10vh 0;
+    color: #ffffff;
+    background: -webkit-linear-gradient(left, #49b771 40%, #79c156 100%); }
+    body main .wordPress .wordPress-text > p {
+      padding: 2rem 0; }
+    body main .wordPress .wordPress-photo {
+      margin: 0 auto; }
+      body main .wordPress .wordPress-photo img {
+        width: 100%; }
+  body main .e-commerce h2 {
+    padding-top: 5rem; }
+  body main .e-commerce p {
+    padding-top: 3rem;
+    color: #212529; }
+  body main .e-commerce .e-commerce-list {
+    list-style: none; }
+    body main .e-commerce .e-commerce-list .e-commerce-item {
+      position: relative;
+      padding: 10px 0; }
+    body main .e-commerce .e-commerce-list .e-commerce-item::before {
+      content: '';
+      position: absolute;
+      left: -15px;
+      top: 23px;
+      transform: translateY(-50%);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: #61bc63; }
+  body main .e-commerce .e-commerce-photo {
+    padding-top: 4rem;
+    height: 30rem;
+    position: relative;
+    overflow: hidden; }
+    body main .e-commerce .e-commerce-photo .e-commerce-one {
+      position: absolute;
+      top: 20%;
+      left: 10%; }
+    body main .e-commerce .e-commerce-photo .e-commerce-two {
+      position: absolute;
+      top: 20%;
+      left: 50%; }
+    body main .e-commerce .e-commerce-photo .e-commerce-three {
+      position: absolute;
+      top: 10%;
+      left: 30%; }
+  body main .event-management {
+    padding: 10vh 0;
+    color: #ffffff;
+    background: -webkit-linear-gradient(left, #8070b3 40%, #61a6db 100%); }
+    body main .event-management .event-management-text {
+      padding-left: 4rem; }
+      body main .event-management .event-management-text > p {
+        padding: 2rem 0; }
+    body main .event-management .event-management-photo img {
+      width: 100%;
+      height: 40vh; }
+  body main .tag-timesaver {
+    padding: 10vh  0;
+    text-align: center; }
+    body main .tag-timesaver h2 {
+      padding-bottom: 2rem; }
+  body main .demo-image {
+    padding: 40vh  0;
+    text-align: center;
+    color: #ffffff;
+    background: url("img/home-intro-15-1920x592.jpg") no-repeat 0 0;
+    background-size: 100% 100%; }
+    body main .demo-image h2 {
+      padding-bottom: 2rem; }
+  body main .tag-service {
+    padding-top: 10vh; }
+    body main .tag-service .service-text > img {
+      width: 5rem;
+      height: 5rem; }
+    body main .tag-service .service-text > p {
+      padding: 2rem 0; }
+    body main .tag-service .service-photo {
+      margin: 0 auto; }
+      body main .tag-service .service-photo > img {
+        width: 100%;
+        height: 60vh; }
+  body main .tag-footer {
+    display: block;
+    padding: 10vh 0;
+    color: #ffffff;
+    background: -webkit-linear-gradient(left, #4bb770 50%, #7ac270 100%); }
+    body main .tag-footer .tag-footer-text {
+      display: flex;
+      align-items: center; }
+    body main .tag-footer .tag-footer-btn {
+      padding: 1rem;
+      color: #ffffff;
+      border: 3px solid #ffffff;
+      border-radius: 10px;
+      text-decoration: none;
+      background-color: #61bc63; }
+      body main .tag-footer .tag-footer-btn .tag-footer-icon {
+        width: 2rem;
+        height: 2rem; }
+      body main .tag-footer .tag-footer-btn:hover {
+        color: #525254;
+        text-decoration: none; }
+  body footer {
+    padding: 2rem;
+    text-align: center;
+    color: #525254;
+    background-color: #191919; }
+    body footer img {
+      width: 8rem;
+      margin: 0 auto 1rem; }
 
 /*# sourceMappingURL=home_page.css.map */
