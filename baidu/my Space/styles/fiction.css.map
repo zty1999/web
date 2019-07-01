@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,oBAAqB;EACnB,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;AAGZ,GAAI;EACF,OAAO,EAAE,KAAK;;AAKZ,YAAG;EACD,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,oBAAoB",
+"sources": ["fiction.scss"],
+"names": [],
+"file": "fiction.css"
+}

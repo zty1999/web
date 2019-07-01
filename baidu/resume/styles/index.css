@@ -1,0 +1,79 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+img {
+  display: block; }
+
+html {
+  font-family: cursive;
+  background-color: #9d9d9d; }
+  html body {
+    margin: 0; }
+    html body .main {
+      width: 60%;
+      margin: 5rem auto;
+      border: 1px solid;
+      background-color: #b9e9f5; }
+      html body .main .title {
+        padding: 1rem 0;
+        border-bottom: 2px solid; }
+        html body .main .title h1 {
+          text-align: center;
+          font-size: 2rem;
+          font-weight: 700; }
+      html body .main .content-count {
+        display: flex; }
+        html body .main .content-count .content1 {
+          display: flex;
+          justify-content: space-between;
+          flex-flow: wrap;
+          width: 70%;
+          margin: 0;
+          padding-left: 0;
+          list-style: none; }
+          html body .main .content-count .content1 li {
+            width: 50%;
+            height: 3rem;
+            line-height: 3rem;
+            text-align: center;
+            border-bottom: 1px solid black; }
+          html body .main .content-count .content1 .line1-1,
+          html body .main .content-count .content1 .line1-2,
+          html body .main .content-count .content1 .line2-1,
+          html body .main .content-count .content1 .line2-2 {
+            color: #29bde0;
+            border-right: 1px solid black; }
+        html body .main .content-count div {
+          width: 30%;
+          border-bottom: 1px solid;
+          padding: 1rem; }
+      html body .main .content2 {
+        margin: 0;
+        padding-left: 0;
+        list-style: none; }
+        html body .main .content2 .line-3,
+        html body .main .content2 .line-4,
+        html body .main .content2 .line-5,
+        html body .main .content2 .line-6 {
+          width: 100%;
+          min-height: 3rem;
+          line-height: 3rem;
+          padding-left: 3rem;
+          border-bottom: 1px solid; }
+        html body .main .content2 .line-7 {
+          padding: 20px 40px;
+          font-size: 1.4rem; }
+          html body .main .content2 .line-7 li a {
+            color: black;
+            text-decoration: none; }
+            html body .main .content2 .line-7 li a:visited {
+              color: black; }
+            html body .main .content2 .line-7 li a:hover, html body .main .content2 .line-7 li a:active, html body .main .content2 .line-7 li a:focus {
+              color: darkred;
+              text-decoration: none; }
+          html body .main .content2 .line-7 li:nth-of-type(2n) {
+            background-color: #f5c97b; }
+
+/*# sourceMappingURL=index.css.map */

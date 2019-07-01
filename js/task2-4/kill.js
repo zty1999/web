@@ -25,9 +25,10 @@ $(document).ready(function () {
     $(".look-box").click(function () {
         $(this).children(".icon").css("display","block");
         $(this).css("opacity",".5");
-        var dead = $(this).click.live;
+        // var dead = $(this).click.live;
         $(this).siblings("survival").css("opacity","1");
-        $(this).siblings("").children("img").css("opacity","1");
+        $(this).siblings("").css("opacity","1");
+        $(this).siblings("").children("img").css('display','none');
 
 
 
