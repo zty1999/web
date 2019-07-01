@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8039ed7-3f19-4450-8dd5-80e3feac860c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interview/img/headerset.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/home-intro-04-150x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/home-intro-05-150x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/home-intro-06-150x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/home-intro-07-150x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/home-intro-08-150x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/home-intro-09-150x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/landing-104-1920x1348.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/landing-106-446x295.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/landing-107-412x456.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/landing-108-572x416.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/landing-109-434x444.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/landing-110-1056x457.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/landing-111-492x358.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/landing-112-492x358.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/landing-113-492x437.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/landing-114-676x485.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/landing-115-569x465.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/landing-97-780x462.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/img/slider.jpg" afterDir="false" />
+    <list default="true" id="d8039ed7-3f19-4450-8dd5-80e3feac860c" name="Default Changelist" comment="task13">
+      <change afterPath="$PROJECT_DIR$/interview/home-page/home_page.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/home_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/interview/home_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/home_page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/interview/home_page.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/interview/home_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/home_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/interview/home_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/home_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/interview/home-page/home_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/home_page.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/interview/home-page/home_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/home_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/interview/home-page/home_page.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,15 +21,14 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5726073">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/interview/home_page.html">
+            <entry file="file://$PROJECT_DIR$/interview/home-page/home_page.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2075">
-                  <caret line="333" column="14" lean-forward="true" selection-start-line="333" selection-start-column="14" selection-end-line="333" selection-end-column="14" />
+                <state relative-caret-position="-171">
+                  <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
                   <folding>
-                    <element signature="e#4144#4150#0" expanded="true" />
-                    <element signature="e#6824#6830#0" expanded="true" />
+                    <element signature="e#8338#8344#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -58,7 +38,7 @@
             <entry file="file://$PROJECT_DIR$/css/task14/task14-carousel.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="57">
-                  <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+                  <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -66,30 +46,28 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/task8/task8.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="314">
-                  <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+                <state relative-caret-position="1444">
+                  <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/interview/home_page.scss">
+            <entry file="file://$PROJECT_DIR$/interview/home-page/home_page.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1749">
-                  <caret line="219" column="26" lean-forward="true" selection-start-line="219" selection-start-column="26" selection-end-line="219" selection-end-column="26" />
+                <state relative-caret-position="57">
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/task14/bootstrap.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1938" />
-              </provider>
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -104,7 +82,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/task8/task08.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19">
+                <state relative-caret-position="-1862">
                   <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
                 </state>
               </provider>
@@ -136,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/task-2.html" />
-        <option value="$PROJECT_DIR$/js/task-2/task-2.js" />
         <option value="$PROJECT_DIR$/js/task-1/task-02.html.scss" />
         <option value="$PROJECT_DIR$/js/task-1/task-02.html.css" />
         <option value="$PROJECT_DIR$/js/task-1/task-02.html.css.map" />
@@ -185,14 +161,16 @@
         <option value="$PROJECT_DIR$/js/task2-4/task-002.js" />
         <option value="$PROJECT_DIR$/css/task8/task8.html" />
         <option value="$PROJECT_DIR$/css/task8/task08.css" />
-        <option value="$PROJECT_DIR$/interview/home_page.scss" />
         <option value="$PROJECT_DIR$/interview/home_page.html" />
+        <option value="$PROJECT_DIR$/interview/home_page.scss" />
+        <option value="$PROJECT_DIR$/interview/home-page/home_page.html" />
+        <option value="$PROJECT_DIR$/interview/home-page/home_page.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="870" />
     <option name="height" value="980" />
   </component>
@@ -300,12 +278,6 @@
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="home_page.scss" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -331,13 +303,14 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\web\web\js\task2-4" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\web\web\interview\home-page" />
       <recent name="D:\web\web\interview\img" />
       <recent name="D:\web\web\js\task-2" />
       <recent name="D:\web\web\js\task-1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web\web\js\task2-4" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -390,14 +363,8 @@
       <workItem from="1561683645834" duration="15084000" />
       <workItem from="1561711011814" duration="16631000" />
       <workItem from="1561783276360" duration="27609000" />
-      <workItem from="1561860546563" duration="42998000" />
-    </task>
-    <task id="LOCAL-00026" summary="task13">
-      <created>1559973751587</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1559973751587</updated>
+      <workItem from="1561860546563" duration="45133000" />
+      <workItem from="1561941926740" duration="4158000" />
     </task>
     <task id="LOCAL-00027" summary="task13">
       <created>1560082697133</created>
@@ -735,11 +702,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561890684885</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="task13">
+      <created>1561907304548</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1561907304548</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="646996000" />
+    <option name="totallyTimeSpent" value="653289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -793,18 +767,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="task13" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-49-41x41.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-45-420x316.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-59-35x35.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-60-35x32.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/interview/img/landing-50-48x36.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -859,13 +821,6 @@
     <entry file="file://$PROJECT_DIR$/interview/img/landing-21-420x316.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/task8/task08.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interview/img/landing-07-420x316.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -893,18 +848,6 @@
     <entry file="file://$PROJECT_DIR$/interview/img/landing-09-420x316.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/task14/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1938" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task8/task08.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interview/img/landing-11-420x316.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -915,20 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="788">
           <caret line="94" column="10" lean-forward="true" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task14/task14-carousel.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task8/task8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -959,24 +888,66 @@
     <entry file="file://$PROJECT_DIR$/interview/img/landing-112-492x358.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/img.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/home_page.scss">
+    <entry file="file://$PROJECT_DIR$/interview/img/img.png" />
+    <entry file="file://$PROJECT_DIR$/css/task14/task14-carousel.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1749">
-          <caret line="219" column="26" lean-forward="true" selection-start-line="219" selection-start-column="26" selection-end-line="219" selection-end-column="26" />
+        <state relative-caret-position="57">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/home_page.html">
+    <entry file="file://$PROJECT_DIR$/css/task8/task8.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2075">
-          <caret line="333" column="14" lean-forward="true" selection-start-line="333" selection-start-column="14" selection-end-line="333" selection-end-column="14" />
+        <state relative-caret-position="1444">
+          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/img/landing-40-420x316.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/img/landing-56-38x38.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/home-page/home_page.css.map">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/home-page/home_page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3444" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task8/task08.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1862">
+          <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task8/task08.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task14/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/home-page/home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
           <folding>
-            <element signature="e#4144#4150#0" expanded="true" />
-            <element signature="e#6824#6830#0" expanded="true" />
+            <element signature="e#8338#8344#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/home-page/home_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
