@@ -6,9 +6,13 @@
 img {
   display: block; }
 
-html body h1 {
-  text-align: center;
-  color: #721c24;
-  text-shadow: 1px 5px 10px #1b1e21; }
+html {
+  font-family: cursive; }
+  html body h1 {
+    height: 80vh;
+    line-height: 80vh;
+    text-align: center;
+    color: #721c24;
+    text-shadow: 1px 5px 10px #1b1e21; }
 
 /*# sourceMappingURL=fiction.css.map */

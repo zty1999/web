@@ -2,27 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8039ed7-3f19-4450-8dd5-80e3feac860c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baidu/7-8-layout/ife任务图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/7-8-layout/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/7-8-layout/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/7-8-layout/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/7-8-layout/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/my Space/fiction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/my Space/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/my Space/scripts/fiction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/my Space/scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/my Space/styles/fiction.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/my Space/styles/fiction.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/my Space/styles/fiction.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/my Space/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/my Space/styles/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/my Space/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/resume/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/resume/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/resume/styles/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu/resume/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/16-js/16-js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/16-js/16-js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/16-js/16-js.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/Background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/Check Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/Iphone Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/Mail Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/Map Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/Pencil Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/Phone Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/Screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/Settings Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/ft-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/ft-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/ft-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/ft-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/ft-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/ft-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/man-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/man-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/man-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/man-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/前端学院设计图.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/图层 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/图层 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/图层 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/images/图层 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/9-11/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/my Space/diary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/my Space/images/324370.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/my Space/images/324577.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/my Space/images/324655.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/my Space/images/p233476.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/my Space/kingdom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/my Space/scripts/kingdom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/my Space/styles/diary.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/my Space/styles/kingdom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu/resume/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/my Space/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/my Space/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/my Space/scripts/fiction.js" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/my Space/scripts/fiction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/my Space/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/my Space/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/my Space/styles/fiction.css" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/my Space/styles/fiction.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/my Space/styles/fiction.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/my Space/styles/fiction.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/my Space/styles/fiction.scss" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/my Space/styles/fiction.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/my Space/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/my Space/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/my Space/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/my Space/styles/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/my Space/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/my Space/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/resume/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/resume/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/resume/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/resume/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/resume/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/resume/styles/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/resume/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/resume/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/task11/task11.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task11/task11.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/task11/task11.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/task11/task11.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/task11/task11.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/task11/task11.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/task14/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task14/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/home-page/home_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/interview/home-page/home_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/home-page/home_page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/interview/home-page/home_page.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/home-page/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/interview/home-page/home_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/home-page/home_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/interview/home-page/home_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/jquery-3.4.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task2-4/judge.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/task2-4/judge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task2-4/judge.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/task2-4/judge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task2-4/kill.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/task2-4/kill.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/task2-4/kill.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/task2-4/kill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task2-4/kill.scss" beforeDir="false" afterPath="$PROJECT_DIR$/js/task2-4/kill.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task2-4/task-002.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/task2-4/task-002.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task2-4/task-002.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/task2-4/task-002.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task2-4/task-04.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/task2-4/task-04.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task2-4/task-04.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/task2-4/task-04.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,64 +85,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.2855903">
+    <splitter split-orientation="horizontal" split-proportion="0.4917606">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/baidu/my Space/index.html">
+            <entry file="file://$PROJECT_DIR$/js/task2-4/task-2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="304">
-                  <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+                <state relative-caret-position="228">
+                  <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/baidu/my Space/scripts/index.js">
+            <entry file="file://$PROJECT_DIR$/js/task2-4/kill.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/baidu/my Space/styles/fiction.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="57">
-                  <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/baidu/my Space/scripts/fiction.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+                <state relative-caret-position="224">
+                  <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/baidu/7-8-layout/index.html">
+            <entry file="file://$PROJECT_DIR$/baidu/16-js/16-js.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="436">
-                  <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/baidu/my Space/styles/fiction.css">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/baidu/resume/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+                <state relative-caret-position="437">
+                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
                 </state>
               </provider>
             </entry>
@@ -99,68 +118,55 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.5">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/js/task2-4/kill.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="162">
-                      <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/baidu/my Space/styles/index.scss">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="243">
-                      <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/baidu/7-8-layout/ife任务图.png">
-                  <provider selected="true" editor-type-id="images" />
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/baidu/7-8-layout/index.scss">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="418">
-                      <caret line="73" column="28" lean-forward="true" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/baidu/resume/styles/index.scss">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="585">
-                      <caret line="103" column="7" lean-forward="true" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/task2-4/task-04.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="114">
+                  <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/task2-4/task-04.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1482">
+                  <caret line="78" selection-start-line="78" selection-end-line="78" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/task2-4/judge.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="528">
+                  <caret line="63" selection-start-line="63" selection-end-line="63" selection-end-column="56" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/baidu/16-js/16-js.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="399">
+                  <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-second>
     </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Sass File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
+        <option value="Sass File" />
         <option value="HTML File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -175,63 +181,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/task-2/task-2-3.html" />
-        <option value="$PROJECT_DIR$/js/task-2/range.scss" />
-        <option value="$PROJECT_DIR$/js/task-2/task-002.scss" />
-        <option value="$PROJECT_DIR$/js/task-2/task-02.scss" />
-        <option value="$PROJECT_DIR$/js/task-2/task-02.html" />
-        <option value="$PROJECT_DIR$/js/task-2/task-002.html" />
-        <option value="$PROJECT_DIR$/js/task-2/task-002.js" />
-        <option value="$PROJECT_DIR$/js/task2-4/task-02.scss" />
-        <option value="$PROJECT_DIR$/js/task-1/task-001.js" />
-        <option value="$PROJECT_DIR$/js/task-1/task-1.js" />
-        <option value="$PROJECT_DIR$/js/task-2/task-02.js" />
-        <option value="$PROJECT_DIR$/js/task2-4/task-02.js" />
-        <option value="$PROJECT_DIR$/js/task-1/task-1.html" />
-        <option value="$PROJECT_DIR$/js/task2-4/task-002.html" />
-        <option value="$PROJECT_DIR$/js/task2-4/task-0002.html" />
-        <option value="$PROJECT_DIR$/js/task2-4/task-02.html" />
-        <option value="$PROJECT_DIR$/js/task2-4/judge.scss" />
-        <option value="$PROJECT_DIR$/js/task2-4/task-002.scss" />
-        <option value="$PROJECT_DIR$/js/task2-4/js-5.html" />
-        <option value="$PROJECT_DIR$/js/task2-4/judge.html" />
-        <option value="$PROJECT_DIR$/css/task14/base.scss" />
         <option value="$PROJECT_DIR$/js/task2-4/vote.html" />
-        <option value="$PROJECT_DIR$/js/task2-4/task-04.html" />
         <option value="$PROJECT_DIR$/js/task2-4/help.html" />
         <option value="$PROJECT_DIR$/js/task2-4/help.scss" />
-        <option value="$PROJECT_DIR$/js/task2-4/task-04.scss" />
         <option value="$PROJECT_DIR$/js/task2-4/kill.html" />
         <option value="$PROJECT_DIR$/js/task2-4/html.html" />
         <option value="$PROJECT_DIR$/js/task2-4/task-2.scss" />
-        <option value="$PROJECT_DIR$/js/task2-4/judge.js" />
-        <option value="$PROJECT_DIR$/js/task2-4/task-04.js" />
-        <option value="$PROJECT_DIR$/js/task2-4/kill.scss" />
-        <option value="$PROJECT_DIR$/js/task2-4/task-002.js" />
         <option value="$PROJECT_DIR$/css/task8/task8.html" />
         <option value="$PROJECT_DIR$/css/task8/task08.css" />
         <option value="$PROJECT_DIR$/interview/home_page.html" />
         <option value="$PROJECT_DIR$/interview/home_page.scss" />
-        <option value="$PROJECT_DIR$/interview/home-page/home_page.html" />
-        <option value="$PROJECT_DIR$/interview/home-page/home_page.scss" />
         <option value="$PROJECT_DIR$/baidu/index.html" />
-        <option value="$PROJECT_DIR$/baidu/resume/index.html" />
-        <option value="$PROJECT_DIR$/baidu/my Space/scripts/index.js" />
-        <option value="$PROJECT_DIR$/baidu/my Space/index.html" />
-        <option value="$PROJECT_DIR$/baidu/my Space/styles/index.scss" />
         <option value="$PROJECT_DIR$/baidu/my Space/fiction.html" />
-        <option value="$PROJECT_DIR$/baidu/my Space/scripts/fiction.js" />
-        <option value="$PROJECT_DIR$/baidu/my Space/styles/fiction.scss" />
-        <option value="$PROJECT_DIR$/baidu/resume/styles/index.scss" />
-        <option value="$PROJECT_DIR$/js/task2-4/kill.js" />
         <option value="$PROJECT_DIR$/baidu/7-8-layout/index.html" />
         <option value="$PROJECT_DIR$/baidu/7-8-layout/index.scss" />
+        <option value="$PROJECT_DIR$/js/task2-4/task-04.html" />
+        <option value="$PROJECT_DIR$/js/task2-4/kill.scss" />
+        <option value="$PROJECT_DIR$/js/task2-4/judge.js" />
+        <option value="$PROJECT_DIR$/baidu/my Space/scripts/fiction.js" />
+        <option value="$PROJECT_DIR$/baidu/my Space/styles/fiction.css" />
+        <option value="$PROJECT_DIR$/baidu/my Space/styles/fiction.scss" />
+        <option value="$PROJECT_DIR$/baidu/16-js/16-js.scss" />
+        <option value="$PROJECT_DIR$/baidu/resume/styles/index.scss" />
+        <option value="$PROJECT_DIR$/baidu/resume/index.html" />
+        <option value="$PROJECT_DIR$/baidu/resume/index.js" />
+        <option value="$PROJECT_DIR$/baidu/9-11/9-11.html" />
+        <option value="D:/mian/web/zxx.lib.css-master/zxx.lib.css" />
+        <option value="$PROJECT_DIR$/baidu/9-11/index.scss" />
+        <option value="$PROJECT_DIR$/baidu/9-11/index.html" />
+        <option value="$PROJECT_DIR$/js/task2-4/task-002.js" />
+        <option value="$PROJECT_DIR$/js/task2-4/task-04.js" />
+        <option value="$PROJECT_DIR$/baidu/9-11/styles/base.css" />
+        <option value="$PROJECT_DIR$/baidu/base.scss" />
+        <option value="$PROJECT_DIR$/baidu/base.css" />
+        <option value="$PROJECT_DIR$/baidu/my Space/scripts/diary.sass" />
+        <option value="$PROJECT_DIR$/baidu/my Space/styles/diary.sass" />
+        <option value="$PROJECT_DIR$/js/task2-4/task-04.scss" />
+        <option value="$PROJECT_DIR$/js/demo.scss" />
+        <option value="$PROJECT_DIR$/baidu/my Space/styles/diary.scss" />
+        <option value="$PROJECT_DIR$/baidu/my Space/scripts/kingdom.js" />
+        <option value="$PROJECT_DIR$/baidu/my Space/kingdom.html" />
+        <option value="$PROJECT_DIR$/baidu/my Space/styles/kingdom.scss" />
+        <option value="$PROJECT_DIR$/baidu/my Space/scripts/index.js" />
+        <option value="$PROJECT_DIR$/baidu/my Space/diary.html" />
+        <option value="$PROJECT_DIR$/baidu/my Space/styles/index.scss" />
+        <option value="$PROJECT_DIR$/baidu/my Space/index.html" />
+        <option value="$PROJECT_DIR$/interview/home-page/home_page.scss" />
+        <option value="$PROJECT_DIR$/interview/home-page/home_page.html" />
+        <option value="$PROJECT_DIR$/css/task11/task11.scss" />
+        <option value="$PROJECT_DIR$/js/task2-4/kill.js" />
+        <option value="$PROJECT_DIR$/baidu/16-js/16-js.html" />
+        <option value="$PROJECT_DIR$/baidu/16-js/16-js.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
-    <option name="width" value="1863" />
+    <option name="y" value="-9" />
+    <option name="width" value="1865" />
     <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -242,6 +249,51 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="baidu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="baidu" type="462c0819:PsiDirectoryNode" />
+              <item name="16-js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="task2-4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="task2-4" type="462c0819:PsiDirectoryNode" />
+              <item name="task-04.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -269,40 +321,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="baidu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="baidu" type="462c0819:PsiDirectoryNode" />
-              <item name="7-8-layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="baidu" type="462c0819:PsiDirectoryNode" />
-              <item name="7-8-layout" type="462c0819:PsiDirectoryNode" />
-              <item name="index.scss" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,15 +340,15 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\web\web\baidu\7-8-layout" />
-      <recent name="D:\web\web\baidu\resume" />
-      <recent name="D:\web\web\baidu\my Space" />
-      <recent name="D:\web\web\interview\home-page" />
-      <recent name="D:\web\web\interview\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\web\web\js\task2-4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\web\web\baidu\my Space\styles" />
+      <recent name="D:\web\web\baidu\9-11\images" />
+      <recent name="D:\web\web" />
+      <recent name="D:\web\web\baidu\7-8-layout" />
+      <recent name="D:\web\web\baidu\resume" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,14 +402,11 @@
       <workItem from="1561711011814" duration="16631000" />
       <workItem from="1561783276360" duration="27609000" />
       <workItem from="1561860546563" duration="45133000" />
-      <workItem from="1561941926740" duration="26613000" />
-    </task>
-    <task id="LOCAL-00028" summary="task13">
-      <created>1560084512828</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1560084512828</updated>
+      <workItem from="1561941926740" duration="44394000" />
+      <workItem from="1562029090684" duration="11284000" />
+      <workItem from="1562052568649" duration="6479000" />
+      <workItem from="1562171619124" duration="308000" />
+      <workItem from="1562328171312" duration="2821000" />
     </task>
     <task id="LOCAL-00029" summary="task13">
       <created>1560084678014</created>
@@ -729,22 +744,29 @@
       <option name="project" value="LOCAL" />
       <updated>1561946223122</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="task13">
+      <created>1561976791298</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1561976791298</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="675744000" />
+    <option name="totallyTimeSpent" value="714417000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1490" height="784" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20770289" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19154558" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28834355" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32577905" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28611898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -758,26 +780,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1994716" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28895184" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.3286119" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" type="SLIDING" weight="0.32577905" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -787,144 +789,67 @@
     <option name="LAST_COMMIT_MESSAGE" value="task13" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-20-420x316.jpg">
+    <entry file="file://$PROJECT_DIR$/baidu/9-11/images/Check Icon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-21-420x316.jpg">
+    <entry file="file://$PROJECT_DIR$/baidu/新建文件夹/前端学院设计图.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-07-420x316.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-13-420x316.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-15-420x316.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-12-420x316.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-08-420x316.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-10-420x316.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-16-420x316.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-14-420x316.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-09-420x316.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-11-420x316.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-39-420x316.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task14/task14.html">
+    <entry file="file://$PROJECT_DIR$/baidu/9-11/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="94" column="10" lean-forward="true" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+        <state relative-caret-position="-570">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/page-prompt-icon2.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://D:/mian/web/zxx.lib.css-master/zxx.lib.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1312">
+          <caret line="190" column="34" lean-forward="true" selection-start-line="190" selection-start-column="34" selection-end-line="190" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/skills-2.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/baidu/9-11/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/home-intro-15-1920x592.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/js/task2-4/task-02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2052" />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/intro-06-1920x955.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/js/task2-4/task-02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="39" column="79" lean-forward="true" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="128" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/intro-video-lg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/skill-3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-110-1056x457.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-111-492x358.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-112-492x358.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/img.png" />
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-40-420x316.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/img/landing-56-38x38.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/home-page/home_page.css.map">
+    <entry file="file://$PROJECT_DIR$/js/task2-4/task-002.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/home-page/home_page.css">
+    <entry file="file://$PROJECT_DIR$/js/task2-4/task-002.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3444" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task8/task08.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1862">
-          <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
+        <state relative-caret-position="227">
+          <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/task14/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/js/task2-4/task-2.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/task2-4/task-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/baidu/base.scss" />
+    <entry file="file://$PROJECT_DIR$/baidu/9-11/styles/zxx.css" />
+    <entry file="file://$PROJECT_DIR$/baidu/my Space/styles/diary.sass" />
+    <entry file="file://$PROJECT_DIR$/baidu/my Space/styles/diary.css" />
+    <entry file="file://$PROJECT_DIR$/baidu/my Space/styles/diary.css.map" />
+    <entry file="file://$PROJECT_DIR$/baidu/my Space/styles/index.css.map">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/home-page/home_page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task8/task8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/task2-4/kill.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1244" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task14/task14-carousel.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task8/task08.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/baidu/my Space/scripts/.sass-cache/d5180eddbff0fa7f09f6df0053993e1a6ed8d0c8/diary.sassc" />
     <entry file="file://$PROJECT_DIR$/js/task2-4/kill.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -932,96 +857,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/home-page/home_page.html">
+    <entry file="file://$PROJECT_DIR$/baidu/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-          <folding>
-            <element signature="e#8338#8344#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1653">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidu/my Space/fiction.html">
+    <entry file="file://$PROJECT_DIR$/baidu/my Space/styles/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demo.css" />
+    <entry file="file://$PROJECT_DIR$/js/demo.scss" />
+    <entry file="file://$PROJECT_DIR$/js/task2-4/task-04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task2-4/task-04.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidu/my Space/kingdom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidu/my Space/styles/kingdom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidu/my Space/scripts/kingdom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidu/my Space/styles/index.scss">
+    <entry file="file://$PROJECT_DIR$/baidu/my Space/images/324655.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task8/task8.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidu/my Space/styles/diary.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="323">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidu/my Space/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task13/task13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task12/task12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task11/task11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task10/task10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidu/my Space/diary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baidu/my Space/scripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="209">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidu/my Space/scripts/fiction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baidu/my Space/styles/fiction.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baidu/my Space/index.html">
+    <entry file="file://$PROJECT_DIR$/baidu/my Space/styles/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidu/resume/index.html">
+    <entry file="file://$PROJECT_DIR$/js/task2-4/task-04.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/home-page/home_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/home-page/home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="76" column="38" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task8/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task2-4/kill.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task2-4/task-04.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidu/my Space/fiction.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task11/task11.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task2-4/task-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/task2-4/kill.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="224">
+          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidu/my Space/styles/fiction.scss">
+    <entry file="file://$PROJECT_DIR$/js/task2-4/judge.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="528">
+          <caret line="63" selection-start-line="63" selection-end-line="63" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidu/resume/styles/index.scss">
+    <entry file="file://$PROJECT_DIR$/baidu/16-js/16-js.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="103" column="7" lean-forward="true" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidu/7-8-layout/ife任务图.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baidu/7-8-layout/index.html">
+    <entry file="file://$PROJECT_DIR$/baidu/16-js/16-js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baidu/7-8-layout/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="73" column="28" lean-forward="true" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+        <state relative-caret-position="399">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>

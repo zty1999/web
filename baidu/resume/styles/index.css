@@ -6,6 +6,10 @@
 img {
   display: block; }
 
+button {
+  border: none;
+  outline: none; }
+
 html {
   font-family: cursive;
   background-color: #9d9d9d; }
@@ -42,8 +46,9 @@ html {
           html body .main .content-count .content1 .line1-1,
           html body .main .content-count .content1 .line1-2,
           html body .main .content-count .content1 .line2-1,
-          html body .main .content-count .content1 .line2-2 {
-            color: #29bde0;
+          html body .main .content-count .content1 .line2-2,
+          html body .main .content-count .content1 .line3-1,
+          html body .main .content-count .content1 .line3-2 {
             border-right: 1px solid black; }
         html body .main .content-count div {
           width: 30%;
@@ -73,6 +78,10 @@ html {
             html body .main .content2 .line-7 li a:hover, html body .main .content2 .line-7 li a:active, html body .main .content2 .line-7 li a:focus {
               color: darkred;
               text-decoration: none; }
+          html body .main .content2 .line-7 li button {
+            font-size: 1.4rem;
+            font-family: cursive;
+            background-color: #b9e9f5; }
           html body .main .content2 .line-7 li:nth-of-type(2n) {
             background-color: #f5c97b; }
 

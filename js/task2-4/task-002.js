@@ -52,6 +52,15 @@ $(document).ready(function () {//文档就绪事件处理器，页面加载完�
        }
        else {
            if (i === arr.length * 2 - 1) {
+               console.log(l);
+               $("#lookidentity").hide();
+               $(".img-hidebox").show();
+               $("#hideidentity").show();
+               $(".identity").show();
+               $("#num").text(l);
+               $(".identity").text("你是" + arr[Math.floor(i / 2)] + "," + " 词组" + g);
+               $(".content").text("保护自己身份，并猜出他人的词");
+               console.log(arr[Math.floor(i / 2)]);
                $("button").text("法官页面");console.log(arr[Math.floor(i / 2)]);
            }
            else {
