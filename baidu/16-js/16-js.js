@@ -17,7 +17,7 @@ document.getElementById("divide-btn").onclick = function() {
     console.log(g);
 };
 var Num;
-if (#dec-number.value >0) {
+if (#dec-number.value > 0) {
     $("#result2").text = (Num%2)  ;
     
 

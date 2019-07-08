@@ -1,0 +1,11 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+button {
+  outline: none;
+  border: none; }
+
+header, footer {
+  display: flex; }
+
+/*# sourceMappingURL=help.css.map */
