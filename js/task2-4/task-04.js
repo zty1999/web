@@ -90,7 +90,7 @@ $(document).ready(function () {
         if (arr[i].live === "dead") {//找出死亡的玩家
             console.log(i);
             console.log(arr[i].day);
-            console.log(plyProcess);//1.5%1
+            console.log(playProcess);//1.5%1
             // console.log(arr[i].day % 1);
             if (playProcess === 1) {//判断为杀手杀死的arr[i].day % 1
                 var pastDay = playDay;//parseInt(arr[i].day);//判断是哪天杀死的
