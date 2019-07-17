@@ -1,0 +1,200 @@
+@charset "UTF-8";
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+input {
+  outline: none;
+  border: none; }
+
+a {
+  display: inline-block; }
+
+button {
+  outline: none;
+  border: none; }
+
+html {
+  background-color: white; }
+
+body {
+  background-color: #efefef; }
+
+body, header, footer {
+  min-width: 320px;
+  max-width: 780px;
+  margin: 0 auto;
+  width: 100%; }
+
+header, footer {
+  display: flex;
+  align-items: center; }
+
+header {
+  width: 100%;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+  background-color: #29bde0; }
+  header #back {
+    height: 35px;
+    margin: 0 22px 0 1rem; }
+  header #help {
+    height: 35px;
+    margin: .5rem 1rem .5rem 0; }
+
+main {
+  margin: 10px; }
+  main .main-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #dae0e5; }
+    main .main-top .player {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 20%;
+      font-size: 20px; }
+    main .main-top .count {
+      flex: 1;
+      font-size: 18px; }
+      main .main-top .count .user {
+        display: flex;
+        align-items: center;
+        justify-content: space-around; }
+        main .main-top .count .user .killer {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 50%;
+          height: 14rem;
+          color: #b3b3b3;
+          border-bottom: 1px solid #dae0e5;
+          border-left: 1px solid #dae0e5; }
+          main .main-top .count .user .killer span {
+            height: 1.5rem;
+            line-height: 1.5rem; }
+        main .main-top .count .user .people {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex: 1;
+          height: 14rem;
+          color: #b3b3b3;
+          border-bottom: 1px solid #dae0e5; }
+          main .main-top .count .user .people span {
+            height: 1.5rem;
+            line-height: 1.5rem; }
+        main .main-top .count .user p {
+          width: .5rem;
+          height: .5rem;
+          font-size: 0;
+          background-color: #FF9900;
+          margin-right: 5px; }
+        main .main-top .count .user input {
+          width: 2rem;
+          height: 18px;
+          text-align: center;
+          color: #FF9900;
+          font-size: 18px; }
+      main .main-top .count .settings {
+        padding: .5rem 0;
+        text-align: center;
+        color: #29bde0;
+        border-left: 1px solid #dae0e5; }
+  main .main-bottom {
+    margin: .5rem 0;
+    background-color: white; }
+    main .main-bottom .input-box {
+      display: flex;
+      margin: 0 1rem;
+      border-bottom: 1px solid #dae0e5; }
+      main .main-bottom .input-box > span {
+        text-align: center;
+        height: 3rem;
+        line-height: 3rem;
+        width: 30%; }
+      main .main-bottom .input-box #ghost {
+        line-height: 3rem;
+        width: 70%; }
+      main .main-bottom .input-box #water-people {
+        flex: 1;
+        line-height: 3rem; }
+  main .block {
+    height: 8rem;
+    background-color: white;
+    padding-top: 1rem; }
+    main .block .number-of-players {
+      height: 3rem;
+      line-height: 3rem; }
+      main .block .number-of-players > span {
+        padding-left: 2rem;
+        font-weight: 700; }
+        main .block .number-of-players > span > input {
+          width: 2.5rem;
+          height: 1.5rem;
+          vertical-align: middle;
+          text-align: center;
+          font-size: 18px;
+          color: #FF9900;
+          background-color: #fff; }
+      main .block .number-of-players > a {
+        line-height: 3rem;
+        font-size: 14px;
+        color: #FF9900; }
+    main .block .slider {
+      display: flex;
+      align-items: center;
+      margin: 1rem 0; }
+      main .block .slider input[type=range] {
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        width: 80%;
+        height: 1rem;
+        border-radius: 10px;
+        /*这个属性设置使填充进度条时的图形为圆角*/
+        background-color: #FF9900;
+        background-size: 0 100%; }
+        main .block .slider input[type=range]:focus {
+          outline: none; }
+      main .block .slider input[type=range]::-webkit-slider-thumb {
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        width: 50px;
+        height: 36px;
+        border-radius: 5px;
+        background: url("https://chrun0.github.io/css/web/js/js-2/img2/asss.png") no-repeat 0 0;
+        background-size: 100% 100%; }
+      main .block .slider input[type=range]::-webkit-slider-runnable-track {
+        border-radius: 10px;
+        /*将轨道设为圆角的*/ }
+      main .block .slider > button {
+        width: 1.5rem;
+        height: 1.5rem;
+        line-height: 1rem;
+        font-size: 25px;
+        outline: none;
+        border: 1px solid #dae0e5;
+        background-color: white;
+        color: #FF9900;
+        margin: 0 2rem; }
+
+footer > input {
+  height: 4rem;
+  line-height: 4rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: #FF9900; }
+
+/*# sourceMappingURL=task-02.css.map */
