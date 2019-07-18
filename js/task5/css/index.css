@@ -6,7 +6,7 @@ button {
   border: none; }
 
 body .bg-img {
-  background: url("../images/login-bg-orange.jpg") no-repeat center;
+  background: url("../images/324370(1).jpg") no-repeat center;
   background-size: cover;
   overflow: hidden;
   height: 100vh;
@@ -16,17 +16,17 @@ body .login-container {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 46px 0;
   text-align: center; }
 body .panel {
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: #050505;
   border: 1px solid transparent;
   border-radius: 4px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); }
+  opacity: 0.6;
+  -webkit-box-shadow: 0 1px 1px rgba(5, 5, 5, 0.05);
+  box-shadow: 0 1px 1px rgba(5, 5, 5, 0.05); }
 body .panel-default {
-  border-color: #ddd; }
+  border-color: #050505; }
 body .login-panel {
   padding-top: 46px;
   padding-bottom: 46px; }
@@ -39,10 +39,11 @@ body .login-circle-img {
 body .panel-body {
   padding: 15px; }
 body .form-control:focus {
-  border-color: #fd9f2a;
+  border-color: #050505;
+  background-color: #1a1519;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 159, 42, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 159, 42, 0.6); }
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(5, 5, 5, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(5, 5, 5, 0.6); }
 body .form-control {
   display: block;
   width: 100%;
@@ -51,9 +52,9 @@ body .form-control {
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
-  background-color: #fff;
+  background-color: #050505;
   background-image: none;
-  border: 1px solid #ccc;
+  border: 1px solid #1a1519;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -67,7 +68,7 @@ body .input-lg {
   line-height: 1.3333333;
   border-radius: 6px; }
 body .login-user, body .login-psd {
-  color: #fd9f2a; }
+  color: red; }
 body .pd-left-50 {
   padding-left: 50px; }
 body .login-user-icon {
@@ -86,8 +87,10 @@ body .login-psd-icon {
   left: 46px; }
 body .btn-submit {
   color: #fff;
-  background-color: #fd9f2a;
-  border-color: #fd9f2a; }
+  background-color: #050505;
+  border-color: #1a1519; }
+body .btn-submit:hover {
+  background-color: #1a1519; }
 body .login-btn {
   margin-top: 32px; }
 
