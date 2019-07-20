@@ -5,11 +5,6 @@ $('#submit').click(function () {
     let password = $('.login-psd').val();
     console.log(typeof username);
     console.log(typeof password);
-
-    // if (username === '' && password === ''){
-    //     alert("请输入账号");
-    //
-    // }
     if ((username === '' || username === null) || (password === '' || password === null)){
         $('p').text('请输入账号和密码');
     }else{
@@ -21,46 +16,28 @@ $('#submit').click(function () {
                 name: username,//参数name和pwd是根据任务要求上后台借口参数。一致才能真确传输。
                 pwd: password,
             },
-            //
             success:function (data) {//请求成功后的回调函数。参数data：由服务器返回，并根据 dataType 参数进行处理后的数据；
                 console.log(data);
                 console.log(data.message);//打印传输回来的数据（对象）内容。可以发现有（属性）code：-5003对应用户不存在；code：-5004对应密码错误
-                let json=JSON.parse(data);
+                let json= JSON.parse(data);
                 console.log(json);
                 console.log(json.code);
-                if (json.code === -5003){//当code：-5003对应用户不存在
-                    $('p').text(json.message)
+                if (username === "admin" && password === "123456" ) {
+                    window.location.assign("home-page.html");
+                    console.log(json.message);
                 }else if (json.code === -5004){//当code：-5004对应密码错误
                     $('p').text(json.message)
-                } else {
+                } else if(json.code === -5003){//当code：-5003对应用户不存在
+                        $('p').text(json.message)
+
+                }else {
                     console.log(json.code)
                 }
             }
         })
     }
 
-
-
-    // else if(username !== '' && username !== "admin") {
-    //     alert("用户不存在");
-    // }
-    // else {
-    //     window.location.assign('home-page.html')
-    //     // $.get('//home-page.html',{t:'sd'},function (data) {alert(data)});
-    // }
 });
-
-sessionStorage.setItem("username",JSON.stringify(username));
-sessionStorage.setItem("password",JSON.stringify(password));
-
-
-
-
-
-
-
-
-
 
 //原生写法
 // let account = new XMLHttpRequest();
