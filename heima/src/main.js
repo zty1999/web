@@ -15,6 +15,7 @@ Vue.component(Header.name, Header);
 import $ from 'jquery' ;
 
 import 'bootstrap/dist/css/bootstrap.css'
+import './lib/mui/css/icon-extra.css'
 
 import './lib/mui/css/mui.min.css'
 
