@@ -26,11 +26,28 @@ export default new Router({
       path: '',
       redirect: '/home',
     },
+    // {
+    //   path: '/comment',
+    //   name: 'comment',
+    //   component: () => import('./components/subcomponents/Comment.vue')
+    // },
     {
       path: '/home',
       name: 'home',
-      component: () => import('./components/tabbar/HomeContainer.vue')
-    },
+      component: () => import('./components/tabbar/HomeContainer.vue'),
+      // children:[
+        
+      // ]
+    },{
+          path: '/home/newslist',
+          name: 'newslist',
+          component: () => import('./components/news/NewsList.vue')
+        },
+        {
+          path: '/home/newsinfo/:id',
+          name: 'newsinfo',
+          component: () => import('./components/news/NewsInfo.vue')
+        },
     {
       path: '/member',
       name: 'member',
@@ -47,5 +64,5 @@ export default new Router({
       component: () => import('./components/tabbar/SearchContainer.vue')
     },
   ],
-  linkActiveClass: 'mui-active'
+  linkActiveClass: 'mui-active' // 覆盖默认的路由高亮的类，默认的类叫做 router-link-active
 })
