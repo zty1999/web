@@ -34,6 +34,7 @@
 <style lang="scss" scoped>
 #app {
   padding-top: 40px;
+  padding-bottom: 50px;
   overflow-x: hidden;
   // font-family: 'Avenir', Helvetica, Arial, sans-serif;
   // -webkit-font-smoothing: antialiased;
