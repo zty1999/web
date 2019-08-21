@@ -2,8 +2,8 @@
 <div class="comment-container">
 <h4>发表评论</h4>
 <hr>
-<textarea   placeholder="请输入要bb的内容（最多吐槽120词）" maxlength='120'></textarea>
-<mt-button type='primary' size="large" @click="getout()">发表评论</mt-button>
+<textarea   placeholder="请输入要bb的内容（最多吐槽120词）" maxlength='120' v-model="msg"></textarea>
+<mt-button type='primary' size="large" @click="postComment()">发表评论</mt-button>
 <div class="cmt-list">
     <div class="cmt-item" v-for="(item,n) in comments" :key="item.id">
         <div class="cmt-title">
@@ -25,6 +25,7 @@ export default {
         return{
           comments: [],
           pageIndex: 1,
+          msg: '',
 
         }
     },
@@ -47,8 +48,26 @@ export default {
             this.pageIndex++;
             this.getComments();
         },
-        getout() {
-      
+        postComment() {
+            if(this.msg.trim().length === 0 ){
+                      return  Toast('评论内容不能为空')
+            }
+            this.$http.post('api/postcomment/' + this.$route.params.id,{
+                content: this.msg.trim()
+            }).then(result => {
+                if(result.body.status === 0) {
+                    var cmt = {
+                    user_name: "匿名用户",
+                    add_time: Date.now(),
+                    content: this.msg.trim(),
+                    };
+                    this.comments.unshift(cmt);
+                    this.msg = ''
+                    
+                }else {
+                    Toast('评论提交失败')
+                }
+            })
         }
     },
     props: ['id']

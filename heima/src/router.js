@@ -38,7 +38,7 @@ export default new Router({
       // children:[
         
       // ]
-    },{
+    },  {
           path: '/home/newslist',
           name: 'newslist',
           component: () => import('./components/news/NewsList.vue')
@@ -47,6 +47,36 @@ export default new Router({
           path: '/home/newsinfo/:id',
           name: 'newsinfo',
           component: () => import('./components/news/NewsInfo.vue')
+        },
+        {
+          path: '/home/photolist',
+          name: 'photolist',
+          component: () => import('./components/photos/PhotoList.vue')
+        },
+        {
+          path: '/home/photoinfo/:id',
+          name: 'photoinfo',
+          component: () => import('./components/photos/PhotoInfo.vue')
+        },
+        {
+          path: '/home/buy',
+          name: 'buy',
+          component: () => import('./components/buy/BuyList.vue')
+        },
+        {
+          path: '/home/buyinfo/:id',
+          name: 'buyinfo',
+          component: () => import('./components/buy/BuyInfo.vue')
+        },
+        {
+          path: '/home/BuyDesc',
+          name: 'BuyDesc',
+          component: () => import('./components/subcomponents/BuyDesc.vue')
+        },
+        {
+          path: '/home/BuyComment',
+          name: 'BuyComment',
+          component: () => import('./components/subcomponents/BuyComment.vue')
         },
     {
       path: '/member',
