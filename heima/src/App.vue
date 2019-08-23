@@ -1,7 +1,12 @@
 <template>
   <div id="app">
     <div id="nav">
-      <mt-header fixed title="黑马项目"></mt-header>
+      <!-- 顶部header区域 -->
+      <mt-header fixed title="黑马项目">
+        <span slot='left' @click='goBack' v-show='flag'>
+          <mt-button icon='back'>返回</mt-button>
+        </span>
+      </mt-header>
     </div>
 
     <transition name='view'>
@@ -18,7 +23,7 @@
 				<span class="mui-tab-label">会员</span>
 			</router-link>
 			<router-link class="mui-tab-item-z" to="shopcar">
-				<span class="mui-icon mui-icon-extra  mui-icon-extra-cart "><span class="mui-badge" id='badge'>0</span></span>
+				<span class="mui-icon mui-icon-extra  mui-icon-extra-cart "><span class="mui-badge" id='badge'>{{$store.getters.getAllCount}}</span></span>
 				<span class="mui-tab-label">购物车</span>
         
 			</router-link>
@@ -30,7 +35,34 @@
     
   </div>
 </template>
-
+<script>
+export default {
+  data() {
+    return {
+      flag: false,
+    }
+  },
+  created() {
+    this.flag = this.$route.path ==='/home'? false : true;
+  },
+  methods: {
+    goBack() {
+      this.$router.go(-1);
+    }
+  },
+  watch: {
+    '$route.path':function(newVal) {
+      if(newVal ==='/home') {
+        this.flag =false;
+      
+      }
+      else {
+        this.flag = true;
+      }
+    }
+  }
+}
+</script>
 <style lang="scss" scoped>
 #app {
   padding-top: 40px;
@@ -41,41 +73,32 @@
   // -moz-osx-font-smoothing: grayscale;
   // text-align: center;
   color: #2c3e50;
-}
-.mint-header {
-  z-index: 99;
-}
-.mint-header-title {
-  margin-bottom: 0;
-}
-.view-enter-active,.view-leave-active{
+  .mint-header {
+    z-index: 99;
+  }
+  .mint-header-title {
+    margin-bottom: 0;
+  }
+  .view-enter-active,.view-leave-active{
   
     transition:opacity all .5s ease
-}
-.view-enter {
+  }
+  .view-enter {
     opacity:0;
     transform: translateX(100%);
     
-}
-.view-leave-to{
+  }
+  .view-leave-to{
     opacity:0;
     transform: translateX(-100%);
     
-}
+  }
 
-// #nav a {
-//   font-weight: bold;
-//   color: #2c3e50;
-
-//   #nav a.router-link-exact-active {
-//     color: #42b983;
-//   }
-// }
-.mui-bar-tab .mui-tab-item-z.mui-active {
+  .mui-bar-tab .mui-tab-item-z.mui-active {
     color: #007aff;
-}
+  }
 
-.mui-bar-tab .mui-tab-item-z {
+  .mui-bar-tab .mui-tab-item-z {
     display: table-cell;
     overflow: hidden;
     width: 1%;
@@ -85,19 +108,23 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     color: #929292;
-}
-.mui-bar-tab .mui-tab-item-z .mui-icon {
+  }
+  .mui-bar-tab .mui-tab-item-z .mui-icon {
     top: 3px;
     width: 24px;
     height: 24px;
     padding-top: 0;
     padding-bottom: 0;
-}
-.mui-bar-tab .mui-tab-item-z .mui-icon~.mui-tab-label {
+  }
+  .mui-bar-tab .mui-tab-item-z .mui-icon~.mui-tab-label {
     font-size: 11px;
     display: block;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+
+
 }
+
 
 </style>

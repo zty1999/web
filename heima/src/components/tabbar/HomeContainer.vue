@@ -6,7 +6,7 @@
                 <img :src="item.img" alt="">
             </mt-swipe-item>
         </mt-swipe> -->
-        <swiper :slideShowList="slideShowList" ></swiper>
+        <swiper :slideShowList="slideShowList" :isfull="true"></swiper>
 
         <!-- mui中grid九宫格改为六宫格 -->
         <!-- <div class="mui-content"> -->

@@ -25,7 +25,7 @@
                     :max='buyinfo.stock_quantity'></BuyInfo_NumberBox></p>
                     <p>
                         <mt-button type='primary' size='small'>立即购买</mt-button>
-                        <mt-button type='danger' size='small' @click="addToShopCar()">加入购物车</mt-button>
+                        <mt-button type='danger' size='small' @click="addToShopCar">加入购物车</mt-button>
                              <!-- 分析： 如何实现加入购物车时候，拿到 选择的数量 -->
             <!-- 1. 经过分析发现： 按钮属于 goodsinfo 页面， 数字 属于 numberbox 组件 -->
             <!-- 2. 由于涉及到了父子组件的嵌套了，所以，无法直接在 goodsinfo 页面zhong 中获取到 选中的商品数量值-->
@@ -107,7 +107,17 @@ export default {
         },
         addToShopCar() {
              //添加到购物车 点击按钮小球出现
-            this.ballFlag = !this.ballFlag
+            this.ballFlag = !this.ballFlag;
+            var buyinfo = {  // { id:商品的id, count: 要购买的数量, price: 商品的单价，selected: false  }
+                // 拼接出一个，要保存到 store 中 car 数组里的 商品信息对象
+                id: this.id,
+                count: this.selectedCount,
+                price: this.buyinfo.sell_price,
+                selected: true
+             };
+
+            // 调用 store 中的 mutations 来将商品加入购物车
+            this.$store.commit('addToCar',buyinfo)
         },
         beforeEnter(el) {//从小球初始位置开始
             el.style.transform = "translate(0, 0)";
