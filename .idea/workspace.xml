@@ -2,10 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8039ed7-3f19-4450-8dd5-80e3feac860c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/dem/demo01/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/dem/demo01/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/dem/demo01/src/model/storage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/build/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/src/assets/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue2/tabbar/static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue项目" beforeDir="false" afterPath="$PROJECT_DIR$/vue项目" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue项目/src/components/subcomponents/Comment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue项目/src/components/subcomponents/Comment.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue项目/src/lib/mui/css/mui.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue项目/src/lib/mui/css/mui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue项目/src/lib/mui/css/mui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue项目/src/lib/mui/css/mui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue项目/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue项目/src/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,29 +43,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/dem/demo01/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/dem/demo01/src/model/storage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,12 +122,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="817" />
-    <option name="y" value="31" />
-    <option name="width" value="863" />
-    <option name="height" value="989" />
+    <option name="x" value="816" />
+    <option name="y" value="30" />
+    <option name="width" value="864" />
+    <option name="height" value="990" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -131,6 +135,39 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="js-6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="杀人游戏" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="杀人游戏" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -158,77 +195,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="dem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="dem" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="dem" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="dem" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="dem" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="js-6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="杀人游戏" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="杀人游戏" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +202,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Ruby25-x64/bin/sass.bat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue项目" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -327,6 +293,7 @@
       <workItem from="1563618922735" duration="6000" />
       <workItem from="1563618937989" duration="15172000" />
       <workItem from="1563697295410" duration="34718000" />
+      <workItem from="1567744832854" duration="24000" />
     </task>
     <task id="LOCAL-00036" summary="task13">
       <created>1560167665127</created>
@@ -675,12 +642,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="790269000" />
+    <option name="totallyTimeSpent" value="790293000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="654" y="25" width="690" height="791" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5061162" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5059445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -893,27 +860,9 @@
     <entry file="file://$PROJECT_DIR$/js/js-6/js/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa15184.24713/js-5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/新建文件夹/qq/qq数据/1685470954/FileRecv/js-5a/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa15184.27997/js-5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="34" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa15184.24713/js-5.js" />
+    <entry file="file://D:/新建文件夹/qq/qq数据/1685470954/FileRecv/js-5a/index.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa15184.27997/js-5.js" />
     <entry file="file://$PROJECT_DIR$/js/js-5/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -928,38 +877,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/dem/demo01/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/dem/demo01/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/dem/demo01/src/assets/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/任务资源/JStask6-10任务资源/js原型/files/登录页面/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/dem/demo01/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="151" column="7" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dem/demo01/package.json" />
+    <entry file="file://$PROJECT_DIR$/js/dem/demo01/README.md" />
+    <entry file="file://$PROJECT_DIR$/js/dem/demo01/src/assets/logo.png" />
+    <entry file="file://$USER_HOME$/Desktop/任务资源/JStask6-10任务资源/js原型/files/登录页面/data.js" />
+    <entry file="file://$PROJECT_DIR$/js/dem/demo01/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/js/js-6/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -967,30 +889,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/dem/demo01/src/components/HelloWorld.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/dem/demo01/src/model/storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/dem/demo01/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dem/demo01/src/components/HelloWorld.vue" />
+    <entry file="file://$PROJECT_DIR$/js/dem/demo01/src/model/storage.js" />
+    <entry file="file://$PROJECT_DIR$/js/dem/demo01/src/App.vue" />
   </component>
   <component name="masterDetails">
     <states>
